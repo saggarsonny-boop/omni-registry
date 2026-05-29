@@ -62,6 +62,23 @@ export default async function CodeDetails({ params }: CodeDetailsProps) {
 
   return (
     <div className="w-full min-h-screen bg-hive-ink px-4 py-12 md:px-8 md:py-16 fade-in">
+      {/* Schema.org MedicalCode JSON-LD Metadata */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "MedicalCode",
+            "codeValue": code.omni_id,
+            "codingSystem": "O.M.N.I. (Open Medical Nomenclature and Interventions)",
+            "name": code.plain_language.en,
+            "description": code.plain_language.en,
+            "inLanguage": "en",
+            "sameAs": code.crosswalks.ichi ? `https://ichi.who.int/code/${code.crosswalks.ichi}` : undefined,
+          })
+        }}
+      />
+
       <div className="max-w-4xl mx-auto flex flex-col gap-10">
         
         {/* Back Link */}

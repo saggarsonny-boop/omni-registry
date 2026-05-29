@@ -145,6 +145,25 @@ try {
 }
 console.log("");
 
+// ----------------------------------------------------
+// TEST SUITE 5: World-Class SEO & Metadata Validation
+// ----------------------------------------------------
+console.log(`${BOLD}${YELLOW}Test Suite 5: World-Class SEO & Metadata Validation${RESET}`);
+try {
+  const sitemapPath = path.join(__dirname, '../public/sitemap.xml');
+  const sitemapContent = fs.readFileSync(sitemapPath, 'utf8');
+  
+  assert(fs.existsSync(sitemapPath), "public/sitemap.xml is successfully generated and published");
+  assert(sitemapContent.includes('<loc>https://omni.universaldocument.org/code/OMNI-'), "sitemap.xml registers dynamic code detail URLs");
+  
+  const codeDetailsPath = path.join(__dirname, '../src/app/code/[id]/page.tsx');
+  const detailsContent = fs.readFileSync(codeDetailsPath, 'utf8');
+  assert(detailsContent.includes('"@type": "MedicalCode"'), "src/app/code/[id]/page.tsx injects Schema.org MedicalCode JSON-LD metadata");
+} catch (err) {
+  assert(false, `SEO and Metadata validation checks failed: ${err.message}`);
+}
+console.log("");
+
 console.log(`${BOLD}${CYAN}====================================================${RESET}`);
 console.log(`${BOLD}    REGRESSION RUN RESULTS:${RESET}`);
 console.log(`    Total Checks Executed: ${BOLD}${testCount}${RESET}`);
