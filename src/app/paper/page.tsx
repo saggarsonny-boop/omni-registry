@@ -60,7 +60,10 @@ export default function Paper() {
               <span>•</span>
               <span>Published: May 2026</span>
               <span>•</span>
-              <span>Sibling standard: universaldocument.org</span>
+              <span className="text-hive-gold font-bold flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-hive-gold inline-block animate-pulse" />
+                SSRN Review: Pending Acceptance
+              </span>
             </div>
           </div>
 
@@ -87,17 +90,16 @@ export default function Paper() {
               </svg>
               Download PDF Preprint
             </a>
-            <a
-              href="https://archive.org/details/omni-ssrn-placeholder"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full sm:w-auto bg-transparent hover:bg-hive-paper-2 border border-hive-border hover:border-hive-gold text-hive-paper-text font-bold text-sm tracking-wider uppercase px-8 py-4 rounded-lg transition-colors flex items-center justify-center gap-2 touch-target"
+            <button
+              disabled
+              className="w-full sm:w-auto bg-transparent border border-hive-border/60 text-hive-muted/50 font-bold text-sm tracking-wider uppercase px-8 py-4 rounded-lg flex items-center justify-center gap-2 cursor-not-allowed select-none"
+              title="The O.M.N.I. research paper is currently under active peer review on SSRN."
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5 opacity-40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
-              View on SSRN Index
-            </a>
+              SSRN Index (Pending Review)
+            </button>
           </div>
         </div>
 
