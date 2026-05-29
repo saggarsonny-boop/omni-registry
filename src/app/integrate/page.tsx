@@ -353,8 +353,18 @@ def fetch_omni_code(query_value):
                 {emailTemplate}
               </div>
 
-              <div className="text-[10px] text-hive-muted/75 font-mono leading-relaxed border-t border-hive-border/40 pt-3">
-                <strong className="text-hive-paper-text">Pro-Tip:</strong> If your EMR Account Manager claims CPT seat licensing cannot be itemized or downgraded, cite the **AMA Royalty Auditing Guidelines Section 4B**, which legally mandates EMR platforms to support user-seat privilege de-provisioning.
+              <div className="text-[10px] text-hive-muted/75 font-mono leading-relaxed border-t border-hive-border/40 pt-3 flex flex-col gap-2">
+                <div>
+                  <strong className="text-hive-paper-text">Pro-Tip:</strong> If your EMR Account Manager claims CPT seat licensing cannot be itemized or downgraded, cite the **AMA Royalty Auditing Guidelines Section 4B**, which legally mandates EMR platforms to support user-seat privilege de-provisioning.
+                </div>
+                <div className="mt-1">
+                  <a 
+                    href="/governance/cpt-deprovisioning-methodology" 
+                    className="text-hive-gold hover:text-hive-paper-text font-bold uppercase tracking-wider transition-colors"
+                  >
+                    ➔ Read the Complete CPT® Seat-License Deprovisioning Whitepaper
+                  </a>
+                </div>
               </div>
             </div>
           </div>
