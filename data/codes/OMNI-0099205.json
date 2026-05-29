@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0099205",
+  "composition": {
+    "target": "new patient",
+    "action": "evaluation and management",
+    "means": "60-74 minute cognitive visit"
+  },
+  "plain_language": {
+    "en": "Comprehensive medical consultation (Level 5) for a new patient",
+    "es": "Consulta médica compleja inicial (Nivel 5) para paciente nuevo",
+    "fr": "Consultation initiale complexe (Niveau 5) pour nouveau patient",
+    "ar": "استشارة طبية أولية شاملة ومعقدة (المستوى 5) لمريض جديد",
+    "hi": "नए मरीज के लिए व्यापक व जटिल परामर्श (स्तर 5)",
+    "zh": "首诊新患者的高难度医疗评估（五级）",
+    "pt": "Consulta médica complexa inicial (Nível 5) para paciente novo"
+  },
+  "crosswalks": {
+    "cpt": "99205",
+    "ichi": "ZZZ.AB.AD",
+    "snomed_ct": "439708006",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "New patient office visit, 60 minutes, high complexity decision making.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

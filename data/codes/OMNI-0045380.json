@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0045380",
+  "composition": {
+    "target": "large intestine",
+    "action": "endoscopic inspection and biopsy",
+    "means": "flexible scope and tissue extraction instrument"
+  },
+  "plain_language": {
+    "en": "Colonoscopy of the bowel with tissue sample",
+    "es": "Colonoscopia de colon con toma de muestra de tejido",
+    "fr": "Colonoscopie du gros intestin avec biopsie",
+    "ar": "منظار القولون مع أخذ عينة من الأنسجة",
+    "hi": "बड़ी आंत की दूरबीन जांच और बायोप्सी (कोलोनोस्कोपी)",
+    "zh": "结肠镜检伴多点组织活检术 (大肠镜)",
+    "pt": "Colonoscopia do intestino grosso com biópsia"
+  },
+  "crosswalks": {
+    "cpt": "45380",
+    "ichi": "KDO.JK.AA",
+    "snomed_ct": "73761001",
+    "icd11_pcs": "KD24.0",
+    "icd10_cm": "0DDB8ZX"
+  },
+  "notes": "Colonoscopy, flexible, proximal to splenic flexure, with biopsy.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

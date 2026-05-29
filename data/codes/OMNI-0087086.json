@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0087086",
+  "composition": {
+    "target": "urine specimen",
+    "action": "microbiological culture",
+    "means": "incubation and colony identification"
+  },
+  "plain_language": {
+    "en": "Urine infection diagnostic test (Urine Culture)",
+    "es": "Cultivo de orina para diagnosticar infecciones",
+    "fr": "Uroculture pour diagnostiquer une infection (ECBU)",
+    "ar": "مزرعة البول لتشخيص الالتهابات والعدوى",
+    "hi": "मूत्र संक्रमण का पता लगाने की जांच (यूरिन कल्चर)",
+    "zh": "尿液微生物培养及菌落计数 (尿培养)",
+    "pt": "Urocultura para diagnóstico de infecção urinária"
+  },
+  "crosswalks": {
+    "cpt": "87086",
+    "ichi": "UUU.AJ.AA",
+    "snomed_ct": "84178007",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Urine culture, colony count with isolation and identification.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

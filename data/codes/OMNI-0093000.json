@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0093000",
+  "composition": {
+    "target": "heart",
+    "action": "electrocardiogram tracking",
+    "means": "12-lead electrical sensor recording"
+  },
+  "plain_language": {
+    "en": "Standard 12-lead heart electrical test (ECG/EKG)",
+    "es": "Prueba eléctrica estándar del corazón de 12 derivaciones (ECG)",
+    "fr": "Électrocardiogramme standard à 12 dérivations (ECG)",
+    "ar": "رسم قلب كهربائي قياسي ذو 12 قناة (ECG)",
+    "hi": "हृदय की धड़कन जांचने का इलेक्ट्रिकल टेस्ट (ईसीजी)",
+    "zh": "标准十二导联心电图波形测试 (ECG/EKG)",
+    "pt": "Eletrocardiograma padrão de 12 derivações (ECG/EKG)"
+  },
+  "crosswalks": {
+    "cpt": "93000",
+    "ichi": "WWW.AA.AA",
+    "snomed_ct": "29303009",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Electrocardiogram (ECG/EKG), 12 leads, tracing and interpretation report.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

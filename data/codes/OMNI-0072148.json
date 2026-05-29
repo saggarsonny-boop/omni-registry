@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0072148",
+  "composition": {
+    "target": "lumbar spine",
+    "action": "magnetic resonance imaging",
+    "means": "magnetic fields without contrast dye"
+  },
+  "plain_language": {
+    "en": "Lower back MRI scan (without contrast dye)",
+    "es": "Resonancia magnética (RM) de columna lumbar sin contraste",
+    "fr": "IRM de la colonne lombaire sans produit de contraste",
+    "ar": "رنين مغناطيسي على الفقرات القطنية بدون صبغة",
+    "hi": "बिना कंट्रास्ट डाई के पीठ के निचले हिस्से का एमआरआई स्कैन",
+    "zh": "腰椎平扫核磁共振 (MRI) 扫描",
+    "pt": "Ressonância magnética (RM) de coluna lombar sem contraste"
+  },
+  "crosswalks": {
+    "cpt": "72148",
+    "ichi": "VVV.AG.AA",
+    "snomed_ct": "430799008",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Magnetic resonance imaging (MRI) of lumbar spinal canal, without contrast.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

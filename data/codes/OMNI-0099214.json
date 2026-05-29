@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0099214",
+  "composition": {
+    "target": "established patient",
+    "action": "evaluation and management",
+    "means": "30-39 minute cognitive visit"
+  },
+  "plain_language": {
+    "en": "Detailed medical consultation (Level 4) for a regular patient",
+    "es": "Consulta médica detallada (Nivel 4) para paciente establecido",
+    "fr": "Consultation médicale approfondie (Niveau 4) pour patient régulier",
+    "ar": "استشارة طبية مفصلة (المستوى 4) لمريض مسجل",
+    "hi": "नियमित मरीज के लिए विस्तृत परामर्श (स्तर 4)",
+    "zh": "常规复诊患者的深度医疗评估（四级）",
+    "pt": "Consulta médica detalhada (Nível 4) para paciente estabelecido"
+  },
+  "crosswalks": {
+    "cpt": "99214",
+    "ichi": "ZZZ.AA.AC",
+    "snomed_ct": "439708006",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Established patient office visit, 25 minutes, moderate complexity decision making.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

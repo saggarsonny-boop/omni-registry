@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Hive Dark Palette */
+  --hive-ink:       #0a0a0a;    /* Primary dark background */
+  --hive-paper:     #121212;    /* Card and sheet background */
+  --hive-paper-2:   #1a1a1a;    /* Lighter elevation paper */
+  --hive-gold:      #D4AF37;    /* Canonical Gold */
+  --hive-gold-dim:  #8a6f1f;    /* Border and accent dim gold */
+  --hive-gold-glow: rgba(212, 175, 55, 0.15);
+  --hive-muted:     #9a9588;    /* High contrast text on dark background */
+  --hive-paper-text:#f5f1e6;    /* Off-white readable text */
+  --hive-border:    rgba(212, 175, 55, 0.12);
+  --hive-danger:    #e24b4a;
+  
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --font-mono:    'DM Mono', 'Courier New', monospace;
+
+  --ud-radius:      8px;
+  --ud-radius-lg:   12px;
+  --ud-radius-xl:   16px;
+}
+
+html, body {
+  height: 100%;
+  background-color: var(--hive-ink);
+  color: var(--hive-paper-text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* Custom dark scrollbar matching Hive standards */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--hive-ink);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--hive-paper-2);
+  border: 1px solid var(--hive-gold-dim);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hive-gold-dim);
+}
+
+/* Glassmorphism primitives */
+.hive-glass {
+  background: rgba(18, 18, 18, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--hive-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Micro-animations and hover states */
+.hive-hover {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.hive-hover:hover {
+  transform: translateY(-2px) scale(1.005);
+  border-color: var(--hive-gold);
+  box-shadow: 0 8px 24px var(--hive-gold-glow);
+}
+
+.hive-glow {
+  box-shadow: 0 0 15px var(--hive-gold-glow);
+}
+
+/* Hexagonal Flat-Top Button Draw Styles */
+.hexagon-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--hive-ink);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Page fade-in animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom layout utilities */
+.touch-target {
+  min-width: 44px;
+  min-height: 44px;
+}

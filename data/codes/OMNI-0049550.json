@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0049550",
+  "composition": {
+    "target": "femoral canal",
+    "action": "repair",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Open surgical repair of a thigh-groin hernia",
+    "es": "Reparación quirúrgica abierta de hernia femoral",
+    "fr": "Réparation ouverte d'une hernie fémorale",
+    "ar": "إصلاح الفتق الفخذي بالجراحة المفتوحة",
+    "hi": "जांघ के हर्निया की खुली सर्जरी द्वारा मरम्मत",
+    "zh": "开腹股疝修补术",
+    "pt": "Reparação cirúrgica aberta de hérnia femoral"
+  },
+  "crosswalks": {
+    "cpt": "49550",
+    "ichi": "KEO.JK.AF",
+    "snomed_ct": "31802008",
+    "icd11_pcs": "LE20.0",
+    "icd10_cm": "0YQP0ZZ"
+  },
+  "notes": "Open femoral hernia repair, initial.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

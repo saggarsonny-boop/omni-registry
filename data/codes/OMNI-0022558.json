@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0022558",
+  "composition": {
+    "target": "lumbar vertebral joints",
+    "action": "bone fusion stabilization",
+    "means": "metal cage and bone graft"
+  },
+  "plain_language": {
+    "en": "Spinal fusion of the lower back (from the front)",
+    "es": "Fusión quirúrgica de vértebras lumbares desde el frente",
+    "fr": "Arthrodèse lombaire par abord antérieur",
+    "ar": "عملية دمج وتثبيت فقرات الظهر القطنية من الأمام",
+    "hi": "पीठ के निचले हिस्से के कशेरुकाओं को जोड़ने की सर्जरी",
+    "zh": "前路腰椎椎体间融合内固定术",
+    "pt": "Fusão cirúrgica de vértebras lombares por via anterior"
+  },
+  "crosswalks": {
+    "cpt": "22558",
+    "ichi": "KLO.JK.AA",
+    "snomed_ct": "23114001",
+    "icd11_pcs": "KL20.0",
+    "icd10_cm": "0SG007Z"
+  },
+  "notes": "Arthrodesis, anterior interbody technique, lumbar spine.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

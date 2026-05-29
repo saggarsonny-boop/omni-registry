@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0074177",
+  "composition": {
+    "target": "abdomen and pelvis",
+    "action": "computed tomography",
+    "means": "X-ray with contrast dye"
+  },
+  "plain_language": {
+    "en": "Abdomen and pelvis CT scan (with contrast dye)",
+    "es": "Tomografía (TAC) de abdomen y pelvis con contraste",
+    "fr": "Scanner (TDM) de l'abdomen et du pelvis avec produit de contraste",
+    "ar": "أشعة مقطعية على البطن والحوض بالصبغة",
+    "hi": "कंट्रास्ट डाई के साथ पेट और पेल्विस का सीटी स्कैन",
+    "zh": "腹部和盆腔增强CT扫描",
+    "pt": "Tomografia computadorizada de abdômen e pelve com contraste"
+  },
+  "crosswalks": {
+    "cpt": "74177",
+    "ichi": "VVV.AB.AA",
+    "snomed_ct": "418196001",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Computed tomography (CT) scan, abdomen and pelvis, with contrast.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

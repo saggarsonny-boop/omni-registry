@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0033533",
+  "composition": {
+    "target": "coronary arteries",
+    "action": "bypass channel construction",
+    "means": "vessel grafting from chest wall or leg"
+  },
+  "plain_language": {
+    "en": "Heart bypass surgery using blood vessels (CABG)",
+    "es": "Bypass cardíaco coronario con injerto de vasos sanguíneos (CABG)",
+    "fr": "Pontage aorto-coronarien par greffe de vaisseaux (Pontage)",
+    "ar": "عملية مجازة الشريان التاجي للقلب (ترقيع الشرايين)",
+    "hi": "हृदय की धमनियों की बाईपास ग्राफ्टिंग सर्जरी (सीएबीजी)",
+    "zh": "冠状动脉旁路移植造血管重建术 (心脏搭桥 CABG)",
+    "pt": "Bypass cardíaco coronário com enxerto de vasos sanguíneos"
+  },
+  "crosswalks": {
+    "cpt": "33533",
+    "ichi": "KFO.JK.AA",
+    "snomed_ct": "232717009",
+    "icd11_pcs": "KF20.0",
+    "icd10_cm": "02100A9"
+  },
+  "notes": "Coronary artery bypass graft (CABG), arterial bypass, 3 coronary artery grafts.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

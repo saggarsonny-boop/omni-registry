@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0044960",
+  "composition": {
+    "target": "appendix",
+    "action": "total excision",
+    "means": "open with drainage"
+  },
+  "plain_language": {
+    "en": "Removal of ruptured appendix with peritoneal drainage",
+    "es": "Extirpación de apéndice roto con drenaje peritoneal",
+    "fr": "Ablation de l'appendice rompu avec drainage",
+    "ar": "استئصال الزائدة الدودية المنفجرة مع تصريف البريتون",
+    "hi": "टूटे हुए अपेंडिक्स को निकालना और निकास बनाना",
+    "zh": "阑尾穿孔切除伴腹膜引流术",
+    "pt": "Remoção de apêndice roto com drenagem peritoneal"
+  },
+  "crosswalks": {
+    "cpt": "44960",
+    "ichi": "KBO.JK.AZ",
+    "snomed_ct": "174041004",
+    "icd11_pcs": "LA24.0",
+    "icd10_cm": "0DTJ0ZZ"
+  },
+  "notes": "Open appendectomy for ruptured appendix with abscess.",
+  "provisional": true,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

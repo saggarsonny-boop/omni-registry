@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0081001",
+  "composition": {
+    "target": "urine specimen",
+    "action": "automated physical and chemical analysis",
+    "means": "reagent strip and microscopy"
+  },
+  "plain_language": {
+    "en": "Urine analysis with microscope inspection",
+    "es": "Análisis de orina con inspección microscópica",
+    "fr": "Analyse d'urine avec examen microscopique",
+    "ar": "تحليل البول مع الفحص المجهري",
+    "hi": "सूक्ष्मदर्शी जांच के साथ मूत्र विश्लेषण",
+    "zh": "尿液常规筛查及镜检分析 (尿常规)",
+    "pt": "Análise de urina com exame microscópico"
+  },
+  "crosswalks": {
+    "cpt": "81001",
+    "ichi": "UUU.AE.AA",
+    "snomed_ct": "27171005",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Urinalysis, automated with microscopy.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

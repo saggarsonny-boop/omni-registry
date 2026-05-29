@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0085610",
+  "composition": {
+    "target": "blood plasma",
+    "action": "coagulation time analysis",
+    "means": "electromechanical clot detection"
+  },
+  "plain_language": {
+    "en": "Blood clotting speed evaluation test (PT/INR)",
+    "es": "Prueba de velocidad de coagulación de la sangre (PT/INR)",
+    "fr": "Test de vitesse de coagulation sanguine (PT/INR)",
+    "ar": "تحليل سرعة تجلط الدم (PT/INR)",
+    "hi": "खून जमने की गति जांचने का टेस्ट (पीटी/आईएनआर)",
+    "zh": "凝血时间与凝血酶原活性分析 (PT/INR)",
+    "pt": "Exame de velocidade de coagulação sanguínea (PT/INR)"
+  },
+  "crosswalks": {
+    "cpt": "85610",
+    "ichi": "UUU.AG.AA",
+    "snomed_ct": "34532008",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Prothrombin time (PT) / International Normalized Ratio (INR).",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

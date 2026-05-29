@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0049654",
+  "composition": {
+    "target": "abdominal wall",
+    "action": "repair",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Keyhole repair of a surgical scar hernia",
+    "es": "Reparación laparoscópica de hernia incisional",
+    "fr": "Réparation laparoscopique d'une hernie incisionnelle",
+    "ar": "إصلاح فتق الجرح الجراحي بالمنظار",
+    "hi": "सर्जक चीरे से बनी हर्निया की कीहोल सर्जरी",
+    "zh": "腹腔镜切口疝修补术",
+    "pt": "Reparação laparoscópica de hérnia incisional"
+  },
+  "crosswalks": {
+    "cpt": "49654",
+    "ichi": "KEO.JK.AE",
+    "snomed_ct": "429218001",
+    "icd11_pcs": "LE20.0",
+    "icd10_cm": "0WQP4ZZ"
+  },
+  "notes": "Laparoscopic repair of incisional hernia.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0080053",
+  "composition": {
+    "target": "blood specimen",
+    "action": "panel metabolic analysis",
+    "means": "photometry and ion-selective electrode"
+  },
+  "plain_language": {
+    "en": "Comprehensive body organ and electrolyte panel (CMP)",
+    "es": "Panel metabólico completo de electrolitos y órganos (CMP)",
+    "fr": "Bilan métabolique complet des organes et électrolytes (CMP)",
+    "ar": "تحليل التمثيل الغذائي الشامل ووظائف الأعضاء والأملاح (CMP)",
+    "hi": "अंगों की कार्यप्रणाली और इलेक्ट्रोलाइट्स की व्यापक जांच (सीएमपी)",
+    "zh": "综合代谢功能分析 (包含肝肾功能和电解质 CMP)",
+    "pt": "Painel metabólico completo de eletrólitos e órgãos (CMP)"
+  },
+  "crosswalks": {
+    "cpt": "80053",
+    "ichi": "UUU.AB.AA",
+    "snomed_ct": "442087002",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Comprehensive metabolic panel (CMP), 14 standard chemical tests.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

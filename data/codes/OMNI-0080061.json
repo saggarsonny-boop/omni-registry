@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0080061",
+  "composition": {
+    "target": "blood specimen",
+    "action": "panel lipid analysis",
+    "means": "colorimetry"
+  },
+  "plain_language": {
+    "en": "Cholesterol and fats screening test (Lipid Panel)",
+    "es": "Prueba de panel de lípidos y colesterol",
+    "fr": "Bilan lipidique et cholestérol (Bilan lipidique)",
+    "ar": "تحليل دهون الدم والكوليسترول",
+    "hi": "कोलेस्ट्रॉल और वसा की जांच (लिपिड प्रोफाइल)",
+    "zh": "血脂和胆固醇筛查分析",
+    "pt": "Exame de painel lipídico e colesterol"
+  },
+  "crosswalks": {
+    "cpt": "80061",
+    "ichi": "UUU.AC.AA",
+    "snomed_ct": "441753009",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Lipid panel (cholesterol, triglycerides, HDL, LDL calculate).",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

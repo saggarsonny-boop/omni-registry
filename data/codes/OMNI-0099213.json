@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0099213",
+  "composition": {
+    "target": "established patient",
+    "action": "evaluation and management",
+    "means": "20-29 minute cognitive visit"
+  },
+  "plain_language": {
+    "en": "Routine medical consultation (Level 3) for a regular patient",
+    "es": "Consulta médica de rutina (Nivel 3) para paciente establecido",
+    "fr": "Consultation médicale de routine (Niveau 3) pour patient régulier",
+    "ar": "استشارة طبية روتينية (المستوى 3) لمريض مسجل",
+    "hi": "नियमित मरीज के लिए सामान्य परामर्श (स्तर 3)",
+    "zh": "常规复诊患者的普通医疗评估（三级）",
+    "pt": "Consulta médica de rotina (Nível 3) para paciente estabelecido"
+  },
+  "crosswalks": {
+    "cpt": "99213",
+    "ichi": "ZZZ.AA.AB",
+    "snomed_ct": "439708006",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Established patient office visit, 15 minutes, low complexity decision making.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

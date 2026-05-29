@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0047600",
+  "composition": {
+    "target": "gallbladder",
+    "action": "total excision",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the gallbladder through an open incision",
+    "es": "Extirpación quirúrgica abierta de la vesícula biliar",
+    "fr": "Ablation de la vésicule biliaire par voie ouverte",
+    "ar": "استئصال المرارة بالجراحة المفتوحة",
+    "hi": "खुली सर्जरी द्वारा पित्ताशय निकालना",
+    "zh": "开腹胆囊切除术",
+    "pt": "Remoção cirúrgica aberta da vesícula biliar"
+  },
+  "crosswalks": {
+    "cpt": "47600",
+    "ichi": "KCO.JK.AA",
+    "snomed_ct": "38102005",
+    "icd11_pcs": "LC20.0",
+    "icd10_cm": "0FT40ZZ"
+  },
+  "notes": "Open cholecystectomy.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

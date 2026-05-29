@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0071046",
+  "composition": {
+    "target": "chest",
+    "action": "projection radiography",
+    "means": "X-ray"
+  },
+  "plain_language": {
+    "en": "Chest X-ray (two standard angles)",
+    "es": "Radiografía de tórax (dos vistas estándar)",
+    "fr": "Radiographie du thorax (deux clichés standard)",
+    "ar": "أشعة سينية على الصدر (وضعان)",
+    "hi": "छाती का एक्स-रे (दो स्टैंडर्ड एंगल्स)",
+    "zh": "胸部正侧位X光成像 (双位胸片)",
+    "pt": "Radiografia do tórax (duas incidências padrão)"
+  },
+  "crosswalks": {
+    "cpt": "71046",
+    "ichi": "VVV.AA.AA",
+    "snomed_ct": "284347000",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Chest radiograph, 2 views standard.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

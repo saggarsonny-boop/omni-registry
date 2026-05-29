@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0049652",
+  "composition": {
+    "target": "umbilicus",
+    "action": "repair",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Keyhole repair of a belly button hernia",
+    "es": "Reparación laparoscópica de hernia umbilical",
+    "fr": "Réparation laparoscopique d'une hernie ombilicale",
+    "ar": "إصلاح الفتق السري بالمنظار",
+    "hi": "नाभि की हर्निया की कीहोल सर्जरी द्वारा मरम्मत",
+    "zh": "腹腔镜脐疝修补术",
+    "pt": "Reparação laparoscópica de hérnia umbilical"
+  },
+  "crosswalks": {
+    "cpt": "49652",
+    "ichi": "KEO.JK.AD",
+    "snomed_ct": "428784000",
+    "icd11_pcs": "LE20.0",
+    "icd10_cm": "0WQP4ZZ"
+  },
+  "notes": "Laparoscopic repair of umbilical hernia.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

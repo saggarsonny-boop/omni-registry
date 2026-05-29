@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0071260",
+  "composition": {
+    "target": "chest",
+    "action": "computed tomography",
+    "means": "X-ray with contrast dye"
+  },
+  "plain_language": {
+    "en": "Chest CT scan (with contrast dye)",
+    "es": "Tomografía (TAC) de tórax con contraste",
+    "fr": "Scanner (TDM) du thorax avec produit de contraste",
+    "ar": "أشعة مقطعية على الصدر بالصبغة",
+    "hi": "कंट्रास्ट डाई के साथ छाती का सीटी स्कैन",
+    "zh": "胸部增强CT扫描",
+    "pt": "Tomografia computadorizada de tórax com contraste"
+  },
+  "crosswalks": {
+    "cpt": "71260",
+    "ichi": "VVV.AF.AA",
+    "snomed_ct": "444390001",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Computed tomography (CT) scan of chest with contrast dye.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

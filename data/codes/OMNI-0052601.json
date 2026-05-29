@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0052601",
+  "composition": {
+    "target": "prostate gland",
+    "action": "partial excision",
+    "means": "electrical wire cutting inside urethra"
+  },
+  "plain_language": {
+    "en": "Prostate shaving surgery via water channel (TURP)",
+    "es": "Extirpación transuretral de próstata (TURP)",
+    "fr": "Résection transurétrale de la prostate (TURP)",
+    "ar": "استئصال جزء من البروستاتا عبر مجرى البول (TURP)",
+    "hi": "पेशाब की नली द्वारा प्रोस्टेट ग्रंथि की छंटाई (टीयूआरपी)",
+    "zh": "经尿道前列腺电切修削术 (TURP)",
+    "pt": "Ressecção transuretral da próstata (TURP)"
+  },
+  "crosswalks": {
+    "cpt": "52601",
+    "ichi": "KIO.JK.AB",
+    "snomed_ct": "176274000",
+    "icd11_pcs": "KI20.0",
+    "icd10_cm": "0VT08ZZ"
+  },
+  "notes": "Transurethral electrosurgical resection of prostate (TURP).",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

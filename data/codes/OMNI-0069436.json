@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0069436",
+  "composition": {
+    "target": "middle ear",
+    "action": "surgical drainage opening",
+    "means": "pressure-equalizing tube insertion"
+  },
+  "plain_language": {
+    "en": "Inserting ventilation tubes into the eardrum",
+    "es": "Inserción de tubos de drenaje en el tímpano",
+    "fr": "Pose d'aérateurs transtympaniques (Yoyo)",
+    "ar": "تركيب أنابيب تهوية وتصريف في غشاء طبلة الأذن",
+    "hi": "कान के परदे में वेंटिलेशन ट्यूब डालना",
+    "zh": "鼓膜切开伴压力平衡管防积水植入术",
+    "pt": "Inserção de tubos de ventilação no tímpano"
+  },
+  "crosswalks": {
+    "cpt": "69436",
+    "ichi": "KLO.JK.AB",
+    "snomed_ct": "25687000",
+    "icd11_pcs": "KL20.0",
+    "icd10_cm": "099970Z"
+  },
+  "notes": "Tympanostomy (requiring insertion of ventilating tube), local or general anesthesia.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

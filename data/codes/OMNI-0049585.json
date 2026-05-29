@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0049585",
+  "composition": {
+    "target": "umbilicus",
+    "action": "repair",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Open surgical repair of a belly button hernia",
+    "es": "Reparación quirúrgica abierta de hernia umbilical",
+    "fr": "Réparation ouverte d'une hernie ombilicale",
+    "ar": "إصلاح الفتق السري بالجراحة المفتوحة",
+    "hi": "नाभि की हर्निया की खुली सर्जरी द्वारा मरम्मत",
+    "zh": "开腹脐疝修补术",
+    "pt": "Reparação cirúrgica aberta de hérnia umbilical"
+  },
+  "crosswalks": {
+    "cpt": "49585",
+    "ichi": "KEO.JK.AC",
+    "snomed_ct": "45228008",
+    "icd11_pcs": "LE20.0",
+    "icd10_cm": "0WQP0ZZ"
+  },
+  "notes": "Open umbilical hernia repair, initial, patient 5 years or older.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

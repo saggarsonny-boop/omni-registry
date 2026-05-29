@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0044970",
+  "composition": {
+    "target": "appendix",
+    "action": "total excision",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Keyhole removal of the appendix",
+    "es": "Extirpación laparoscópica del apêndice",
+    "fr": "Ablation laparoscopique de l'appendice",
+    "ar": "استئصال الزائدة الدودية بالمنظار",
+    "hi": "कीहोल (लैप्रोस्कोपिक) अपेंडिक्स निकालना",
+    "zh": "腹腔镜阑尾切除术",
+    "pt": "Remoção laparoscópica do apêndice"
+  },
+  "crosswalks": {
+    "cpt": "44970",
+    "ichi": "KBO.JK.AB",
+    "snomed_ct": "80146002",
+    "icd11_pcs": "LA24.0",
+    "icd10_cm": "0DTJ4ZZ"
+  },
+  "notes": "Featured worked example in the SSRN paper.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

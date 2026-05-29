@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0044950",
+  "composition": {
+    "target": "appendix",
+    "action": "total excision",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the appendix through an open incision",
+    "es": "Extirpación quirúrgica abierta del apéndice",
+    "fr": "Appendicectomie par voie ouverte",
+    "ar": "استئصال الزائدة الدودية بالجراحة المفتوحة",
+    "hi": "खुली सर्जरी द्वारा अपेंडिक्स निकालना",
+    "zh": "开腹阑尾切除术",
+    "pt": "Remoção cirúrgica aberta do apêndice"
+  },
+  "crosswalks": {
+    "cpt": "44950",
+    "ichi": "KBO.JK.AA",
+    "snomed_ct": "32230006",
+    "icd11_pcs": "LA24.0",
+    "icd10_cm": "0DTJ0ZZ"
+  },
+  "notes": "Standard open appendectomy.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

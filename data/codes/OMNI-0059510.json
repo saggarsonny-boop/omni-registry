@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0059510",
+  "composition": {
+    "target": "pregnant uterus",
+    "action": "surgical delivery opening",
+    "means": "abdominal uterine incision"
+  },
+  "plain_language": {
+    "en": "Cesarean section delivery (C-section)",
+    "es": "Parto por operación cesárea (Cesárea)",
+    "fr": "Accouchement par césarienne",
+    "ar": "ولادة قيصرية (شق جراحي بالرحم)",
+    "hi": "सी-सेक्शन द्वारा बच्चे का जन्म (सिजेरियन डिलीवरी)",
+    "zh": "剖宫产手术分娩",
+    "pt": "Parto por operação cesariana (Cesárea)"
+  },
+  "crosswalks": {
+    "cpt": "59510",
+    "ichi": "KJO.JK.AA",
+    "snomed_ct": "11438009",
+    "icd11_pcs": "KJ20.0",
+    "icd10_cm": "10D00Z1"
+  },
+  "notes": "Routine obstetric care including antepartum care, cesarean delivery, and postpartum care.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0082306",
+  "composition": {
+    "target": "blood specimen",
+    "action": "vitamin assay",
+    "means": "liquid chromatography and mass spectrometry"
+  },
+  "plain_language": {
+    "en": "Vitamin D level screening blood test",
+    "es": "Prueba de sangre para medir nivel de Vitamina D",
+    "fr": "Test sanguin de mesure du taux de Vitamine D",
+    "ar": "تحليل نسبة فيتامين د في الدم",
+    "hi": "विटामिन डी का स्तर जांचने का टेस्ट",
+    "zh": "维生素D含量血液分析",
+    "pt": "Exame de sangue para medir nível de Vitamina D"
+  },
+  "crosswalks": {
+    "cpt": "82306",
+    "ichi": "UUU.AI.AA",
+    "snomed_ct": "72886008",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Vitamin D; 25-hydroxy, includes fraction 1 and fraction 2.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

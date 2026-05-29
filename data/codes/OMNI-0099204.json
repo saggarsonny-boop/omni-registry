@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0099204",
+  "composition": {
+    "target": "new patient",
+    "action": "evaluation and management",
+    "means": "45-59 minute cognitive visit"
+  },
+  "plain_language": {
+    "en": "Detailed initial consultation (Level 4) for a new patient",
+    "es": "Consulta médica inicial detallada (Nivel 4) para paciente nuevo",
+    "fr": "Consultation initiale approfondie (Niveau 4) pour nouveau patient",
+    "ar": "استشارة طبية أولية مفصلة (المستوى 4) لمريض جديد",
+    "hi": "नए मरीज के लिए विस्तृत प्रारंभिक परामर्श (स्तर 4)",
+    "zh": "首诊新患者的深度医疗评估（四级）",
+    "pt": "Consulta médica inicial detalhada (Nível 4) para paciente novo"
+  },
+  "crosswalks": {
+    "cpt": "99204",
+    "ichi": "ZZZ.AB.AC",
+    "snomed_ct": "439708006",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "New patient office visit, 45 minutes, moderate complexity decision making.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

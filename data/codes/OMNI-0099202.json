@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0099202",
+  "composition": {
+    "target": "new patient",
+    "action": "evaluation and management",
+    "means": "15-29 minute cognitive visit"
+  },
+  "plain_language": {
+    "en": "Short checkup (Level 2) for a new patient",
+    "es": "Chequeo médico corto (Nivel 2) para paciente nuevo",
+    "fr": "Consultation médicale courte (Niveau 2) pour nouveau patient",
+    "ar": "مراجعة طبية قصيرة (المستوى 2) لمريض جديد",
+    "hi": "नए मरीज के लिए छोटी जांच (स्तर 2)",
+    "zh": "首诊新患者的简短医疗评估（二级）",
+    "pt": "Check-up médico curto (Nível 2) para paciente novo"
+  },
+  "crosswalks": {
+    "cpt": "99202",
+    "ichi": "ZZZ.AB.AA",
+    "snomed_ct": "439708006",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "New patient office visit, 20 minutes, straightforward clinical decision making.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

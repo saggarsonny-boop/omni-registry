@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0027447",
+  "composition": {
+    "target": "knee joint",
+    "action": "joint reconstruction",
+    "means": "artificial prosthetic implant"
+  },
+  "plain_language": {
+    "en": "Total knee joint replacement surgery (Knee Arthroplasty)",
+    "es": "Cirugía de reemplazo total de articulación de rodilla",
+    "fr": "Chirurgie de remplacement complet de la rotule (Prothèse de genou)",
+    "ar": "عملية استبدال مفصل الركبة بالكامل بمفصل صناعي",
+    "hi": "घुटने का जोड़ पूरी तरह बदलने की सर्जरी (नी रिप्लेसमेंट)",
+    "zh": "人工全膝关节置换术",
+    "pt": "Cirurgia de substituição total da articulação do joelho"
+  },
+  "crosswalks": {
+    "cpt": "27447",
+    "ichi": "KMO.JK.AA",
+    "snomed_ct": "82071004",
+    "icd11_pcs": "KM20.0",
+    "icd10_cm": "0SRC0JZ"
+  },
+  "notes": "Arthroplasty, knee, condyle and patella; medial and lateral compartments (total replacement).",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

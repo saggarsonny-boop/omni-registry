@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0077066",
+  "composition": {
+    "target": "breast",
+    "action": "diagnostic projection radiography",
+    "means": "low-dose X-ray"
+  },
+  "plain_language": {
+    "en": "Targeted diagnostic mammogram of both breasts",
+    "es": "Mamografía de diagnóstico dirigida en ambos senos",
+    "fr": "Mammographie diagnostique bilatérale ciblée",
+    "ar": "أشعة سينية لتشخيص أمراض الثديين (ماموجرام تشخيصي)",
+    "hi": "लक्षण दिखने पर स्तनों की जांच (डायग्नोस्टिक मैमोग्राफी)",
+    "zh": "双侧乳腺病变诊断放射检查 (诊断型乳腺钼靶)",
+    "pt": "Mamografia de diagnóstico dirigida em ambas as mamas"
+  },
+  "crosswalks": {
+    "cpt": "77066",
+    "ichi": "VVV.AH.AA",
+    "snomed_ct": "428414002",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Diagnostic mammography, bilateral, including CAD when performed.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0047605",
+  "composition": {
+    "target": "gallbladder",
+    "action": "total excision and bile duct imaging",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Open removal of the gallbladder with bile duct X-ray",
+    "es": "Extirpación abierta de vesícula con radiografía de conducto biliar",
+    "fr": "Ablation de la vésicule par voie ouverte avec cholangiographie",
+    "ar": "استئصال المرارة المفتوح مع تصوير القنوات المرارية",
+    "hi": "खुले पित्ताशय निष्कासन के साथ पित्त नलिका का एक्स-रे",
+    "zh": "开腹胆囊切除伴胆道造影术",
+    "pt": "Remoção aberta da vesícula com colangiografia"
+  },
+  "crosswalks": {
+    "cpt": "47605",
+    "ichi": "KCO.JK.AD",
+    "snomed_ct": "76543003",
+    "icd11_pcs": "LC20.0",
+    "icd10_cm": "0FT40ZZ"
+  },
+  "notes": "Open cholecystectomy with cholangiography.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

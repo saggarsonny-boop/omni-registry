@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0066984",
+  "composition": {
+    "target": "eye lens",
+    "action": "total excision",
+    "means": "ultrasonic fragmentation and artificial lens placement"
+  },
+  "plain_language": {
+    "en": "Cataract surgery with artificial lens placement",
+    "es": "Extirpación de catarata con colocación de lente artificial",
+    "fr": "Ablation de la cataracte avec implant de cristallin artificiel",
+    "ar": "إزالة المياه البيضاء وزراعة عدسة عينية صناعية",
+    "hi": "मोतियाबिंद निकालना और कृत्रिम लेंस लगाना",
+    "zh": "白内障超声乳化吸出及人工晶体植入术",
+    "pt": "Remoção de catarata com implantação de lente artificial"
+  },
+  "crosswalks": {
+    "cpt": "66984",
+    "ichi": "KIO.JK.AA",
+    "snomed_ct": "112792007",
+    "icd11_pcs": "KI20.0",
+    "icd10_cm": "08RJ3JZ"
+  },
+  "notes": "Extracapsular cataract removal with insertion of intraocular lens prosthesis.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

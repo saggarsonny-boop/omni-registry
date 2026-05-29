@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0077067",
+  "composition": {
+    "target": "breast",
+    "action": "screening projection radiography",
+    "means": "low-dose X-ray"
+  },
+  "plain_language": {
+    "en": "Routine screening mammogram of both breasts",
+    "es": "Mamografía de detección de rutina en ambos senos",
+    "fr": "Mammographie de dépistage bilatérale de routine",
+    "ar": "أشعة سينية روتينية لفحص الثديين (ماموجرام)",
+    "hi": "स्तन कैंसर का पता लगाने की सामान्य जांच (मैमोग्राफी)",
+    "zh": "双侧乳腺癌常规放射筛查 (乳腺钼靶)",
+    "pt": "Mamografia de rastreio de rotina em ambas as mamas"
+  },
+  "crosswalks": {
+    "cpt": "77067",
+    "ichi": "VVV.AE.AA",
+    "snomed_ct": "241617006",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Screening mammography, bilateral, 2-view study of each breast.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

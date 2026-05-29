@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0073721",
+  "composition": {
+    "target": "knee joint",
+    "action": "magnetic resonance imaging",
+    "means": "magnetic fields without contrast dye"
+  },
+  "plain_language": {
+    "en": "Knee MRI scan (without contrast dye)",
+    "es": "Resonancia magnética (RM) de rodilla sin contraste",
+    "fr": "IRM de l'articulation du genou sans produit de contraste",
+    "ar": "رنين مغناطيسي على مفصل الركبة بدون صبغة",
+    "hi": "बिना कंट्रास्ट डाई के घुटने का एमआरआई स्कैन",
+    "zh": "膝关节平扫核磁共振 (MRI) 扫描",
+    "pt": "Ressonância magnética (RM) de joelho sem contraste"
+  },
+  "crosswalks": {
+    "cpt": "73721",
+    "ichi": "VVV.AI.AA",
+    "snomed_ct": "431940003",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Magnetic resonance imaging (MRI) of knee joint, without contrast.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0085025",
+  "composition": {
+    "target": "blood specimen",
+    "action": "automated cell count analysis",
+    "means": "flow cytometry and microscopy"
+  },
+  "plain_language": {
+    "en": "Complete blood count with cell breakdown (CBC)",
+    "es": "Recuento sanguíneo completo con recuento de células (Hemograma)",
+    "fr": "Numération formule sanguine complète (NFS)",
+    "ar": "تحليل صورة الدم الكاملة مع فحص الخلايا التفصيلي",
+    "hi": "रक्त कोशिकाओं के विश्लेषण के साथ पूर्ण रक्त गणना (सीबीसी)",
+    "zh": "全血细胞计数及分类分析 (血常规)",
+    "pt": "Hemograma completo com contagem celular detalhada"
+  },
+  "crosswalks": {
+    "cpt": "85025",
+    "ichi": "UUU.AA.AA",
+    "snomed_ct": "26604007",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Complete blood count (CBC), automated, and automated differential WBC count.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

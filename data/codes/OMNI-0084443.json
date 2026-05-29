@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0084443",
+  "composition": {
+    "target": "blood specimen",
+    "action": "hormone immunoassay",
+    "means": "chemiluminescence"
+  },
+  "plain_language": {
+    "en": "Thyroid gland screening hormone test (TSH)",
+    "es": "Prueba de TSH para detectar problemas de tiroides",
+    "fr": "Test de TSH pour dépister les troubles de la thyroïde",
+    "ar": "تحليل هرمون الغدة الدرقية (TSH)",
+    "hi": "थायराइड की जांच का मुख्य हार्मोन टेस्ट (टीएसएच)",
+    "zh": "甲状腺促素筛查分析 (TSH)",
+    "pt": "Exame de hormônio da tireoide (TSH)"
+  },
+  "crosswalks": {
+    "cpt": "84443",
+    "ichi": "UUU.AD.AA",
+    "snomed_ct": "113063009",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Thyroid stimulating hormone (TSH) assay.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

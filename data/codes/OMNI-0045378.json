@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0045378",
+  "composition": {
+    "target": "large intestine",
+    "action": "endoscopic inspection",
+    "means": "flexible scope"
+  },
+  "plain_language": {
+    "en": "Routine diagnostic check of the large bowel (Colonoscopy)",
+    "es": "Examen de colonoscopia diagnóstica de rutina del colon",
+    "fr": "Colonoscopie diagnostique de routine",
+    "ar": "منظار القولون التشخيصي الروتيني",
+    "hi": "बड़ी आंत की सामान्य दूरबीन जांच (डायग्नोस्टिक कोलोनोस्कोपी)",
+    "zh": "常规诊断性结肠镜检查",
+    "pt": "Exame de colonoscopia diagnóstica de rotina do cólon"
+  },
+  "crosswalks": {
+    "cpt": "45378",
+    "ichi": "KDO.JK.AB",
+    "snomed_ct": "73761001",
+    "icd11_pcs": "KD24.0",
+    "icd10_cm": "0DDB8ZX"
+  },
+  "notes": "Diagnostic colonoscopy, flexible, proximal to splenic flexure.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

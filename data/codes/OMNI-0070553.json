@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0070553",
+  "composition": {
+    "target": "brain",
+    "action": "magnetic resonance imaging",
+    "means": "magnetic fields without and with contrast dye"
+  },
+  "plain_language": {
+    "en": "Brain MRI scan (before and after contrast dye)",
+    "es": "Resonancia magnética (RM) cerebral con y sin contraste",
+    "fr": "IRM du cerveau avec et sans produit de contraste",
+    "ar": "رنين مغناطيسي على المخ بالصبغة وبدون صبغة",
+    "hi": "कंट्रास्ट डाई के साथ और बिना दिमाग का एमआरआई स्कैन",
+    "zh": "脑部平扫加增强核磁共振 (MRI) 扫描",
+    "pt": "Ressonância magnética (RM) cerebral com e sem contraste"
+  },
+  "crosswalks": {
+    "cpt": "70553",
+    "ichi": "VVV.AC.AA",
+    "snomed_ct": "287572005",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Magnetic resonance imaging (MRI) of brain, without and with contrast.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

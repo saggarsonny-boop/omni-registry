@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0027130",
+  "composition": {
+    "target": "hip joint",
+    "action": "joint reconstruction",
+    "means": "artificial prosthetic implant"
+  },
+  "plain_language": {
+    "en": "Total hip joint replacement surgery (Hip Arthroplasty)",
+    "es": "Cirugía de reemplazo total de articulación de cadera",
+    "fr": "Chirurgie de remplacement complet de la hanche (Prothèse de hanche)",
+    "ar": "عملية استبدال مفصل الفخذ بالكامل بمفصل صناعي",
+    "hi": "कूल्हे का जोड़ पूरी तरह बदलने की सर्जरी (हिप रिप्लेसमेंट)",
+    "zh": "人工全髋关节置换术",
+    "pt": "Cirurgia de substituição total da articulação do quadril"
+  },
+  "crosswalks": {
+    "cpt": "27130",
+    "ichi": "KMO.JK.AB",
+    "snomed_ct": "52734007",
+    "icd11_pcs": "KM20.0",
+    "icd10_cm": "0SRB0JZ"
+  },
+  "notes": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip replacement).",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

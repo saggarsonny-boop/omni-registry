@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0058150",
+  "composition": {
+    "target": "uterus",
+    "action": "total excision",
+    "means": "open abdominal incision"
+  },
+  "plain_language": {
+    "en": "Abdominal removal of the uterus (Hysterectomy)",
+    "es": "Extirpación quirúrgica abdominal del útero (Histerectomía)",
+    "fr": "Ablation chirurgicale de l'utérus par l'abdomen (Hystérectomie)",
+    "ar": "استئصال الرحم عن طريق البطن (Hysterectomy)",
+    "hi": "पेट खोलकर बच्चेदानी को बाहर निकालना (हिस्टेरेक्टॉमी)",
+    "zh": "开腹全子宫切除术",
+    "pt": "Remoção cirúrgica do útero por via abdominal (Histerectomia)"
+  },
+  "crosswalks": {
+    "cpt": "58150",
+    "ichi": "KHO.JK.AA",
+    "snomed_ct": "80899001",
+    "icd11_pcs": "KH20.0",
+    "icd10_cm": "0UT90ZZ"
+  },
+  "notes": "Total abdominal hysterectomy, with or without removal of ovaries/tubes.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

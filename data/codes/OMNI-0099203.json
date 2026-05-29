@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0099203",
+  "composition": {
+    "target": "new patient",
+    "action": "evaluation and management",
+    "means": "30-44 minute cognitive visit"
+  },
+  "plain_language": {
+    "en": "Routine checkup and consultation (Level 3) for a new patient",
+    "es": "Consulta médica de rutina (Nivel 3) para paciente nuevo",
+    "fr": "Consultation de routine (Niveau 3) pour nouveau patient",
+    "ar": "استشارة روتينية (المستوى 3) لمريض جديد",
+    "hi": "नए मरीज के लिए सामान्य जांच व परामर्श (स्तर 3)",
+    "zh": "首诊新患者的普通医疗评估（三级）",
+    "pt": "Consulta de rotina (Nível 3) para paciente novo"
+  },
+  "crosswalks": {
+    "cpt": "99203",
+    "ichi": "ZZZ.AB.AB",
+    "snomed_ct": "439708006",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "New patient office visit, 30 minutes, low complexity decision making.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

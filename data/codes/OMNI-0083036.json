@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0083036",
+  "composition": {
+    "target": "blood specimen",
+    "action": "glycated hemoglobin assay",
+    "means": "chromatography"
+  },
+  "plain_language": {
+    "en": "Three-month average blood sugar test (HbA1c)",
+    "es": "Prueba de promedio de azúcar de tres meses (HbA1c)",
+    "fr": "Test de glycémie moyenne sur trois mois (Hémoglobine glyquée)",
+    "ar": "تحليل السكر التراكمي لثلاثة أشهر (HbA1c)",
+    "hi": "तीन महीने का औसत ब्लड शुगर टेस्ट (एचबीए1सी)",
+    "zh": "糖化血红蛋白平均血糖分析 (HbA1c)",
+    "pt": "Exame de glicose média de três meses (HbA1c)"
+  },
+  "crosswalks": {
+    "cpt": "83036",
+    "ichi": "UUU.AF.AA",
+    "snomed_ct": "43396009",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Hemoglobin A1c assay.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

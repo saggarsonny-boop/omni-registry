@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0043239",
+  "composition": {
+    "target": "upper digestive tract",
+    "action": "endoscopic inspection and biopsy",
+    "means": "flexible scope and tissue extraction instrument"
+  },
+  "plain_language": {
+    "en": "Endoscopy of stomach and esophagus with tissue sample",
+    "es": "Endoscopia de esófago y estómago con biopsia de tejido",
+    "fr": "Endoscopie de l'œsophage et de l'estomac avec biopsie (FOGD)",
+    "ar": "منظار المعدة والمرئ مع أخذ عينة من الأنسجة",
+    "hi": "ऊपरी पेट और भोजन नली की दूरबीन जांच और बायोप्सी (ईजीडी)",
+    "zh": "胃和食管镜检伴组织活检术 (胃镜)",
+    "pt": "Endoscopia do esôfago e estômago com biópsia (EDA)"
+  },
+  "crosswalks": {
+    "cpt": "43239",
+    "ichi": "KCO.JK.AE",
+    "snomed_ct": "118671000",
+    "icd11_pcs": "KF24.0",
+    "icd10_cm": "0DB64ZX"
+  },
+  "notes": "Esophagogastroduodenoscopy (EGD) with biopsy.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

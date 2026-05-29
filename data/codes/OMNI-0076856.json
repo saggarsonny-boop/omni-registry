@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0076856",
+  "composition": {
+    "target": "pelvic organs",
+    "action": "ultrasonography",
+    "means": "high-frequency sound waves"
+  },
+  "plain_language": {
+    "en": "Ultrasound scan of pelvic organs",
+    "es": "Ecografía de órganos pélvicos",
+    "fr": "Échographie des organes pelviens",
+    "ar": "أشعة فوق صوتية (سونار) على أعضاء الحوض",
+    "hi": "पेल्विक अंगों का अल्ट्रासाउंड स्कैन",
+    "zh": "盆腔器官超声波检查",
+    "pt": "Ultrassonografia de órgãos pélvicos"
+  },
+  "crosswalks": {
+    "cpt": "76856",
+    "ichi": "VVV.AD.AA",
+    "snomed_ct": "80112001",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Pelvis ultrasound, real time imaging, complete study.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

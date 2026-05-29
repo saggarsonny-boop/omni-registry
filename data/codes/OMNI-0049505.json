@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0049505",
+  "composition": {
+    "target": "inguinal canal",
+    "action": "repair",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Open surgical repair of an initial groin hernia",
+    "es": "Reparación quirúrgica abierta de hernia inguinal inicial",
+    "fr": "Réparation chirurgicale ouverte d'une hernie inguinale initiale",
+    "ar": "إصلاح الفتق الإربي بالجراحة المفتوحة لأول مرة",
+    "hi": "प्रारंभिक जांघ के जोड़ की हर्निया की खुली सर्जरी",
+    "zh": "初期开腹腹股沟疝修补术",
+    "pt": "Reparação cirúrgica aberta de hérnia inguinal inicial"
+  },
+  "crosswalks": {
+    "cpt": "49505",
+    "ichi": "KEO.JK.AA",
+    "snomed_ct": "50465007",
+    "icd11_pcs": "LE20.0",
+    "icd10_cm": "0YQP0ZZ"
+  },
+  "notes": "Open inguinal hernia repair, initial, patient 5 years or older.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

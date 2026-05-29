@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0080048",
+  "composition": {
+    "target": "blood specimen",
+    "action": "panel basic chemistry analysis",
+    "means": "photometry"
+  },
+  "plain_language": {
+    "en": "Basic chemistry and hydration panel (BMP)",
+    "es": "Panel químico básico de electrolitos y azúcar (BMP)",
+    "fr": "Bilan chimique de base des électrolytes et glucose (BMP)",
+    "ar": "تحليل كيمياء الدم الأساسي والسكريات والأملاح (BMP)",
+    "hi": "मूल इलेक्ट्रोलाइट्स और शुगर की जांच (बीएमपी)",
+    "zh": "基础代谢电解质和血糖分析 (BMP)",
+    "pt": "Painel químico básico de eletrólitos e glicose (BMP)"
+  },
+  "crosswalks": {
+    "cpt": "80048",
+    "ichi": "UUU.AH.AA",
+    "snomed_ct": "442296005",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Basic metabolic panel (BMP), 8 standard chemical tests.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

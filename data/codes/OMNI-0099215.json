@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0099215",
+  "composition": {
+    "target": "established patient",
+    "action": "evaluation and management",
+    "means": "40-54 minute cognitive visit"
+  },
+  "plain_language": {
+    "en": "Comprehensive medical consultation (Level 5) for a regular patient",
+    "es": "Consulta médica compleja (Nivel 5) para paciente establecido",
+    "fr": "Consultation médicale complexe (Niveau 5) pour patient régulier",
+    "ar": "استشارة طبية شاملة ومعقدة (المستوى 5) لمريض مسجل",
+    "hi": "नियमित मरीज के लिए व्यापक/जटिल परामर्श (स्तर 5)",
+    "zh": "常规复诊患者的高难度医疗评估（五级）",
+    "pt": "Consulta médica complexa (Nível 5) para paciente estabelecido"
+  },
+  "crosswalks": {
+    "cpt": "99215",
+    "ichi": "ZZZ.AA.AD",
+    "snomed_ct": "439708006",
+    "icd11_pcs": null,
+    "icd10_cm": null
+  },
+  "notes": "Established patient office visit, 40 minutes, high complexity decision making.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}

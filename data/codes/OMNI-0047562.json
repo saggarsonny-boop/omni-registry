@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0047562",
+  "composition": {
+    "target": "gallbladder",
+    "action": "total excision",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Keyhole removal of the gallbladder",
+    "es": "Extirpación laparoscópica de la vesícula biliar",
+    "fr": "Ablation laparoscopique de la vésicule biliaire",
+    "ar": "استئصال المرارة بالمنظار (ثقب المفتاح)",
+    "hi": "कीहोल (लैप्रोस्कोपिक) पित्ताशय निकालना",
+    "zh": "腹腔镜胆囊切除术",
+    "pt": "Remoção laparoscópica da vesícula biliar"
+  },
+  "crosswalks": {
+    "cpt": "47562",
+    "ichi": "KCO.JK.AB",
+    "snomed_ct": "103744009",
+    "icd11_pcs": "LC20.0",
+    "icd10_cm": "0FT44ZZ"
+  },
+  "notes": "Laparoscopic cholecystectomy.",
+  "provisional": false,
+  "version": "0.1.0",
+  "added": "2026-05"
+}
