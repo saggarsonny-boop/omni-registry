@@ -30,22 +30,22 @@ const dmMono = DM_Mono({
 
 // Brand Metadata per Checklist
 export const metadata: Metadata = {
-  title: "OMNI — Open Medical Nomenclature and Interventions",
+  title: "O.M.N.I. — Open Medical Nomenclature and Interventions",
   description: "An open, freely licensed standard for coding medical interventions, designed to replace CPT. Proposed as a royalty-free clinical vocabulary by Sonny Saggar MD.",
   keywords: "OMNI medical standard, replace CPT code, Open Medical Nomenclature, WHO ICHI crosswalk, SNOMED CT composition, free medical billing codes, medical coding registry, Sonny Saggar MD",
   metadataBase: new URL("https://omni.universaldocument.org"),
   manifest: "/manifest.json",
-  applicationName: "OMNI Registry",
+  applicationName: "O.M.N.I. Registry",
   appleWebApp: {
     capable: true,
-    title: "OMNI Registry",
+    title: "O.M.N.I. Registry",
     statusBarStyle: "black-translucent",
   },
   openGraph: {
-    title: "OMNI — Open Medical Nomenclature and Interventions",
+    title: "O.M.N.I. — Open Medical Nomenclature and Interventions",
     description: "An open, freely licensed standard for coding medical interventions, designed to replace CPT. Royalty-free open clinical standard by Sonny Saggar MD.",
     url: "https://omni.universaldocument.org",
-    siteName: "OMNI Registry",
+    siteName: "O.M.N.I. Registry",
     type: "website",
     images: [
       {
@@ -93,7 +93,7 @@ export default function RootLayout({
 
         {/* Beta Banner */}
         <div className="bg-[#D4AF37] text-hive-ink font-mono text-[10px] md:text-xs font-bold text-center py-2 px-4 uppercase tracking-widest shrink-0">
-          ✦ OMNI STANDARD V0.1 · OPEN SOURCE PROPOSAL · FULLY CONVERTIBLE & ROYALTY-FREE ✦
+          ✦ O.M.N.I. STANDARD V0.1 · OPEN SOURCE PROPOSAL · FULLY CONVERTIBLE & ROYALTY-FREE ✦
         </div>
 
         {/* Main Content Area */}

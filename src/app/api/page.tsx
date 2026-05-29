@@ -46,7 +46,7 @@ export default function ApiDocs() {
           <OMNILogo size={52} />
           <div className="flex flex-col">
             <h1 className="font-display font-bold text-3xl text-hive-paper-text tracking-wide leading-tight">
-              OMNI Open API
+              O.M.N.I. Open API
             </h1>
             <p className="text-sm text-hive-muted font-mono tracking-wider mt-0.5">
               CORS-enabled clinical nomenclature and vocabulary endpoints
@@ -60,7 +60,7 @@ export default function ApiDocs() {
             Developer Integration Guide
           </h2>
           <p className="text-sm text-hive-muted leading-relaxed">
-            The OMNI Registry exposes open, zero-authentication endpoints for software systems, EHR providers, and clinical registries. All responses are encoded as UTF-8 JSON and served with standard CORS headers (`Access-Control-Allow-Origin: *`), enabling pure client-side queries or serverless edge lookups.
+            The O.M.N.I. Registry exposes open, zero-authentication endpoints for software systems, EHR providers, and clinical registries. All responses are encoded as UTF-8 JSON and served with standard CORS headers (`Access-Control-Allow-Origin: *`), enabling pure client-side queries or serverless edge lookups.
           </p>
           <div className="flex flex-wrap gap-x-6 gap-y-2 mt-2 font-mono text-[11px] text-hive-gold leading-none">
             <span>✓ Rate Limit: None</span>
@@ -105,7 +105,7 @@ export default function ApiDocs() {
           {activeTab === "codes" && (
             <div className="flex flex-col gap-4 fade-in">
               <p className="text-xs text-hive-muted leading-relaxed">
-                Returns the Target/Action/Means composition axes, plain-language description in all 7 languages, and verified incumbent crosswalk mappings for a specific OMNI code ID.
+                Returns the Target/Action/Means composition axes, plain-language description in all 7 languages, and verified incumbent crosswalk mappings for a specific O.M.N.I. code ID.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center gap-4 bg-[#090909] border border-hive-border p-4 rounded-xl">
@@ -134,7 +134,7 @@ export default function ApiDocs() {
           {activeTab === "convert" && (
             <div className="flex flex-col gap-4 fade-in">
               <p className="text-xs text-hive-muted leading-relaxed">
-                Translates any legacy clinical nomenclature (CPT, ICHI stem, SNOMED concept ID, ICD-10, ICD-11) or raw composition brackets to its parsed OMNI standard equivalent.
+                Translates any legacy clinical nomenclature (CPT, ICHI stem, SNOMED concept ID, ICD-10, ICD-11) or raw composition brackets to its parsed O.M.N.I. standard equivalent.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center gap-4 bg-[#090909] border border-hive-border p-4 rounded-xl">

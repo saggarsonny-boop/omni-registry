@@ -62,7 +62,7 @@ export default function HiveHeader() {
           <OMNILogo size={32} className="group-hover:scale-105 transition-transform duration-200" />
           <span className="flex flex-col">
             <span className="font-display font-bold text-hive-paper-text text-sm md:text-base tracking-wide leading-tight group-hover:text-hive-gold transition-colors duration-200">
-              OMNI Registry
+              O.M.N.I. Registry
             </span>
             <span className="text-[10px] text-hive-muted font-mono tracking-wider leading-none">
               v0.1.0 · SEED

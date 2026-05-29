@@ -96,7 +96,7 @@ export default function Browse() {
             <OMNILogo size={52} />
             <div className="flex flex-col">
               <h1 className="font-display font-bold text-3xl text-hive-paper-text tracking-wide leading-tight">
-                OMNI Code Browser
+                O.M.N.I. Code Browser
               </h1>
               <p className="text-sm text-hive-muted font-mono tracking-wider mt-0.5">
                 Seed Standard Publication v0.1.0 · {seedCodes.length} codes verified

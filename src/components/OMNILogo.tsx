@@ -4,17 +4,18 @@ import React from "react";
 interface OMNILogoProps {
   size?: number;
   className?: string;
+  variant?: "emblem" | "full";
 }
 
-export default function OMNILogo({ size = 48, className = "" }: OMNILogoProps) {
-  return (
+export default function OMNILogo({ size = 48, className = "", variant = "emblem" }: OMNILogoProps) {
+  const emblem = (
     <svg
       viewBox="0 0 100 86.6"
       width={size}
       height={Math.round((size * 86.6) / 100)}
       role="img"
-      aria-label="OMNI Logo"
-      className={`inline-block select-none ${className}`}
+      aria-label="O.M.N.I. Emblem"
+      className={`inline-block select-none ${variant === "emblem" ? className : ""}`}
       style={{ verticalAlign: "middle", flex: "0 0 auto" }}
     >
       <defs>
@@ -65,23 +66,45 @@ export default function OMNILogo({ size = 48, className = "" }: OMNILogoProps) {
         strokeLinejoin="round"
       />
 
-      {/* Styled O Mark centered in the Hexagon */}
-      <circle
-        cx="50"
-        cy="43.3"
-        r="20"
-        fill="none"
-        stroke="url(#omni-text-grad)"
-        strokeWidth="7"
-      />
-      <circle
-        cx="50"
-        cy="43.3"
-        r="11"
-        fill="none"
-        stroke="rgba(0,0,0,0.25)"
-        strokeWidth="1.5"
-      />
+      {/* Styled O.M.N.I. text centered inside the Hexagon */}
+      <text
+        x="50"
+        y="49.5"
+        textAnchor="middle"
+        fill="url(#omni-text-grad)"
+        fontSize="13"
+        fontWeight="900"
+        letterSpacing="0.02em"
+        style={{
+          fontFamily: "var(--font-display), Georgia, serif",
+          filter: "drop-shadow(0px 1.5px 1.5px rgba(0,0,0,0.85))"
+        }}
+      >
+        O.M.N.I.
+      </text>
     </svg>
+  );
+
+  if (variant === "emblem") {
+    return emblem;
+  }
+
+  return (
+    <div className={`flex flex-col items-center text-center gap-5 ${className}`}>
+      {/* Dynamic Gold-Accented Hexagon Emblem */}
+      <div className="p-3 bg-hive-paper/60 border border-hive-border rounded-2xl hive-glass hive-glow mb-1">
+        {emblem}
+      </div>
+
+      {/* Typography Lockup */}
+      <div className="flex flex-col gap-2 select-none">
+        <h1 className="font-display font-extrabold text-5xl md:text-7xl text-hive-paper-text tracking-widest drop-shadow-md">
+          O.M.N.I.
+        </h1>
+        <p className="font-mono text-hive-gold text-xs md:text-sm uppercase tracking-[0.25em] font-semibold">
+          The New Standard For Medical Code
+        </p>
+      </div>
+    </div>
   );
 }

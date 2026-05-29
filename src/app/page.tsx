@@ -29,20 +29,13 @@ export default function Home() {
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-hive-gold/5 rounded-full filter blur-[100px] pointer-events-none" />
 
         <div className="max-w-4xl mx-auto flex flex-col items-center gap-8 relative z-10">
-          {/* Glowing Emblem */}
-          <div className="p-3 bg-hive-paper/60 border border-hive-border rounded-2xl hive-glass hive-glow mb-2">
-            <OMNILogo size={84} />
-          </div>
+          {/* Glowing Emblem & Lockup */}
+          <OMNILogo size={84} variant="full" />
 
-          {/* OMNI Title & Expansion */}
-          <div className="flex flex-col gap-2">
-            <h1 className="font-display font-bold text-5xl md:text-7xl text-hive-paper-text tracking-wide drop-shadow-md">
-              OMNI
-            </h1>
-            <p className="font-mono text-hive-gold text-xs md:text-sm uppercase tracking-[0.25em] font-semibold">
-              {t("tagline", activeLocale)}
-            </p>
-          </div>
+          {/* Literal Standard Expansion in Active Locale */}
+          <p className="font-mono text-hive-muted/80 text-[10px] md:text-xs uppercase tracking-wider -mt-4">
+            ({t("tagline", activeLocale)})
+          </p>
 
           {/* Core Description Tagline */}
           <p className="max-w-2xl text-base md:text-lg text-hive-muted leading-relaxed font-light">

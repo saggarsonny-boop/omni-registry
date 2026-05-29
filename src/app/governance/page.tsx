@@ -25,11 +25,11 @@ export default function Governance() {
           <div className="absolute top-0 right-0 w-32 h-32 bg-hive-gold/5 rounded-full filter blur-2xl pointer-events-none" />
           
           <h2 className="font-display font-semibold text-xl md:text-2xl text-hive-paper-text">
-            OMNI Open Proposal Phase
+            O.M.N.I. Open Proposal Phase
           </h2>
           
           <p className="text-base text-hive-muted leading-relaxed">
-            The OMNI (Open Medical Nomenclature and Interventions) project is currently in its initial proposal stage. As we work to formalize the standard alongside Sonny Saggar MD's SSRN paper, the underlying nomenclature axes (Target, Action, Means) are offered freely for public and clinical use under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. We welcome clinical reviews, system integrations, and codebase forks. In order to safeguard the vocabulary from future private capture, an independent foundation handoff is anticipated as the registry scales to its v1.0 production release.
+            The O.M.N.I. (Open Medical Nomenclature and Interventions) project is currently in its initial proposal stage. As we work to formalize the standard alongside Sonny Saggar MD's SSRN paper, the underlying nomenclature axes (Target, Action, Means) are offered freely for public and clinical use under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. We welcome clinical reviews, system integrations, and codebase forks. In order to safeguard the vocabulary from future private capture, an independent foundation handoff is anticipated as the registry scales to its v1.0 production release.
           </p>
 
           <div className="border-t border-hive-border/30 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 mt-2">

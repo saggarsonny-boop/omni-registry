@@ -8,7 +8,7 @@ export default function Paper() {
   const [copiedType, setCopiedType] = useState<"bibtex" | "apa" | null>(null);
 
   const bibtex = `@article{saggar2026omni,
-  title={No One Can Own the Language of Medicine: The OMNI Standard Proposal},
+  title={No One Can Own the Language of Medicine: The O.M.N.I. Standard Proposal},
   author={Saggar, Sonny},
   journal={SSRN Electronic Journal},
   year={2026},
@@ -16,7 +16,7 @@ export default function Paper() {
   url={https://omni.universaldocument.org}
 }`;
 
-  const apa = `Saggar, S. (2026). No One Can Own the Language of Medicine: The OMNI Standard Proposal. SSRN Electronic Journal. Retrieved from https://omni.universaldocument.org`;
+  const apa = `Saggar, S. (2026). No One Can Own the Language of Medicine: The O.M.N.I. Standard Proposal. SSRN Electronic Journal. Retrieved from https://omni.universaldocument.org`;
 
   const copyToClipboard = (text: string, type: "bibtex" | "apa") => {
     navigator.clipboard.writeText(text);
@@ -70,7 +70,7 @@ export default function Paper() {
               Abstract
             </h3>
             <p className="font-display text-base md:text-lg leading-relaxed text-hive-paper-text/90 text-justify italic pl-4 border-l-2 border-hive-gold">
-              Medical coding structures in the United States and globally have been monopolized by copyrighted, proprietary nomenclature frameworks. Current Procedural Terminology (CPT), owned by the American Medical Association, generates substantial licensing revenues, placing financial toll booths on standard clinical dialogue. This paper proposes the Open Medical Nomenclature and Interventions (OMNI) standard—a royalty-free, public replacement. OMNI builds directly on the World Health Organization's ICHI axis taxonomy and SNOMED CT compositional grammar. By separating the vocabulary standard from private commercial capture, OMNI provides a clean, machine-readable, and convertible framework to democratize clinical communication.
+              Medical coding structures in the United States and globally have been monopolized by copyrighted, proprietary nomenclature frameworks. Current Procedural Terminology (CPT), owned by the American Medical Association, generates substantial licensing revenues, placing financial toll booths on standard clinical dialogue. This paper proposes the Open Medical Nomenclature and Interventions (O.M.N.I.) standard—a royalty-free, public replacement. O.M.N.I. builds directly on the World Health Organization's ICHI axis taxonomy and SNOMED CT compositional grammar. By separating the vocabulary standard from private commercial capture, O.M.N.I. provides a clean, machine-readable, and convertible framework to democratize clinical communication.
             </p>
           </div>
 

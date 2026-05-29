@@ -41,7 +41,7 @@ export default function Convert() {
           <OMNILogo size={52} />
           <div className="flex flex-col">
             <h1 className="font-display font-bold text-3xl text-hive-paper-text tracking-wide leading-tight">
-              Universal OMNI Converter
+              Universal O.M.N.I. Converter
             </h1>
             <p className="text-sm text-hive-muted font-mono tracking-wider mt-0.5">
               Instant, client-side translation between clinical vocabularies
