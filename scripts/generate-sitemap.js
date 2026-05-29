@@ -50,6 +50,12 @@ try {
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://omni.universaldocument.org/integrate</loc>
+    <lastmod>${currentDate}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 `;
 
   // Add all 53 medical codes dynamically
