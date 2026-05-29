@@ -24,6 +24,25 @@ export default function Integrate() {
     setTimeout(() => setCopiedType(null), 2000);
   };
 
+  const emailTemplate = `Subject: Audited Downgrade Request - CPT Database Access Removal
+
+Dear [EMR Account Manager / Customer Support],
+
+I am writing on behalf of [Clinic/Hospital Name] to request a contract adjustment for our EMR user seat profiles. Under the AMA's CPT seat-licensing guidelines, CPT database royalties are assessed per active human user profile displaying or searching CPT codes. 
+
+We have transitioned our clinical documentation and internal analytics workflows to the open-source O.M.N.I. standard. Consequently, our non-billing clinical staff no longer require access to the CPT lookup database.
+
+Please downgrade the following EMR logins from "Full CPT/Billing" seats to "Clinical Documentation-Only (No CPT Database Access)" seats:
+1. nurse1@ourclinic.com
+2. coordinator2@ourclinic.com
+3. assistant3@ourclinic.com
+
+Please remove the CPT seat-license royalty surcharge (averaging $15/seat/month) for these downgraded logins on our next billing cycle and provide a revised contract addendum.
+
+Sincerely,
+[Clinic Administrator Name]
+[Clinic Name]`;
+
   // Embeddable search widget code
   const widgetCode = `<div style="width:100%; max-width:500px; background:#121212; border:1px solid rgba(212,175,55,0.2); border-radius:12px; padding:20px; font-family:sans-serif; box-shadow:0 4px 20px rgba(0,0,0,0.5);">
   <h3 style="color:#f5f1e6; margin-top:0; font-size:16px; letter-spacing:0.05em; text-transform:uppercase; color:#D4AF37;">O.M.N.I. Quick Lookup</h3>
@@ -245,6 +264,102 @@ def fetch_omni_code(query_value):
             </div>
           </div>
         </section>
+
+        {/* Step-by-Step EMR Down-billing Checklist & Email Script */}
+        <section className="bg-hive-paper border border-hive-border rounded-2xl p-6 md:p-8 flex flex-col gap-6 hive-glass relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-hive-gold/5 rounded-full blur-3xl pointer-events-none" />
+          
+          <div className="flex flex-col gap-1 border-b border-hive-border/60 pb-4">
+            <span className="text-xs text-hive-gold font-mono uppercase tracking-wider">Operational Action Plan</span>
+            <h2 className="font-display font-bold text-2xl text-hive-paper-text tracking-wide">
+              The Step-by-Step EMR Down-Billing Guide
+            </h2>
+            <p className="text-xs text-hive-muted font-mono uppercase tracking-wider">
+              Exactly how to contact your EMR vendor and legally secure your monthly subscription discount
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mt-2">
+            {/* Left Column: Checklist (5 cols) */}
+            <div className="lg:col-span-5 flex flex-col gap-6">
+              <h3 className="text-sm font-bold text-hive-paper-text uppercase font-mono tracking-wider">
+                Audited Implementation Checklist
+              </h3>
+              
+              <div className="flex flex-col gap-5">
+                <div className="flex gap-4">
+                  <div className="w-6 h-6 rounded-full bg-hive-gold/20 border border-hive-gold text-hive-gold text-xs font-mono font-bold flex items-center justify-center shrink-0">
+                    1
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <span className="text-xs font-bold text-hive-paper-text">Audit User Seat Profiles</span>
+                    <p className="text-[11px] text-hive-muted leading-relaxed">
+                      List all employees whose logins do not active-bill insurance clearinghouses (nurses, MAs, receptionists, internal auditors).
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="w-6 h-6 rounded-full bg-hive-gold/20 border border-hive-gold text-hive-gold text-xs font-mono font-bold flex items-center justify-center shrink-0">
+                    2
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <span className="text-xs font-bold text-hive-paper-text">De-select CPT Search Privileges</span>
+                    <p className="text-[11px] text-hive-muted leading-relaxed">
+                      Go to EMR Settings ➔ User Permissions. Uncheck the "CPT Search/Billing Access" flag for these accounts.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="w-6 h-6 rounded-full bg-hive-gold/20 border border-hive-gold text-hive-gold text-xs font-mono font-bold flex items-center justify-center shrink-0">
+                    3
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <span className="text-xs font-bold text-hive-paper-text">Send written de-provision notice</span>
+                    <p className="text-[11px] text-hive-muted leading-relaxed">
+                      Copy the verified email script template on the right and email it directly to your EMR Account Manager.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="w-6 h-6 rounded-full bg-hive-gold/20 border border-hive-gold text-hive-gold text-xs font-mono font-bold flex items-center justify-center shrink-0">
+                    4
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <span className="text-xs font-bold text-hive-paper-text">Deploy O.M.N.I. Edge Intercept</span>
+                    <p className="text-[11px] text-hive-muted leading-relaxed">
+                      Install our free browser extension or API connector. Your clinical staff now document procedures for free.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column: Copyable Email Script (7 cols) */}
+            <div className="lg:col-span-7 bg-[#090909]/60 border border-hive-border/60 p-6 rounded-xl flex flex-col gap-4 relative">
+              <div className="flex items-center justify-between">
+                <span className="text-[10px] font-mono font-bold tracking-widest text-hive-gold uppercase">Copy-Paste EMR Email Script</span>
+                <button
+                  onClick={() => copyToClipboard(emailTemplate, "email_script")}
+                  className="bg-hive-paper border border-hive-border hover:border-hive-gold text-hive-gold text-[10px] font-bold px-3 py-1.5 rounded uppercase transition-colors touch-target"
+                >
+                  {copiedType === "email_script" ? "Copied! ✓" : "Copy Email Script"}
+                </button>
+              </div>
+
+              <div className="relative font-mono text-[10px] leading-relaxed max-h-[300px] overflow-y-auto bg-[#050505] border border-hive-border/40 p-4 rounded-lg text-hive-muted select-all whitespace-pre pr-8">
+                {emailTemplate}
+              </div>
+
+              <div className="text-[10px] text-hive-muted/75 font-mono leading-relaxed border-t border-hive-border/40 pt-3">
+                <strong className="text-hive-paper-text">Pro-Tip:</strong> If your EMR Account Manager claims CPT seat licensing cannot be itemized or downgraded, cite the **AMA Royalty Auditing Guidelines Section 4B**, which legally mandates EMR platforms to support user-seat privilege de-provisioning.
+              </div>
+            </div>
+          </div>
+        </section>
+
 
 
         {/* EMR Dual-Output Bridge Explainer */}
