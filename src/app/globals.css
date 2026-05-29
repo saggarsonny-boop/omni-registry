@@ -114,3 +114,46 @@ body {
   min-width: 44px;
   min-height: 44px;
 }
+
+/* Print styles for elegant academic PDF formatting */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+  header, footer, nav, button, .no-print, [role="banner"], [role="contentinfo"] {
+    display: none !important;
+  }
+  .print-container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+  .print-title {
+    font-size: 22pt !important;
+    color: #000000 !important;
+    text-align: center !important;
+    margin-bottom: 15pt !important;
+    font-family: Georgia, serif !important;
+  }
+  .print-abstract {
+    font-style: italic !important;
+    border-left: 2px solid #000000 !important;
+    padding-left: 10pt !important;
+    margin: 15pt 0 !important;
+  }
+  .print-content {
+    column-count: 2 !important;
+    column-gap: 20pt !important;
+    font-family: Georgia, serif !important;
+    text-align: justify !important;
+  }
+  @page {
+    margin: 2cm;
+  }
+}
