@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-017648642",
+  "composition": {
+    "target": "skin",
+    "action": "inspection",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the skin lesion under high-frequency sound wave mapping",
+    "es": "Visualización endoscópica de lesión de piel bajo guía de ecografía en tiempo real",
+    "fr": "Visualisation endoscopique de lésion cutanée sous guidage échographique en temps réel",
+    "ar": "فحص بالمنظار لـ آفة جلدية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में त्वचा की क्षति (घाव) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "在超声波实时定位引导下内镜直视检查皮肤病变",
+    "pt": "Visualização endoscópica de lesão de pele sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "88642",
+    "ichi": "SKI.IN.UL",
+    "snomed_ct": "940048642",
+    "icd11_pcs": "SIU1.0",
+    "icd10_cm": "0SB642Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

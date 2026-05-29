@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0116687500",
+  "composition": {
+    "target": "heart",
+    "action": "excision",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the heart through an open incision",
+    "es": "Extirpación quirúrgica de corazón a través de una incisión abierta",
+    "fr": "Ablation chirurgicale de cœur par incision ouverte",
+    "ar": "استئصال جراحي لـ القلب عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा हृदय का सर्जरी द्वारा निकालना",
+    "zh": "通过开放性切口进行手术切除心脏",
+    "pt": "Remoção cirúrgica de coração através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "87500",
+    "ichi": "HEA.EX.OP",
+    "snomed_ct": "940087500",
+    "icd11_pcs": "HEO1.0",
+    "icd10_cm": "0HB500Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

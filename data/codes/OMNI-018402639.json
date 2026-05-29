@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-018402639",
+  "composition": {
+    "target": "blood vessels",
+    "action": "repair",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the blood vessels with infusion of contrast fluid and X-ray mapping",
+    "es": "Reconstrucción anatómica de vasos sanguíneos con infusión de líquido de contraste y radiografías",
+    "fr": "Reconstruction anatomique de vaisseaux sanguins avec injection de produit de contraste et radiographie",
+    "ar": "إعادة بناء تشريحية لـ الأوعية الدموية مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ रक्त वाहिकाएं का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "配合造影剂灌注及X光造影结构修补与重建血管",
+    "pt": "Reconstrução anatômica de vasos sanguíneos com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "82639",
+    "ichi": "BLO.RE.CO",
+    "snomed_ct": "940002639",
+    "icd11_pcs": "BRC1.0",
+    "icd10_cm": "0BB639Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0110560391",
+  "composition": {
+    "target": "shoulder joint",
+    "action": "inspection",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the shoulder joint through an open incision",
+    "es": "Visualización endoscópica de articulación del hombro a través de una incisión abierta",
+    "fr": "Visualisation endoscopique de articulation de l'épaule par incision ouverte",
+    "ar": "فحص بالمنظار لـ مفصل الكتف عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा कंधे का जोड़ का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "通过开放性切口进行内镜直视检查肩关节",
+    "pt": "Visualização endoscópica de articulação do ombro através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "80391",
+    "ichi": "SHO.IN.OP",
+    "snomed_ct": "940060391",
+    "icd11_pcs": "SIO1.0",
+    "icd10_cm": "0SB391Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

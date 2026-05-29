@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0116579124",
+  "composition": {
+    "target": "tonsils",
+    "action": "biopsy",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the tonsils through an open incision",
+    "es": "Extracción de muestra de tejido de amígdalas a través de una incisión abierta",
+    "fr": "Prélèvement de tissu pour biopsie de amygdales par incision ouverte",
+    "ar": "أخذ عينة من الأنسجة لـ اللوزتين عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा टॉन्सिल का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "通过开放性切口进行针吸组织活检扁桃体",
+    "pt": "Extração de fragmento tecidual de amígdalas através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "89124",
+    "ichi": "TON.BI.OP",
+    "snomed_ct": "940079124",
+    "icd11_pcs": "TBO1.0",
+    "icd10_cm": "0TB124Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-019785644",
+  "composition": {
+    "target": "stomach",
+    "action": "excision",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the stomach through an open incision",
+    "es": "Extirpación quirúrgica de estómago a través de una incisión abierta",
+    "fr": "Ablation chirurgicale de estomac par incision ouverte",
+    "ar": "استئصال جراحي لـ المعدة عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा आमाशय (पेट) का सर्जरी द्वारा निकालना",
+    "zh": "通过开放性切口进行手术切除胃部",
+    "pt": "Remoção cirúrgica de estômago através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "85644",
+    "ichi": "STO.EX.OP",
+    "snomed_ct": "940085644",
+    "icd11_pcs": "SEO1.0",
+    "icd10_cm": "0SB644Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

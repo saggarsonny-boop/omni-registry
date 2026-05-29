@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011274769",
+  "composition": {
+    "target": "blood vessels",
+    "action": "excision",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the blood vessels with infusion of contrast fluid and X-ray mapping",
+    "es": "Extirpación quirúrgica de vasos sanguíneos con infusión de líquido de contraste y radiografías",
+    "fr": "Ablation chirurgicale de vaisseaux sanguins avec injection de produit de contraste et radiographie",
+    "ar": "استئصال جراحي لـ الأوعية الدموية مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ रक्त वाहिकाएं का सर्जरी द्वारा निकालना",
+    "zh": "配合造影剂灌注及X光造影手术切除血管",
+    "pt": "Remoção cirúrgica de vasos sanguíneos com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "84769",
+    "ichi": "BLO.EX.CO",
+    "snomed_ct": "940074769",
+    "icd11_pcs": "BEC1.0",
+    "icd10_cm": "0BB769Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

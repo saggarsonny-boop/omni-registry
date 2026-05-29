@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-013817447",
+  "composition": {
+    "target": "skin",
+    "action": "repair",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the skin lesion under high-frequency sound wave mapping",
+    "es": "Reconstrucción anatómica de lesión de piel bajo guía de ecografía en tiempo real",
+    "fr": "Reconstruction anatomique de lésion cutanée sous guidage échographique en temps réel",
+    "ar": "إعادة بناء تشريحية لـ آفة جلدية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में त्वचा की क्षति (घाव) का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "在超声波实时定位引导下结构修补与重建皮肤病变",
+    "pt": "Reconstrução anatômica de lesão de pele sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "87447",
+    "ichi": "SKI.RE.UL",
+    "snomed_ct": "940017447",
+    "icd11_pcs": "SRU1.0",
+    "icd10_cm": "0SB447Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

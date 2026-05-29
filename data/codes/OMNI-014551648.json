@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-014551648",
+  "composition": {
+    "target": "kidney",
+    "action": "biopsy",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the kidney through an open incision",
+    "es": "Extracción de muestra de tejido de riñón a través de una incisión abierta",
+    "fr": "Prélèvement de tissu pour biopsie de rein par incision ouverte",
+    "ar": "أخذ عينة من الأنسجة لـ الكلية عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा गुर्दा (किडनी) का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "通过开放性切口进行针吸组织活检肾脏",
+    "pt": "Extração de fragmento tecidual de rim através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "81648",
+    "ichi": "KID.BI.OP",
+    "snomed_ct": "940051648",
+    "icd11_pcs": "KBO1.0",
+    "icd10_cm": "0KB648Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

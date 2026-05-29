@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0114990585",
+  "composition": {
+    "target": "skin",
+    "action": "imaging",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the skin lesion under high-frequency sound wave mapping",
+    "es": "Escaneo de diagnóstico por imágenes de lesión de piel bajo guía de ecografía en tiempo real",
+    "fr": "Scanner d'imagerie diagnostique de lésion cutanée sous guidage échographique en temps réel",
+    "ar": "تصوير تشخيصي لـ آفة جلدية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में त्वचा की क्षति (घाव) का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "在超声波实时定位引导下诊断影像学扫描皮肤病变",
+    "pt": "Exame de imagem diagnóstica de lesão de pele sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "80585",
+    "ichi": "SKI.IM.UL",
+    "snomed_ct": "940090585",
+    "icd11_pcs": "SIU1.0",
+    "icd10_cm": "0SB585Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

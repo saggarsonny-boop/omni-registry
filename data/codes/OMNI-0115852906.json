@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0115852906",
+  "composition": {
+    "target": "thyroid gland",
+    "action": "excision",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the thyroid gland using keyhole minimally invasive access",
+    "es": "Extirpación quirúrgica de glándula tiroides usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Ablation chirurgicale de glande thyroïde par accès laparoscopique minimalement invasif",
+    "ar": "استئصال جراحي لـ الغدة الدرقية باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा थायराइड ग्रंथि का सर्जरी द्वारा निकालना",
+    "zh": "采用微创内镜入路手术切除甲状腺",
+    "pt": "Remoção cirúrgica de glândula tireoide usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "82906",
+    "ichi": "THY.EX.PE",
+    "snomed_ct": "940052906",
+    "icd11_pcs": "TEP1.0",
+    "icd10_cm": "0TB906Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

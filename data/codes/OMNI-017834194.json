@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-017834194",
+  "composition": {
+    "target": "kidney",
+    "action": "repair",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the kidney under high-frequency sound wave mapping",
+    "es": "Reconstrucción anatómica de riñón bajo guía de ecografía en tiempo real",
+    "fr": "Reconstruction anatomique de rein sous guidage échographique en temps réel",
+    "ar": "إعادة بناء تشريحية لـ الكلية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में गुर्दा (किडनी) का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "在超声波实时定位引导下结构修补与重建肾脏",
+    "pt": "Reconstrução anatômica de rim sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "84194",
+    "ichi": "KID.RE.UL",
+    "snomed_ct": "940034194",
+    "icd11_pcs": "KRU1.0",
+    "icd10_cm": "0KB194Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

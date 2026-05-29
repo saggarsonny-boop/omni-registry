@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-019474735",
+  "composition": {
+    "target": "heart",
+    "action": "repair",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the heart with infusion of contrast fluid and X-ray mapping",
+    "es": "Reconstrucción anatómica de corazón con infusión de líquido de contraste y radiografías",
+    "fr": "Reconstruction anatomique de cœur avec injection de produit de contraste et radiographie",
+    "ar": "إعادة بناء تشريحية لـ القلب مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ हृदय का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "配合造影剂灌注及X光造影结构修补与重建心脏",
+    "pt": "Reconstrução anatômica de coração com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "84735",
+    "ichi": "HEA.RE.CO",
+    "snomed_ct": "940074735",
+    "icd11_pcs": "HRC1.0",
+    "icd10_cm": "0HB735Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

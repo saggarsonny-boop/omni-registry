@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0112100237",
+  "composition": {
+    "target": "stomach",
+    "action": "excision",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the stomach with infusion of contrast fluid and X-ray mapping",
+    "es": "Extirpación quirúrgica de estómago con infusión de líquido de contraste y radiografías",
+    "fr": "Ablation chirurgicale de estomac avec injection de produit de contraste et radiographie",
+    "ar": "استئصال جراحي لـ المعدة مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ आमाशय (पेट) का सर्जरी द्वारा निकालना",
+    "zh": "配合造影剂灌注及X光造影手术切除胃部",
+    "pt": "Remoção cirúrgica de estômago com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "80237",
+    "ichi": "STO.EX.CO",
+    "snomed_ct": "940000237",
+    "icd11_pcs": "SEC1.0",
+    "icd10_cm": "0SB237Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

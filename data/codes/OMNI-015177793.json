@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-015177793",
+  "composition": {
+    "target": "pancreas",
+    "action": "imaging",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the pancreas under high-frequency sound wave mapping",
+    "es": "Escaneo de diagnóstico por imágenes de páncreas bajo guía de ecografía en tiempo real",
+    "fr": "Scanner d'imagerie diagnostique de pancréas sous guidage échographique en temps réel",
+    "ar": "تصوير تشخيصي لـ البنكرياس بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में अग्नाशय (पैनक्रियाज) का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "在超声波实时定位引导下诊断影像学扫描胰腺",
+    "pt": "Exame de imagem diagnóstica de pâncreas sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "87793",
+    "ichi": "PAN.IM.UL",
+    "snomed_ct": "940077793",
+    "icd11_pcs": "PIU1.0",
+    "icd10_cm": "0PB793Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

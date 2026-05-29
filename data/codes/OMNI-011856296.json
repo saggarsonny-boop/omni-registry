@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011856296",
+  "composition": {
+    "target": "heart",
+    "action": "biopsy",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the heart with infusion of contrast fluid and X-ray mapping",
+    "es": "Extracción de muestra de tejido de corazón con infusión de líquido de contraste y radiografías",
+    "fr": "Prélèvement de tissu pour biopsie de cœur avec injection de produit de contraste et radiographie",
+    "ar": "أخذ عينة من الأنسجة لـ القلب مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ हृदय का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "配合造影剂灌注及X光造影针吸组织活检心脏",
+    "pt": "Extração de fragmento tecidual de coração com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "86296",
+    "ichi": "HEA.BI.CO",
+    "snomed_ct": "940056296",
+    "icd11_pcs": "HBC1.0",
+    "icd10_cm": "0HB296Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

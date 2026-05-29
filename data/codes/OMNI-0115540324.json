@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0115540324",
+  "composition": {
+    "target": "liver",
+    "action": "imaging",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the liver under high-frequency sound wave mapping",
+    "es": "Escaneo de diagnóstico por imágenes de hígado bajo guía de ecografía en tiempo real",
+    "fr": "Scanner d'imagerie diagnostique de foie sous guidage échographique en temps réel",
+    "ar": "تصوير تشخيصي لـ الكبد بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में यकृत (लीवर) का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "在超声波实时定位引导下诊断影像学扫描肝脏",
+    "pt": "Exame de imagem diagnóstica de fígado sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "80324",
+    "ichi": "LIV.IM.UL",
+    "snomed_ct": "940040324",
+    "icd11_pcs": "LIU1.0",
+    "icd10_cm": "0LB324Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

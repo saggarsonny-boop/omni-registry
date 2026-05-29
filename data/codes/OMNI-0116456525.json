@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0116456525",
+  "composition": {
+    "target": "pancreas",
+    "action": "repair",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the pancreas under high-frequency sound wave mapping",
+    "es": "Reconstrucción anatómica de páncreas bajo guía de ecografía en tiempo real",
+    "fr": "Reconstruction anatomique de pancréas sous guidage échographique en temps réel",
+    "ar": "إعادة بناء تشريحية لـ البنكرياس بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में अग्नाशय (पैनक्रियाज) का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "在超声波实时定位引导下结构修补与重建胰腺",
+    "pt": "Reconstrução anatômica de pâncreas sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "86525",
+    "ichi": "PAN.RE.UL",
+    "snomed_ct": "940056525",
+    "icd11_pcs": "PRU1.0",
+    "icd10_cm": "0PB525Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0111826303",
+  "composition": {
+    "target": "nasal passage",
+    "action": "imaging",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the nasal passage with infusion of contrast fluid and X-ray mapping",
+    "es": "Escaneo de diagnóstico por imágenes de pasaje nasal con infusión de líquido de contraste y radiografías",
+    "fr": "Scanner d'imagerie diagnostique de fosses nasales avec injection de produit de contraste et radiographie",
+    "ar": "تصوير تشخيصي لـ الممر الأنفي مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ नाक का रास्ता का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "配合造影剂灌注及X光造影诊断影像学扫描鼻腔通道",
+    "pt": "Exame de imagem diagnóstica de passagem nasal com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "86303",
+    "ichi": "NAS.IM.CO",
+    "snomed_ct": "940026303",
+    "icd11_pcs": "NIC1.0",
+    "icd10_cm": "0NB303Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

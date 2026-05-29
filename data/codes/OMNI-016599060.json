@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-016599060",
+  "composition": {
+    "target": "thyroid gland",
+    "action": "imaging",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the thyroid gland with infusion of contrast fluid and X-ray mapping",
+    "es": "Escaneo de diagnóstico por imágenes de glándula tiroides con infusión de líquido de contraste y radiografías",
+    "fr": "Scanner d'imagerie diagnostique de glande thyroïde avec injection de produit de contraste et radiographie",
+    "ar": "تصوير تشخيصي لـ الغدة الدرقية مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ थायराइड ग्रंथि का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "配合造影剂灌注及X光造影诊断影像学扫描甲状腺",
+    "pt": "Exame de imagem diagnóstica de glândula tireoide com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "89060",
+    "ichi": "THY.IM.CO",
+    "snomed_ct": "940099060",
+    "icd11_pcs": "TIC1.0",
+    "icd10_cm": "0TB060Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

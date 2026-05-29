@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-014740352",
+  "composition": {
+    "target": "lung",
+    "action": "biopsy",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the lung through an open incision",
+    "es": "Extracción de muestra de tejido de pulmón a través de una incisión abierta",
+    "fr": "Prélèvement de tissu pour biopsie de poumon par incision ouverte",
+    "ar": "أخذ عينة من الأنسجة لـ الرئة عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा फेफड़ा का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "通过开放性切口进行针吸组织活检肺部",
+    "pt": "Extração de fragmento tecidual de pulmão através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "80352",
+    "ichi": "LUN.BI.OP",
+    "snomed_ct": "940040352",
+    "icd11_pcs": "LBO1.0",
+    "icd10_cm": "0LB352Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

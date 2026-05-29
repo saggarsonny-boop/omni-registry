@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-019578289",
+  "composition": {
+    "target": "kidney",
+    "action": "inspection",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the kidney under high-frequency sound wave mapping",
+    "es": "Visualización endoscópica de riñón bajo guía de ecografía en tiempo real",
+    "fr": "Visualisation endoscopique de rein sous guidage échographique en temps réel",
+    "ar": "فحص بالمنظار لـ الكلية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में गुर्दा (किडनी) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "在超声波实时定位引导下内镜直视检查肾脏",
+    "pt": "Visualização endoscópica de rim sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "88289",
+    "ichi": "KID.IN.UL",
+    "snomed_ct": "940078289",
+    "icd11_pcs": "KIU1.0",
+    "icd10_cm": "0KB289Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

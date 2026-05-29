@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0112507896",
+  "composition": {
+    "target": "spleen",
+    "action": "repair",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the spleen under high-frequency sound wave mapping",
+    "es": "Reconstrucción anatómica de bazo bajo guía de ecografía en tiempo real",
+    "fr": "Reconstruction anatomique de rate sous guidage échographique en temps réel",
+    "ar": "إعادة بناء تشريحية لـ الطحال بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में प्लीहा (तिल्ली) का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "在超声波实时定位引导下结构修补与重建脾脏",
+    "pt": "Reconstrução anatômica de baço sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "87896",
+    "ichi": "SPL.RE.UL",
+    "snomed_ct": "940007896",
+    "icd11_pcs": "SRU1.0",
+    "icd10_cm": "0SB896Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

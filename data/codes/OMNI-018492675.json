@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-018492675",
+  "composition": {
+    "target": "blood vessels",
+    "action": "biopsy",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the blood vessels under high-frequency sound wave mapping",
+    "es": "Extracción de muestra de tejido de vasos sanguíneos bajo guía de ecografía en tiempo real",
+    "fr": "Prélèvement de tissu pour biopsie de vaisseaux sanguins sous guidage échographique en temps réel",
+    "ar": "أخذ عينة من الأنسجة لـ الأوعية الدموية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में रक्त वाहिकाएं का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "在超声波实时定位引导下针吸组织活检血管",
+    "pt": "Extração de fragmento tecidual de vasos sanguíneos sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "82675",
+    "ichi": "BLO.BI.UL",
+    "snomed_ct": "940092675",
+    "icd11_pcs": "BBU1.0",
+    "icd10_cm": "0BB675Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

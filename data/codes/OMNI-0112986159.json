@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0112986159",
+  "composition": {
+    "target": "urinary bladder",
+    "action": "inspection",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the urinary bladder under high-frequency sound wave mapping",
+    "es": "Visualización endoscópica de vejiga urinaria bajo guía de ecografía en tiempo real",
+    "fr": "Visualisation endoscopique de vessie sous guidage échographique en temps réel",
+    "ar": "فحص بالمنظار لـ المثانة البولية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मूत्राशय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "在超声波实时定位引导下内镜直视检查膀胱",
+    "pt": "Visualização endoscópica de bexiga urinária sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "86159",
+    "ichi": "URI.IN.UL",
+    "snomed_ct": "940086159",
+    "icd11_pcs": "UIU1.0",
+    "icd10_cm": "0UB159Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

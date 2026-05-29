@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0113281306",
+  "composition": {
+    "target": "pancreas",
+    "action": "excision",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the pancreas using keyhole minimally invasive access",
+    "es": "Extirpación quirúrgica de páncreas usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Ablation chirurgicale de pancréas par accès laparoscopique minimalement invasif",
+    "ar": "استئصال جراحي لـ البنكرياس باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा अग्नाशय (पैनक्रियाज) का सर्जरी द्वारा निकालना",
+    "zh": "采用微创内镜入路手术切除胰腺",
+    "pt": "Remoção cirúrgica de pâncreas usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "81306",
+    "ichi": "PAN.EX.PE",
+    "snomed_ct": "940081306",
+    "icd11_pcs": "PEP1.0",
+    "icd10_cm": "0PB306Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

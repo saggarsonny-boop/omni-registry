@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-015317696",
+  "composition": {
+    "target": "urinary bladder",
+    "action": "excision",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the urinary bladder with infusion of contrast fluid and X-ray mapping",
+    "es": "Extirpación quirúrgica de vejiga urinaria con infusión de líquido de contraste y radiografías",
+    "fr": "Ablation chirurgicale de vessie avec injection de produit de contraste et radiographie",
+    "ar": "استئصال جراحي لـ المثانة البولية مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मूत्राशय का सर्जरी द्वारा निकालना",
+    "zh": "配合造影剂灌注及X光造影手术切除膀胱",
+    "pt": "Remoção cirúrgica de bexiga urinária com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "87696",
+    "ichi": "URI.EX.CO",
+    "snomed_ct": "940017696",
+    "icd11_pcs": "UEC1.0",
+    "icd10_cm": "0UB696Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-016003148",
+  "composition": {
+    "target": "shoulder joint",
+    "action": "imaging",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the shoulder joint under high-frequency sound wave mapping",
+    "es": "Escaneo de diagnóstico por imágenes de articulación del hombro bajo guía de ecografía en tiempo real",
+    "fr": "Scanner d'imagerie diagnostique de articulation de l'épaule sous guidage échographique en temps réel",
+    "ar": "تصوير تشخيصي لـ مفصل الكتف بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में कंधे का जोड़ का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "在超声波实时定位引导下诊断影像学扫描肩关节",
+    "pt": "Exame de imagem diagnóstica de articulação do ombro sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "83148",
+    "ichi": "SHO.IM.UL",
+    "snomed_ct": "940003148",
+    "icd11_pcs": "SIU1.0",
+    "icd10_cm": "0SB148Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

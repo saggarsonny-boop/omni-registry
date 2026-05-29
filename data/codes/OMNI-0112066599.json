@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0112066599",
+  "composition": {
+    "target": "heart",
+    "action": "biopsy",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the heart under high-frequency sound wave mapping",
+    "es": "Extracción de muestra de tejido de corazón bajo guía de ecografía en tiempo real",
+    "fr": "Prélèvement de tissu pour biopsie de cœur sous guidage échographique en temps réel",
+    "ar": "أخذ عينة من الأنسجة لـ القلب بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में हृदय का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "在超声波实时定位引导下针吸组织活检心脏",
+    "pt": "Extração de fragmento tecidual de coração sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "86599",
+    "ichi": "HEA.BI.UL",
+    "snomed_ct": "940066599",
+    "icd11_pcs": "HBU1.0",
+    "icd10_cm": "0HB599Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

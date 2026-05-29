@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0110368541",
+  "composition": {
+    "target": "liver",
+    "action": "excision",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the liver through an open incision",
+    "es": "Extirpación quirúrgica de hígado a través de una incisión abierta",
+    "fr": "Ablation chirurgicale de foie par incision ouverte",
+    "ar": "استئصال جراحي لـ الكبد عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा यकृत (लीवर) का सर्जरी द्वारा निकालना",
+    "zh": "通过开放性切口进行手术切除肝脏",
+    "pt": "Remoção cirúrgica de fígado através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "88541",
+    "ichi": "LIV.EX.OP",
+    "snomed_ct": "940068541",
+    "icd11_pcs": "LEO1.0",
+    "icd10_cm": "0LB541Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

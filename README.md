@@ -1,4 +1,4 @@
-# OMNI Registry (Open Medical Nomenclature and Interventions)
+# O.M.N.I. Registry (Open Medical Nomenclature & Interventions)
 
 The OMNI Registry is the canonical home for the OMNI medical coding standard, shipped alongside the SSRN paper:
 **"No One Can Own the Language of Medicine"** by **Sonny Saggar MD** (SSRN, May 2026).
@@ -7,7 +7,7 @@ Paper Link (SSRN Preprint): [https://archive.org/details/omni-ssrn-placeholder](
 
 ## What is OMNI?
 
-OMNI (Open Medical Nomenclature and Interventions) is an open, freely licensed standard for coding medical interventions, designed as a public, royalty-free replacement for CPT (Current Procedural Terminology).
+OMNI (Open Medical Nomenclature & Interventions) is an open, freely licensed standard for coding medical interventions, designed as a public, royalty-free replacement for CPT (Current Procedural Terminology).
 
 It builds directly upon:
 1. **World Health Organization's ICHI** (International Classification of Health Interventions) featuring a clean three-axis taxonomy: **Target**, **Action**, and **Means** (seven-character stem codes).

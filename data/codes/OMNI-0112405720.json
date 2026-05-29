@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0112405720",
+  "composition": {
+    "target": "heart",
+    "action": "inspection",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the heart with infusion of contrast fluid and X-ray mapping",
+    "es": "Visualización endoscópica de corazón con infusión de líquido de contraste y radiografías",
+    "fr": "Visualisation endoscopique de cœur avec injection de produit de contraste et radiographie",
+    "ar": "فحص بالمنظار لـ القلب مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ हृदय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "配合造影剂灌注及X光造影内镜直视检查心脏",
+    "pt": "Visualização endoscópica de coração com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "85720",
+    "ichi": "HEA.IN.CO",
+    "snomed_ct": "940005720",
+    "icd11_pcs": "HIC1.0",
+    "icd10_cm": "0HB720Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

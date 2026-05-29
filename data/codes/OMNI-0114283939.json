@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0114283939",
+  "composition": {
+    "target": "rectum",
+    "action": "repair",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the rectum under high-frequency sound wave mapping",
+    "es": "Reconstrucción anatómica de recto bajo guía de ecografía en tiempo real",
+    "fr": "Reconstruction anatomique de rectum sous guidage échographique en temps réel",
+    "ar": "إعادة بناء تشريحية لـ المستقيم بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मलाशय का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "在超声波实时定位引导下结构修补与重建直肠",
+    "pt": "Reconstrução anatômica de reto sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "83939",
+    "ichi": "REC.RE.UL",
+    "snomed_ct": "940083939",
+    "icd11_pcs": "RRU1.0",
+    "icd10_cm": "0RB939Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

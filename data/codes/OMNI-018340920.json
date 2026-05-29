@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-018340920",
+  "composition": {
+    "target": "kidney",
+    "action": "inspection",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the kidney through an open incision",
+    "es": "Visualización endoscópica de riñón a través de una incisión abierta",
+    "fr": "Visualisation endoscopique de rein par incision ouverte",
+    "ar": "فحص بالمنظار لـ الكلية عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा गुर्दा (किडनी) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "通过开放性切口进行内镜直视检查肾脏",
+    "pt": "Visualização endoscópica de rim através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "80920",
+    "ichi": "KID.IN.OP",
+    "snomed_ct": "940040920",
+    "icd11_pcs": "KIO1.0",
+    "icd10_cm": "0KB920Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

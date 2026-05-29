@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-018988835",
+  "composition": {
+    "target": "lung",
+    "action": "repair",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the lung using keyhole minimally invasive access",
+    "es": "Reconstrucción anatómica de pulmón usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Reconstruction anatomique de poumon par accès laparoscopique minimalement invasif",
+    "ar": "إعادة بناء تشريحية لـ الرئة باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा फेफड़ा का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "采用微创内镜入路结构修补与重建肺部",
+    "pt": "Reconstrução anatômica de pulmão usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "88835",
+    "ichi": "LUN.RE.PE",
+    "snomed_ct": "940088835",
+    "icd11_pcs": "LRP1.0",
+    "icd10_cm": "0LB835Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

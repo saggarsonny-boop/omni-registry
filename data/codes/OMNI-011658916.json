@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011658916",
+  "composition": {
+    "target": "rectum",
+    "action": "excision",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the rectum with infusion of contrast fluid and X-ray mapping",
+    "es": "Extirpación quirúrgica de recto con infusión de líquido de contraste y radiografías",
+    "fr": "Ablation chirurgicale de rectum avec injection de produit de contraste et radiographie",
+    "ar": "استئصال جراحي لـ المستقيم مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मलाशय का सर्जरी द्वारा निकालना",
+    "zh": "配合造影剂灌注及X光造影手术切除直肠",
+    "pt": "Remoção cirúrgica de reto com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "88916",
+    "ichi": "REC.EX.CO",
+    "snomed_ct": "940058916",
+    "icd11_pcs": "REC1.0",
+    "icd10_cm": "0RB916Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

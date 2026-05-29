@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011647569",
+  "composition": {
+    "target": "spleen",
+    "action": "biopsy",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the spleen with infusion of contrast fluid and X-ray mapping",
+    "es": "Extracción de muestra de tejido de bazo con infusión de líquido de contraste y radiografías",
+    "fr": "Prélèvement de tissu pour biopsie de rate avec injection de produit de contraste et radiographie",
+    "ar": "أخذ عينة من الأنسجة لـ الطحال مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ प्लीहा (तिल्ली) का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "配合造影剂灌注及X光造影针吸组织活检脾脏",
+    "pt": "Extração de fragmento tecidual de baço com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "87569",
+    "ichi": "SPL.BI.CO",
+    "snomed_ct": "940047569",
+    "icd11_pcs": "SBC1.0",
+    "icd10_cm": "0SB569Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

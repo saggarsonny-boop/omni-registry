@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-016419841",
+  "composition": {
+    "target": "rectum",
+    "action": "biopsy",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the rectum under high-frequency sound wave mapping",
+    "es": "Extracción de muestra de tejido de recto bajo guía de ecografía en tiempo real",
+    "fr": "Prélèvement de tissu pour biopsie de rectum sous guidage échographique en temps réel",
+    "ar": "أخذ عينة من الأنسجة لـ المستقيم بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मलाशय का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "在超声波实时定位引导下针吸组织活检直肠",
+    "pt": "Extração de fragmento tecidual de reto sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "89841",
+    "ichi": "REC.BI.UL",
+    "snomed_ct": "940019841",
+    "icd11_pcs": "RBU1.0",
+    "icd10_cm": "0RB841Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0113222084",
+  "composition": {
+    "target": "urinary bladder",
+    "action": "inspection",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the urinary bladder through an open incision",
+    "es": "Visualización endoscópica de vejiga urinaria a través de una incisión abierta",
+    "fr": "Visualisation endoscopique de vessie par incision ouverte",
+    "ar": "فحص بالمنظار لـ المثانة البولية عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा मूत्राशय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "通过开放性切口进行内镜直视检查膀胱",
+    "pt": "Visualização endoscópica de bexiga urinária através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "82084",
+    "ichi": "URI.IN.OP",
+    "snomed_ct": "940022084",
+    "icd11_pcs": "UIO1.0",
+    "icd10_cm": "0UB084Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

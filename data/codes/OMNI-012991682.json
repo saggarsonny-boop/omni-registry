@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-012991682",
+  "composition": {
+    "target": "blood vessels",
+    "action": "inspection",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the blood vessels with infusion of contrast fluid and X-ray mapping",
+    "es": "Visualización endoscópica de vasos sanguíneos con infusión de líquido de contraste y radiografías",
+    "fr": "Visualisation endoscopique de vaisseaux sanguins avec injection de produit de contraste et radiographie",
+    "ar": "فحص بالمنظار لـ الأوعية الدموية مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ रक्त वाहिकाएं का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "配合造影剂灌注及X光造影内镜直视检查血管",
+    "pt": "Visualização endoscópica de vasos sanguíneos com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "81682",
+    "ichi": "BLO.IN.CO",
+    "snomed_ct": "940091682",
+    "icd11_pcs": "BIC1.0",
+    "icd10_cm": "0BB682Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

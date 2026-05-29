@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-016104764",
+  "composition": {
+    "target": "lung",
+    "action": "inspection",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the lung with infusion of contrast fluid and X-ray mapping",
+    "es": "Visualización endoscópica de pulmón con infusión de líquido de contraste y radiografías",
+    "fr": "Visualisation endoscopique de poumon avec injection de produit de contraste et radiographie",
+    "ar": "فحص بالمنظار لـ الرئة مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ फेफड़ा का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "配合造影剂灌注及X光造影内镜直视检查肺部",
+    "pt": "Visualização endoscópica de pulmão com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "84764",
+    "ichi": "LUN.IN.CO",
+    "snomed_ct": "940004764",
+    "icd11_pcs": "LIC1.0",
+    "icd10_cm": "0LB764Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

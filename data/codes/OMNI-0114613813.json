@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0114613813",
+  "composition": {
+    "target": "lung",
+    "action": "imaging",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the lung with infusion of contrast fluid and X-ray mapping",
+    "es": "Escaneo de diagnóstico por imágenes de pulmón con infusión de líquido de contraste y radiografías",
+    "fr": "Scanner d'imagerie diagnostique de poumon avec injection de produit de contraste et radiographie",
+    "ar": "تصوير تشخيصي لـ الرئة مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ फेफड़ा का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "配合造影剂灌注及X光造影诊断影像学扫描肺部",
+    "pt": "Exame de imagem diagnóstica de pulmão com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "83813",
+    "ichi": "LUN.IM.CO",
+    "snomed_ct": "940013813",
+    "icd11_pcs": "LIC1.0",
+    "icd10_cm": "0LB813Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

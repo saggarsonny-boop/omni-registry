@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011364817",
+  "composition": {
+    "target": "spleen",
+    "action": "repair",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the spleen using keyhole minimally invasive access",
+    "es": "Reconstrucción anatómica de bazo usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Reconstruction anatomique de rate par accès laparoscopique minimalement invasif",
+    "ar": "إعادة بناء تشريحية لـ الطحال باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा प्लीहा (तिल्ली) का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "采用微创内镜入路结构修补与重建脾脏",
+    "pt": "Reconstrução anatômica de baço usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "84817",
+    "ichi": "SPL.RE.PE",
+    "snomed_ct": "940064817",
+    "icd11_pcs": "SRP1.0",
+    "icd10_cm": "0SB817Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

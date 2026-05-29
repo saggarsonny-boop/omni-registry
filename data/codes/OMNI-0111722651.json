@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0111722651",
+  "composition": {
+    "target": "lung",
+    "action": "excision",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the lung using keyhole minimally invasive access",
+    "es": "Extirpación quirúrgica de pulmón usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Ablation chirurgicale de poumon par accès laparoscopique minimalement invasif",
+    "ar": "استئصال جراحي لـ الرئة باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा फेफड़ा का सर्जरी द्वारा निकालना",
+    "zh": "采用微创内镜入路手术切除肺部",
+    "pt": "Remoção cirúrgica de pulmão usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "82651",
+    "ichi": "LUN.EX.PE",
+    "snomed_ct": "940022651",
+    "icd11_pcs": "LEP1.0",
+    "icd10_cm": "0LB651Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

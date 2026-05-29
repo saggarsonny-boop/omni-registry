@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-015005410",
+  "composition": {
+    "target": "spleen",
+    "action": "excision",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the spleen through an open incision",
+    "es": "Extirpación quirúrgica de bazo a través de una incisión abierta",
+    "fr": "Ablation chirurgicale de rate par incision ouverte",
+    "ar": "استئصال جراحي لـ الطحال عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा प्लीहा (तिल्ली) का सर्जरी द्वारा निकालना",
+    "zh": "通过开放性切口进行手术切除脾脏",
+    "pt": "Remoção cirúrgica de baço através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "85410",
+    "ichi": "SPL.EX.OP",
+    "snomed_ct": "940005410",
+    "icd11_pcs": "SEO1.0",
+    "icd10_cm": "0SB410Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

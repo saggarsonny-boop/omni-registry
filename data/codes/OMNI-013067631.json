@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-013067631",
+  "composition": {
+    "target": "spleen",
+    "action": "excision",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the spleen under high-frequency sound wave mapping",
+    "es": "Extirpación quirúrgica de bazo bajo guía de ecografía en tiempo real",
+    "fr": "Ablation chirurgicale de rate sous guidage échographique en temps réel",
+    "ar": "استئصال جراحي لـ الطحال بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में प्लीहा (तिल्ली) का सर्जरी द्वारा निकालना",
+    "zh": "在超声波实时定位引导下手术切除脾脏",
+    "pt": "Remoção cirúrgica de baço sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "87631",
+    "ichi": "SPL.EX.UL",
+    "snomed_ct": "940067631",
+    "icd11_pcs": "SEU1.0",
+    "icd10_cm": "0SB631Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

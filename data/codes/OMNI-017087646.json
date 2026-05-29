@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-017087646",
+  "composition": {
+    "target": "thyroid gland",
+    "action": "repair",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the thyroid gland under high-frequency sound wave mapping",
+    "es": "Reconstrucción anatómica de glándula tiroides bajo guía de ecografía en tiempo real",
+    "fr": "Reconstruction anatomique de glande thyroïde sous guidage échographique en temps réel",
+    "ar": "إعادة بناء تشريحية لـ الغدة الدرقية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में थायराइड ग्रंथि का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "在超声波实时定位引导下结构修补与重建甲状腺",
+    "pt": "Reconstrução anatômica de glândula tireoide sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "87646",
+    "ichi": "THY.RE.UL",
+    "snomed_ct": "940087646",
+    "icd11_pcs": "TRU1.0",
+    "icd10_cm": "0TB646Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

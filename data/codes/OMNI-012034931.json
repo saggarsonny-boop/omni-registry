@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-012034931",
+  "composition": {
+    "target": "lung",
+    "action": "inspection",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the lung through an open incision",
+    "es": "Visualización endoscópica de pulmón a través de una incisión abierta",
+    "fr": "Visualisation endoscopique de poumon par incision ouverte",
+    "ar": "فحص بالمنظار لـ الرئة عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा फेफड़ा का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "通过开放性切口进行内镜直视检查肺部",
+    "pt": "Visualização endoscópica de pulmão através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "84931",
+    "ichi": "LUN.IN.OP",
+    "snomed_ct": "940034931",
+    "icd11_pcs": "LIO1.0",
+    "icd10_cm": "0LB931Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

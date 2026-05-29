@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0113909022",
+  "composition": {
+    "target": "pancreas",
+    "action": "imaging",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the pancreas with infusion of contrast fluid and X-ray mapping",
+    "es": "Escaneo de diagnóstico por imágenes de páncreas con infusión de líquido de contraste y radiografías",
+    "fr": "Scanner d'imagerie diagnostique de pancréas avec injection de produit de contraste et radiographie",
+    "ar": "تصوير تشخيصي لـ البنكرياس مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ अग्नाशय (पैनक्रियाज) का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "配合造影剂灌注及X光造影诊断影像学扫描胰腺",
+    "pt": "Exame de imagem diagnóstica de pâncreas com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "89022",
+    "ichi": "PAN.IM.CO",
+    "snomed_ct": "940009022",
+    "icd11_pcs": "PIC1.0",
+    "icd10_cm": "0PB022Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

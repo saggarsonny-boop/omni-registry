@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-013732287",
+  "composition": {
+    "target": "rectum",
+    "action": "excision",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the rectum through an open incision",
+    "es": "Extirpación quirúrgica de recto a través de una incisión abierta",
+    "fr": "Ablation chirurgicale de rectum par incision ouverte",
+    "ar": "استئصال جراحي لـ المستقيم عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा मलाशय का सर्जरी द्वारा निकालना",
+    "zh": "通过开放性切口进行手术切除直肠",
+    "pt": "Remoção cirúrgica de reto através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "82287",
+    "ichi": "REC.EX.OP",
+    "snomed_ct": "940032287",
+    "icd11_pcs": "REO1.0",
+    "icd10_cm": "0RB287Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

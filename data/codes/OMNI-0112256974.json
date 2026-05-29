@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0112256974",
+  "composition": {
+    "target": "tonsils",
+    "action": "excision",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the tonsils with infusion of contrast fluid and X-ray mapping",
+    "es": "Extirpación quirúrgica de amígdalas con infusión de líquido de contraste y radiografías",
+    "fr": "Ablation chirurgicale de amygdales avec injection de produit de contraste et radiographie",
+    "ar": "استئصال جراحي لـ اللوزتين مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ टॉन्सिल का सर्जरी द्वारा निकालना",
+    "zh": "配合造影剂灌注及X光造影手术切除扁桃体",
+    "pt": "Remoção cirúrgica de amígdalas com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "86974",
+    "ichi": "TON.EX.CO",
+    "snomed_ct": "940056974",
+    "icd11_pcs": "TEC1.0",
+    "icd10_cm": "0TB974Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

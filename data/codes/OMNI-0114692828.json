@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0114692828",
+  "composition": {
+    "target": "kidney",
+    "action": "biopsy",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the kidney with infusion of contrast fluid and X-ray mapping",
+    "es": "Extracción de muestra de tejido de riñón con infusión de líquido de contraste y radiografías",
+    "fr": "Prélèvement de tissu pour biopsie de rein avec injection de produit de contraste et radiographie",
+    "ar": "أخذ عينة من الأنسجة لـ الكلية مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ गुर्दा (किडनी) का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "配合造影剂灌注及X光造影针吸组织活检肾脏",
+    "pt": "Extração de fragmento tecidual de rim com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "82828",
+    "ichi": "KID.BI.CO",
+    "snomed_ct": "940092828",
+    "icd11_pcs": "KBC1.0",
+    "icd10_cm": "0KB828Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

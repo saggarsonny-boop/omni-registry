@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-015819536",
+  "composition": {
+    "target": "heart",
+    "action": "imaging",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the heart with infusion of contrast fluid and X-ray mapping",
+    "es": "Escaneo de diagnóstico por imágenes de corazón con infusión de líquido de contraste y radiografías",
+    "fr": "Scanner d'imagerie diagnostique de cœur avec injection de produit de contraste et radiographie",
+    "ar": "تصوير تشخيصي لـ القلب مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ हृदय का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "配合造影剂灌注及X光造影诊断影像学扫描心脏",
+    "pt": "Exame de imagem diagnóstica de coração com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "89536",
+    "ichi": "HEA.IM.CO",
+    "snomed_ct": "940019536",
+    "icd11_pcs": "HIC1.0",
+    "icd10_cm": "0HB536Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

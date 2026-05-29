@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0110391803",
+  "composition": {
+    "target": "stomach",
+    "action": "inspection",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the stomach under high-frequency sound wave mapping",
+    "es": "Visualización endoscópica de estómago bajo guía de ecografía en tiempo real",
+    "fr": "Visualisation endoscopique de estomac sous guidage échographique en temps réel",
+    "ar": "فحص بالمنظار لـ المعدة بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में आमाशय (पेट) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "在超声波实时定位引导下内镜直视检查胃部",
+    "pt": "Visualização endoscópica de estômago sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "81803",
+    "ichi": "STO.IN.UL",
+    "snomed_ct": "940091803",
+    "icd11_pcs": "SIU1.0",
+    "icd10_cm": "0SB803Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

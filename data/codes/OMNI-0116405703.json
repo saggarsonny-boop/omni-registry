@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0116405703",
+  "composition": {
+    "target": "nasal passage",
+    "action": "inspection",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the nasal passage under high-frequency sound wave mapping",
+    "es": "Visualización endoscópica de pasaje nasal bajo guía de ecografía en tiempo real",
+    "fr": "Visualisation endoscopique de fosses nasales sous guidage échographique en temps réel",
+    "ar": "فحص بالمنظار لـ الممر الأنفي بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में नाक का रास्ता का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "在超声波实时定位引导下内镜直视检查鼻腔通道",
+    "pt": "Visualização endoscópica de passagem nasal sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "85703",
+    "ichi": "NAS.IN.UL",
+    "snomed_ct": "940005703",
+    "icd11_pcs": "NIU1.0",
+    "icd10_cm": "0NB703Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

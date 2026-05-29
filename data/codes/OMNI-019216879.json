@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-019216879",
+  "composition": {
+    "target": "rectum",
+    "action": "imaging",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the rectum through an open incision",
+    "es": "Escaneo de diagnóstico por imágenes de recto a través de una incisión abierta",
+    "fr": "Scanner d'imagerie diagnostique de rectum par incision ouverte",
+    "ar": "تصوير تشخيصي لـ المستقيم عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा मलाशय का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "通过开放性切口进行诊断影像学扫描直肠",
+    "pt": "Exame de imagem diagnóstica de reto através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "86879",
+    "ichi": "REC.IM.OP",
+    "snomed_ct": "940016879",
+    "icd11_pcs": "RIO1.0",
+    "icd10_cm": "0RB879Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

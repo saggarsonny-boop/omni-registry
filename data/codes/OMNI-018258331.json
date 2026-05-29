@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-018258331",
+  "composition": {
+    "target": "skin",
+    "action": "biopsy",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the skin lesion through an open incision",
+    "es": "Extracción de muestra de tejido de lesión de piel a través de una incisión abierta",
+    "fr": "Prélèvement de tissu pour biopsie de lésion cutanée par incision ouverte",
+    "ar": "أخذ عينة من الأنسجة لـ آفة جلدية عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा त्वचा की क्षति (घाव) का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "通过开放性切口进行针吸组织活检皮肤病变",
+    "pt": "Extração de fragmento tecidual de lesão de pele através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "88331",
+    "ichi": "SKI.BI.OP",
+    "snomed_ct": "940058331",
+    "icd11_pcs": "SBO1.0",
+    "icd10_cm": "0SB331Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

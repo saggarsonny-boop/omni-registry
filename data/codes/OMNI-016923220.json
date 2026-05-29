@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-016923220",
+  "composition": {
+    "target": "blood vessels",
+    "action": "imaging",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the blood vessels with infusion of contrast fluid and X-ray mapping",
+    "es": "Escaneo de diagnóstico por imágenes de vasos sanguíneos con infusión de líquido de contraste y radiografías",
+    "fr": "Scanner d'imagerie diagnostique de vaisseaux sanguins avec injection de produit de contraste et radiographie",
+    "ar": "تصوير تشخيصي لـ الأوعية الدموية مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ रक्त वाहिकाएं का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "配合造影剂灌注及X光造影诊断影像学扫描血管",
+    "pt": "Exame de imagem diagnóstica de vasos sanguíneos com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "83220",
+    "ichi": "BLO.IM.CO",
+    "snomed_ct": "940023220",
+    "icd11_pcs": "BIC1.0",
+    "icd10_cm": "0BB220Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-017580056",
+  "composition": {
+    "target": "tonsils",
+    "action": "biopsy",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the tonsils with infusion of contrast fluid and X-ray mapping",
+    "es": "Extracción de muestra de tejido de amígdalas con infusión de líquido de contraste y radiografías",
+    "fr": "Prélèvement de tissu pour biopsie de amygdales avec injection de produit de contraste et radiographie",
+    "ar": "أخذ عينة من الأنسجة لـ اللوزتين مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ टॉन्सिल का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "配合造影剂灌注及X光造影针吸组织活检扁桃体",
+    "pt": "Extração de fragmento tecidual de amígdalas com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "80056",
+    "ichi": "TON.BI.CO",
+    "snomed_ct": "940080056",
+    "icd11_pcs": "TBC1.0",
+    "icd10_cm": "0TB056Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

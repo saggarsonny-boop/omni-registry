@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011877281",
+  "composition": {
+    "target": "shoulder joint",
+    "action": "biopsy",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the shoulder joint under high-frequency sound wave mapping",
+    "es": "Extracción de muestra de tejido de articulación del hombro bajo guía de ecografía en tiempo real",
+    "fr": "Prélèvement de tissu pour biopsie de articulation de l'épaule sous guidage échographique en temps réel",
+    "ar": "أخذ عينة من الأنسجة لـ مفصل الكتف بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में कंधे का जोड़ का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "在超声波实时定位引导下针吸组织活检肩关节",
+    "pt": "Extração de fragmento tecidual de articulação do ombro sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "87281",
+    "ichi": "SHO.BI.UL",
+    "snomed_ct": "940077281",
+    "icd11_pcs": "SBU1.0",
+    "icd10_cm": "0SB281Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

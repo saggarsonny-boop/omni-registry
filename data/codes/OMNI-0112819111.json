@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0112819111",
+  "composition": {
+    "target": "lung",
+    "action": "biopsy",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the lung under high-frequency sound wave mapping",
+    "es": "Extracción de muestra de tejido de pulmón bajo guía de ecografía en tiempo real",
+    "fr": "Prélèvement de tissu pour biopsie de poumon sous guidage échographique en temps réel",
+    "ar": "أخذ عينة من الأنسجة لـ الرئة بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में फेफड़ा का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "在超声波实时定位引导下针吸组织活检肺部",
+    "pt": "Extração de fragmento tecidual de pulmão sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "89111",
+    "ichi": "LUN.BI.UL",
+    "snomed_ct": "940019111",
+    "icd11_pcs": "LBU1.0",
+    "icd10_cm": "0LB111Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

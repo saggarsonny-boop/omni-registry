@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0113997888",
+  "composition": {
+    "target": "stomach",
+    "action": "inspection",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the stomach using keyhole minimally invasive access",
+    "es": "Visualización endoscópica de estómago usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Visualisation endoscopique de estomac par accès laparoscopique minimalement invasif",
+    "ar": "فحص بالمنظار لـ المعدة باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा आमाशय (पेट) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "采用微创内镜入路内镜直视检查胃部",
+    "pt": "Visualização endoscópica de estômago usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "87888",
+    "ichi": "STO.IN.PE",
+    "snomed_ct": "940097888",
+    "icd11_pcs": "SIP1.0",
+    "icd10_cm": "0SB888Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

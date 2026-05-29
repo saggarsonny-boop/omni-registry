@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-013159012",
+  "composition": {
+    "target": "shoulder joint",
+    "action": "repair",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the shoulder joint under high-frequency sound wave mapping",
+    "es": "Reconstrucción anatómica de articulación del hombro bajo guía de ecografía en tiempo real",
+    "fr": "Reconstruction anatomique de articulation de l'épaule sous guidage échographique en temps réel",
+    "ar": "إعادة بناء تشريحية لـ مفصل الكتف بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में कंधे का जोड़ का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "在超声波实时定位引导下结构修补与重建肩关节",
+    "pt": "Reconstrução anatômica de articulação do ombro sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "89012",
+    "ichi": "SHO.RE.UL",
+    "snomed_ct": "940059012",
+    "icd11_pcs": "SRU1.0",
+    "icd10_cm": "0SB012Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

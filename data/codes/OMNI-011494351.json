@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011494351",
+  "composition": {
+    "target": "stomach",
+    "action": "biopsy",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the stomach under high-frequency sound wave mapping",
+    "es": "Extracción de muestra de tejido de estómago bajo guía de ecografía en tiempo real",
+    "fr": "Prélèvement de tissu pour biopsie de estomac sous guidage échographique en temps réel",
+    "ar": "أخذ عينة من الأنسجة لـ المعدة بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में आमाशय (पेट) का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "在超声波实时定位引导下针吸组织活检胃部",
+    "pt": "Extração de fragmento tecidual de estômago sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "84351",
+    "ichi": "STO.BI.UL",
+    "snomed_ct": "940094351",
+    "icd11_pcs": "SBU1.0",
+    "icd10_cm": "0SB351Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

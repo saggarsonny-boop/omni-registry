@@ -29,7 +29,7 @@ export default function Governance() {
           </h2>
           
           <p className="text-base text-hive-muted leading-relaxed">
-            The O.M.N.I. (Open Medical Nomenclature and Interventions) project is currently in its initial proposal stage. As we work to formalize the standard alongside Sonny Saggar MD's SSRN paper, the underlying nomenclature axes (Target, Action, Means) are offered freely for public and clinical use under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. We welcome clinical reviews, system integrations, and codebase forks. In order to safeguard the vocabulary from future private capture, an independent foundation handoff is anticipated as the registry scales to its v1.0 production release.
+            The O.M.N.I. (Open Medical Nomenclature & Interventions) project is currently in its initial proposal stage. As we work to formalize the standard alongside Sonny Saggar MD's SSRN paper, the underlying nomenclature axes (Target, Action, Means) are offered freely for public and clinical use under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. We welcome clinical reviews, system integrations, and codebase forks. In order to safeguard the vocabulary from future private capture, an independent foundation handoff is anticipated as the registry scales to its v1.0 production release.
           </p>
 
           <div className="border-t border-hive-border/30 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 mt-2">

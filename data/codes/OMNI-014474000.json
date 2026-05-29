@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-014474000",
+  "composition": {
+    "target": "stomach",
+    "action": "repair",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the stomach using keyhole minimally invasive access",
+    "es": "Reconstrucción anatómica de estómago usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Reconstruction anatomique de estomac par accès laparoscopique minimalement invasif",
+    "ar": "إعادة بناء تشريحية لـ المعدة باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा आमाशय (पेट) का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "采用微创内镜入路结构修补与重建胃部",
+    "pt": "Reconstrução anatômica de estômago usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "84000",
+    "ichi": "STO.RE.PE",
+    "snomed_ct": "940074000",
+    "icd11_pcs": "SRP1.0",
+    "icd10_cm": "0SB000Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

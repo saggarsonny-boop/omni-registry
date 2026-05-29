@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-014635452",
+  "composition": {
+    "target": "lung",
+    "action": "imaging",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the lung under high-frequency sound wave mapping",
+    "es": "Escaneo de diagnóstico por imágenes de pulmón bajo guía de ecografía en tiempo real",
+    "fr": "Scanner d'imagerie diagnostique de poumon sous guidage échographique en temps réel",
+    "ar": "تصوير تشخيصي لـ الرئة بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में फेफड़ा का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "在超声波实时定位引导下诊断影像学扫描肺部",
+    "pt": "Exame de imagem diagnóstica de pulmão sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "85452",
+    "ichi": "LUN.IM.UL",
+    "snomed_ct": "940035452",
+    "icd11_pcs": "LIU1.0",
+    "icd10_cm": "0LB452Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

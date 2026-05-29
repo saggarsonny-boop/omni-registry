@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0112623787",
+  "composition": {
+    "target": "heart",
+    "action": "inspection",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the heart using keyhole minimally invasive access",
+    "es": "Visualización endoscópica de corazón usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Visualisation endoscopique de cœur par accès laparoscopique minimalement invasif",
+    "ar": "فحص بالمنظار لـ القلب باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा हृदय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "采用微创内镜入路内镜直视检查心脏",
+    "pt": "Visualização endoscópica de coração usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "83787",
+    "ichi": "HEA.IN.PE",
+    "snomed_ct": "940023787",
+    "icd11_pcs": "HIP1.0",
+    "icd10_cm": "0HB787Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

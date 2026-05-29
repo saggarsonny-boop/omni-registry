@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-01216138",
+  "composition": {
+    "target": "lung",
+    "action": "excision",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the lung with infusion of contrast fluid and X-ray mapping",
+    "es": "Extirpación quirúrgica de pulmón con infusión de líquido de contraste y radiografías",
+    "fr": "Ablation chirurgicale de poumon avec injection de produit de contraste et radiographie",
+    "ar": "استئصال جراحي لـ الرئة مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ फेफड़ा का सर्जरी द्वारा निकालना",
+    "zh": "配合造影剂灌注及X光造影手术切除肺部",
+    "pt": "Remoção cirúrgica de pulmão com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "86138",
+    "ichi": "LUN.EX.CO",
+    "snomed_ct": "940016138",
+    "icd11_pcs": "LEC1.0",
+    "icd10_cm": "0LB138Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

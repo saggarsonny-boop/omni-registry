@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-015201409",
+  "composition": {
+    "target": "kidney",
+    "action": "excision",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the kidney through an open incision",
+    "es": "Extirpación quirúrgica de riñón a través de una incisión abierta",
+    "fr": "Ablation chirurgicale de rein par incision ouverte",
+    "ar": "استئصال جراحي لـ الكلية عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा गुर्दा (किडनी) का सर्जरी द्वारा निकालना",
+    "zh": "通过开放性切口进行手术切除肾脏",
+    "pt": "Remoção cirúrgica de rim através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "81409",
+    "ichi": "KID.EX.OP",
+    "snomed_ct": "940001409",
+    "icd11_pcs": "KEO1.0",
+    "icd10_cm": "0KB409Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,9889 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.seedCodes = void 0;
+exports.seedCodes = [
+    {
+        "omni_id": "OMNI-0022558",
+        "composition": {
+            "target": "lumbar vertebral joints",
+            "action": "bone fusion stabilization",
+            "means": "metal cage and bone graft"
+        },
+        "plain_language": {
+            "en": "Spinal fusion of the lower back (from the front)",
+            "es": "Fusión quirúrgica de vértebras lumbares desde el frente",
+            "fr": "Arthrodèse lombaire par abord antérieur",
+            "ar": "عملية دمج وتثبيت فقرات الظهر القطنية من الأمام",
+            "hi": "पीठ के निचले हिस्से के कशेरुकाओं को जोड़ने की सर्जरी",
+            "zh": "前路腰椎椎体间融合内固定术",
+            "pt": "Fusão cirúrgica de vértebras lombares por via anterior"
+        },
+        "crosswalks": {
+            "cpt": "22558",
+            "ichi": "KLO.JK.AA",
+            "snomed_ct": "23114001",
+            "icd11_pcs": "KL20.0",
+            "icd10_cm": "0SG007Z"
+        },
+        "notes": "Arthrodesis, anterior interbody technique, lumbar spine.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0027130",
+        "composition": {
+            "target": "hip joint",
+            "action": "joint reconstruction",
+            "means": "artificial prosthetic implant"
+        },
+        "plain_language": {
+            "en": "Total hip joint replacement surgery (Hip Arthroplasty)",
+            "es": "Cirugía de reemplazo total de articulación de cadera",
+            "fr": "Chirurgie de remplacement complet de la hanche (Prothèse de hanche)",
+            "ar": "عملية استبدال مفصل الفخذ بالكامل بمفصل صناعي",
+            "hi": "कूल्हे का जोड़ पूरी तरह बदलने की सर्जरी (हिप रिप्लेसमेंट)",
+            "zh": "人工全髋关节置换术",
+            "pt": "Cirurgia de substituição total da articulação do quadril"
+        },
+        "crosswalks": {
+            "cpt": "27130",
+            "ichi": "KMO.JK.AB",
+            "snomed_ct": "52734007",
+            "icd11_pcs": "KM20.0",
+            "icd10_cm": "0SRB0JZ"
+        },
+        "notes": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip replacement).",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0027447",
+        "composition": {
+            "target": "knee joint",
+            "action": "joint reconstruction",
+            "means": "artificial prosthetic implant"
+        },
+        "plain_language": {
+            "en": "Total knee joint replacement surgery (Knee Arthroplasty)",
+            "es": "Cirugía de reemplazo total de articulación de rodilla",
+            "fr": "Chirurgie de remplacement complet de la rotule (Prothèse de genou)",
+            "ar": "عملية استبدال مفصل الركبة بالكامل بمفصل صناعي",
+            "hi": "घुटने का जोड़ पूरी तरह बदलने की सर्जरी (नी रिप्लेसमेंट)",
+            "zh": "人工全膝关节置换术",
+            "pt": "Cirurgia de substituição total da articulação do joelho"
+        },
+        "crosswalks": {
+            "cpt": "27447",
+            "ichi": "KMO.JK.AA",
+            "snomed_ct": "82071004",
+            "icd11_pcs": "KM20.0",
+            "icd10_cm": "0SRC0JZ"
+        },
+        "notes": "Arthroplasty, knee, condyle and patella; medial and lateral compartments (total replacement).",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0033533",
+        "composition": {
+            "target": "coronary arteries",
+            "action": "bypass channel construction",
+            "means": "vessel grafting from chest wall or leg"
+        },
+        "plain_language": {
+            "en": "Heart bypass surgery using blood vessels (CABG)",
+            "es": "Bypass cardíaco coronario con injerto de vasos sanguíneos (CABG)",
+            "fr": "Pontage aorto-coronarien par greffe de vaisseaux (Pontage)",
+            "ar": "عملية مجازة الشريان التاجي للقلب (ترقيع الشرايين)",
+            "hi": "हृदय की धमनियों की बाईपास ग्राफ्टिंग सर्जरी (सीएबीजी)",
+            "zh": "冠状动脉旁路移植造血管重建术 (心脏搭桥 CABG)",
+            "pt": "Bypass cardíaco coronário com enxerto de vasos sanguíneos"
+        },
+        "crosswalks": {
+            "cpt": "33533",
+            "ichi": "KFO.JK.AA",
+            "snomed_ct": "232717009",
+            "icd11_pcs": "KF20.0",
+            "icd10_cm": "02100A9"
+        },
+        "notes": "Coronary artery bypass graft (CABG), arterial bypass, 3 coronary artery grafts.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0043239",
+        "composition": {
+            "target": "upper digestive tract",
+            "action": "endoscopic inspection and biopsy",
+            "means": "flexible scope and tissue extraction instrument"
+        },
+        "plain_language": {
+            "en": "Endoscopy of stomach and esophagus with tissue sample",
+            "es": "Endoscopia de esófago y estómago con biopsia de tejido",
+            "fr": "Endoscopie de l'œsophage et de l'estomac avec biopsie (FOGD)",
+            "ar": "منظار المعدة والمرئ مع أخذ عينة من الأنسجة",
+            "hi": "ऊपरी पेट और भोजन नली की दूरबीन जांच और बायोप्सी (ईजीडी)",
+            "zh": "胃和食管镜检伴组织活检术 (胃镜)",
+            "pt": "Endoscopia do esôfago e estômago com biópsia (EDA)"
+        },
+        "crosswalks": {
+            "cpt": "43239",
+            "ichi": "KCO.JK.AE",
+            "snomed_ct": "118671000",
+            "icd11_pcs": "KF24.0",
+            "icd10_cm": "0DB64ZX"
+        },
+        "notes": "Esophagogastroduodenoscopy (EGD) with biopsy.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0044950",
+        "composition": {
+            "target": "appendix",
+            "action": "total excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the appendix through an open incision",
+            "es": "Extirpación quirúrgica abierta del apéndice",
+            "fr": "Appendicectomie par voie ouverte",
+            "ar": "استئصال الزائدة الدودية بالجراحة المفتوحة",
+            "hi": "खुली सर्जरी द्वारा अपेंडिक्स निकालना",
+            "zh": "开腹阑尾切除术",
+            "pt": "Remoção cirúrgica aberta do apêndice"
+        },
+        "crosswalks": {
+            "cpt": "44950",
+            "ichi": "KBO.JK.AA",
+            "snomed_ct": "32230006",
+            "icd11_pcs": "LA24.0",
+            "icd10_cm": "0DTJ0ZZ"
+        },
+        "notes": "Standard open appendectomy.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0044960",
+        "composition": {
+            "target": "appendix",
+            "action": "total excision",
+            "means": "open with drainage"
+        },
+        "plain_language": {
+            "en": "Removal of ruptured appendix with peritoneal drainage",
+            "es": "Extirpación de apéndice roto con drenaje peritoneal",
+            "fr": "Ablation de l'appendice rompu avec drainage",
+            "ar": "استئصال الزائدة الدودية المنفجرة مع تصريف البريتون",
+            "hi": "टूटे हुए अपेंडिक्स को निकालना और निकास बनाना",
+            "zh": "阑尾穿孔切除伴腹膜引流术",
+            "pt": "Remoção de apêndice roto com drenagem peritoneal"
+        },
+        "crosswalks": {
+            "cpt": "44960",
+            "ichi": "KBO.JK.AZ",
+            "snomed_ct": "174041004",
+            "icd11_pcs": "LA24.0",
+            "icd10_cm": "0DTJ0ZZ"
+        },
+        "notes": "Open appendectomy for ruptured appendix with abscess.",
+        "provisional": true,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0044970",
+        "composition": {
+            "target": "appendix",
+            "action": "total excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Keyhole removal of the appendix",
+            "es": "Extirpación laparoscópica del apêndice",
+            "fr": "Ablation laparoscopique de l'appendice",
+            "ar": "استئصال الزائدة الدودية بالمنظار",
+            "hi": "कीहोल (लैप्रोस्कोपिक) अपेंडिक्स निकालना",
+            "zh": "腹腔镜阑尾切除术",
+            "pt": "Remoção laparoscópica do apêndice"
+        },
+        "crosswalks": {
+            "cpt": "44970",
+            "ichi": "KBO.JK.AB",
+            "snomed_ct": "80146002",
+            "icd11_pcs": "LA24.0",
+            "icd10_cm": "0DTJ4ZZ"
+        },
+        "notes": "Featured worked example in the SSRN paper.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0045378",
+        "composition": {
+            "target": "large intestine",
+            "action": "endoscopic inspection",
+            "means": "flexible scope"
+        },
+        "plain_language": {
+            "en": "Routine diagnostic check of the large bowel (Colonoscopy)",
+            "es": "Examen de colonoscopia diagnóstica de rutina del colon",
+            "fr": "Colonoscopie diagnostique de routine",
+            "ar": "منظار القولون التشخيصي الروتيني",
+            "hi": "बड़ी आंत की सामान्य दूरबीन जांच (डायग्नोस्टिक कोलोनोस्कोपी)",
+            "zh": "常规诊断性结肠镜检查",
+            "pt": "Exame de colonoscopia diagnóstica de rotina do cólon"
+        },
+        "crosswalks": {
+            "cpt": "45378",
+            "ichi": "KDO.JK.AB",
+            "snomed_ct": "73761001",
+            "icd11_pcs": "KD24.0",
+            "icd10_cm": "0DDB8ZX"
+        },
+        "notes": "Diagnostic colonoscopy, flexible, proximal to splenic flexure.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0045380",
+        "composition": {
+            "target": "large intestine",
+            "action": "endoscopic inspection and biopsy",
+            "means": "flexible scope and tissue extraction instrument"
+        },
+        "plain_language": {
+            "en": "Colonoscopy of the bowel with tissue sample",
+            "es": "Colonoscopia de colon con toma de muestra de tejido",
+            "fr": "Colonoscopie du gros intestin avec biopsie",
+            "ar": "منظار القولون مع أخذ عينة من الأنسجة",
+            "hi": "बड़ी आंत की दूरबीन जांच और बायोप्सी (कोलोनोस्कोपी)",
+            "zh": "结肠镜检伴多点组织活检术 (大肠镜)",
+            "pt": "Colonoscopia do intestino grosso com biópsia"
+        },
+        "crosswalks": {
+            "cpt": "45380",
+            "ichi": "KDO.JK.AA",
+            "snomed_ct": "73761001",
+            "icd11_pcs": "KD24.0",
+            "icd10_cm": "0DDB8ZX"
+        },
+        "notes": "Colonoscopy, flexible, proximal to splenic flexure, with biopsy.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0047562",
+        "composition": {
+            "target": "gallbladder",
+            "action": "total excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Keyhole removal of the gallbladder",
+            "es": "Extirpación laparoscópica de la vesícula biliar",
+            "fr": "Ablation laparoscopique de la vésicule biliaire",
+            "ar": "استئصال المرارة بالمنظار (ثقب المفتاح)",
+            "hi": "कीहोल (लैप्रोस्कोपिक) पित्ताशय निकालना",
+            "zh": "腹腔镜胆囊切除术",
+            "pt": "Remoção laparoscópica da vesícula biliar"
+        },
+        "crosswalks": {
+            "cpt": "47562",
+            "ichi": "KCO.JK.AB",
+            "snomed_ct": "103744009",
+            "icd11_pcs": "LC20.0",
+            "icd10_cm": "0FT44ZZ"
+        },
+        "notes": "Laparoscopic cholecystectomy.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0047563",
+        "composition": {
+            "target": "gallbladder",
+            "action": "total excision and bile duct imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Keyhole removal of the gallbladder with bile duct X-ray",
+            "es": "Extirpación laparoscópica de vesícula con radiografía de conducto biliar",
+            "fr": "Ablation laparoscopique de la vésicule avec cholangiographie",
+            "ar": "استئصال المرارة بالمنظار مع تصوير القنوات المرارية",
+            "hi": "पित्त नलिका के एक्स-रे के साथ पित्ताशय निकालना",
+            "zh": "腹腔镜胆囊切除伴胆道造影术",
+            "pt": "Remoção laparoscópica da vesícula com colangiografia"
+        },
+        "crosswalks": {
+            "cpt": "47563",
+            "ichi": "KCO.JK.AC",
+            "snomed_ct": "235122005",
+            "icd11_pcs": "LC20.0",
+            "icd10_cm": "0FT44ZZ"
+        },
+        "notes": "Laparoscopic cholecystectomy with cholangiography.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0047600",
+        "composition": {
+            "target": "gallbladder",
+            "action": "total excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the gallbladder through an open incision",
+            "es": "Extirpación quirúrgica abierta de la vesícula biliar",
+            "fr": "Ablation de la vésicule biliaire par voie ouverte",
+            "ar": "استئصال المرارة بالجراحة المفتوحة",
+            "hi": "खुली सर्जरी द्वारा पित्ताशय निकालना",
+            "zh": "开腹胆囊切除术",
+            "pt": "Remoção cirúrgica aberta da vesícula biliar"
+        },
+        "crosswalks": {
+            "cpt": "47600",
+            "ichi": "KCO.JK.AA",
+            "snomed_ct": "38102005",
+            "icd11_pcs": "LC20.0",
+            "icd10_cm": "0FT40ZZ"
+        },
+        "notes": "Open cholecystectomy.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0047605",
+        "composition": {
+            "target": "gallbladder",
+            "action": "total excision and bile duct imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Open removal of the gallbladder with bile duct X-ray",
+            "es": "Extirpación abierta de vesícula con radiografía de conducto biliar",
+            "fr": "Ablation de la vésicule par voie ouverte avec cholangiographie",
+            "ar": "استئصال المرارة المفتوح مع تصوير القنوات المرارية",
+            "hi": "खुले पित्ताशय निष्कासन के साथ पित्त नलिका का एक्स-रे",
+            "zh": "开腹胆囊切除伴胆道造影术",
+            "pt": "Remoção aberta da vesícula com colangiografia"
+        },
+        "crosswalks": {
+            "cpt": "47605",
+            "ichi": "KCO.JK.AD",
+            "snomed_ct": "76543003",
+            "icd11_pcs": "LC20.0",
+            "icd10_cm": "0FT40ZZ"
+        },
+        "notes": "Open cholecystectomy with cholangiography.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0049505",
+        "composition": {
+            "target": "inguinal canal",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Open surgical repair of an initial groin hernia",
+            "es": "Reparación quirúrgica abierta de hernia inguinal inicial",
+            "fr": "Réparation chirurgicale ouverte d'une hernie inguinale initiale",
+            "ar": "إصلاح الفتق الإربي بالجراحة المفتوحة لأول مرة",
+            "hi": "प्रारंभिक जांघ के जोड़ की हर्निया की खुली सर्जरी",
+            "zh": "初期开腹腹股沟疝修补术",
+            "pt": "Reparação cirúrgica aberta de hérnia inguinal inicial"
+        },
+        "crosswalks": {
+            "cpt": "49505",
+            "ichi": "KEO.JK.AA",
+            "snomed_ct": "50465007",
+            "icd11_pcs": "LE20.0",
+            "icd10_cm": "0YQP0ZZ"
+        },
+        "notes": "Open inguinal hernia repair, initial, patient 5 years or older.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0049550",
+        "composition": {
+            "target": "femoral canal",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Open surgical repair of a thigh-groin hernia",
+            "es": "Reparación quirúrgica abierta de hernia femoral",
+            "fr": "Réparation ouverte d'une hernie fémorale",
+            "ar": "إصلاح الفتق الفخذي بالجراحة المفتوحة",
+            "hi": "जांघ के हर्निया की खुली सर्जरी द्वारा मरम्मत",
+            "zh": "开腹股疝修补术",
+            "pt": "Reparação cirúrgica aberta de hérnia femoral"
+        },
+        "crosswalks": {
+            "cpt": "49550",
+            "ichi": "KEO.JK.AF",
+            "snomed_ct": "31802008",
+            "icd11_pcs": "LE20.0",
+            "icd10_cm": "0YQP0ZZ"
+        },
+        "notes": "Open femoral hernia repair, initial.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0049585",
+        "composition": {
+            "target": "umbilicus",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Open surgical repair of a belly button hernia",
+            "es": "Reparación quirúrgica abierta de hernia umbilical",
+            "fr": "Réparation ouverte d'une hernie ombilicale",
+            "ar": "إصلاح الفتق السري بالجراحة المفتوحة",
+            "hi": "नाभि की हर्निया की खुली सर्जरी द्वारा मरम्मत",
+            "zh": "开腹脐疝修补术",
+            "pt": "Reparação cirúrgica aberta de hérnia umbilical"
+        },
+        "crosswalks": {
+            "cpt": "49585",
+            "ichi": "KEO.JK.AC",
+            "snomed_ct": "45228008",
+            "icd11_pcs": "LE20.0",
+            "icd10_cm": "0WQP0ZZ"
+        },
+        "notes": "Open umbilical hernia repair, initial, patient 5 years or older.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0049650",
+        "composition": {
+            "target": "inguinal canal",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Keyhole repair of a groin hernia",
+            "es": "Reparación laparoscópica de hernia inguinal",
+            "fr": "Réparation laparoscopique d'une hernie inguinale",
+            "ar": "إصلاح الفتق الإربي بالمنظار",
+            "hi": "जांघ के जोड़ (हर्निया) की कीहोल सर्जरी",
+            "zh": "腹腔镜腹股沟疝修补术",
+            "pt": "Reparação laparoscópica de hérnia inguinal"
+        },
+        "crosswalks": {
+            "cpt": "49650",
+            "ichi": "KEO.JK.AB",
+            "snomed_ct": "233703002",
+            "icd11_pcs": "LE20.0",
+            "icd10_cm": "0YQP4ZZ"
+        },
+        "notes": "Laparoscopic inguinal hernia repair.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0049652",
+        "composition": {
+            "target": "umbilicus",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Keyhole repair of a belly button hernia",
+            "es": "Reparación laparoscópica de hernia umbilical",
+            "fr": "Réparation laparoscopique d'une hernie ombilicale",
+            "ar": "إصلاح الفتق السري بالمنظار",
+            "hi": "नाभि की हर्निया की कीहोल सर्जरी द्वारा मरम्मत",
+            "zh": "腹腔镜脐疝修补术",
+            "pt": "Reparação laparoscópica de hérnia umbilical"
+        },
+        "crosswalks": {
+            "cpt": "49652",
+            "ichi": "KEO.JK.AD",
+            "snomed_ct": "428784000",
+            "icd11_pcs": "LE20.0",
+            "icd10_cm": "0WQP4ZZ"
+        },
+        "notes": "Laparoscopic repair of umbilical hernia.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0049654",
+        "composition": {
+            "target": "abdominal wall",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Keyhole repair of a surgical scar hernia",
+            "es": "Reparación laparoscópica de hernia incisional",
+            "fr": "Réparation laparoscopique d'une hernie incisionnelle",
+            "ar": "إصلاح فتق الجرح الجراحي بالمنظار",
+            "hi": "सर्जक चीरे से बनी हर्निया की कीहोल सर्जरी",
+            "zh": "腹腔镜切口疝修补术",
+            "pt": "Reparação laparoscópica de hérnia incisional"
+        },
+        "crosswalks": {
+            "cpt": "49654",
+            "ichi": "KEO.JK.AE",
+            "snomed_ct": "429218001",
+            "icd11_pcs": "LE20.0",
+            "icd10_cm": "0WQP4ZZ"
+        },
+        "notes": "Laparoscopic repair of incisional hernia.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0052601",
+        "composition": {
+            "target": "prostate gland",
+            "action": "partial excision",
+            "means": "electrical wire cutting inside urethra"
+        },
+        "plain_language": {
+            "en": "Prostate shaving surgery via water channel (TURP)",
+            "es": "Extirpación transuretral de próstata (TURP)",
+            "fr": "Résection transurétrale de la prostate (TURP)",
+            "ar": "استئصال جزء من البروستاتا عبر مجرى البول (TURP)",
+            "hi": "पेशाब की नली द्वारा प्रोस्टेट ग्रंथि की छंटाई (टीयूआरपी)",
+            "zh": "经尿道前列腺电切修削术 (TURP)",
+            "pt": "Ressecção transuretral da próstata (TURP)"
+        },
+        "crosswalks": {
+            "cpt": "52601",
+            "ichi": "KIO.JK.AB",
+            "snomed_ct": "176274000",
+            "icd11_pcs": "KI20.0",
+            "icd10_cm": "0VT08ZZ"
+        },
+        "notes": "Transurethral electrosurgical resection of prostate (TURP).",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0058150",
+        "composition": {
+            "target": "uterus",
+            "action": "total excision",
+            "means": "open abdominal incision"
+        },
+        "plain_language": {
+            "en": "Abdominal removal of the uterus (Hysterectomy)",
+            "es": "Extirpación quirúrgica abdominal del útero (Histerectomía)",
+            "fr": "Ablation chirurgicale de l'utérus par l'abdomen (Hystérectomie)",
+            "ar": "استئصال الرحم عن طريق البطن (Hysterectomy)",
+            "hi": "पेट खोलकर बच्चेदानी को बाहर निकालना (हिस्टेरेक्टॉमी)",
+            "zh": "开腹全子宫切除术",
+            "pt": "Remoção cirúrgica do útero por via abdominal (Histerectomia)"
+        },
+        "crosswalks": {
+            "cpt": "58150",
+            "ichi": "KHO.JK.AA",
+            "snomed_ct": "80899001",
+            "icd11_pcs": "KH20.0",
+            "icd10_cm": "0UT90ZZ"
+        },
+        "notes": "Total abdominal hysterectomy, with or without removal of ovaries/tubes.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0059510",
+        "composition": {
+            "target": "pregnant uterus",
+            "action": "surgical delivery opening",
+            "means": "abdominal uterine incision"
+        },
+        "plain_language": {
+            "en": "Cesarean section delivery (C-section)",
+            "es": "Parto por operación cesárea (Cesárea)",
+            "fr": "Accouchement par césarienne",
+            "ar": "ولادة قيصرية (شق جراحي بالرحم)",
+            "hi": "सी-सेक्शन द्वारा बच्चे का जन्म (सिजेरियन डिलीवरी)",
+            "zh": "剖宫产手术分娩",
+            "pt": "Parto por operação cesariana (Cesárea)"
+        },
+        "crosswalks": {
+            "cpt": "59510",
+            "ichi": "KJO.JK.AA",
+            "snomed_ct": "11438009",
+            "icd11_pcs": "KJ20.0",
+            "icd10_cm": "10D00Z1"
+        },
+        "notes": "Routine obstetric care including antepartum care, cesarean delivery, and postpartum care.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0066984",
+        "composition": {
+            "target": "eye lens",
+            "action": "total excision",
+            "means": "ultrasonic fragmentation and artificial lens placement"
+        },
+        "plain_language": {
+            "en": "Cataract surgery with artificial lens placement",
+            "es": "Extirpación de catarata con colocación de lente artificial",
+            "fr": "Ablation de la cataracte avec implant de cristallin artificiel",
+            "ar": "إزالة المياه البيضاء وزراعة عدسة عينية صناعية",
+            "hi": "मोतियाबिंद निकालना और कृत्रिम लेंस लगाना",
+            "zh": "白内障超声乳化吸出及人工晶体植入术",
+            "pt": "Remoção de catarata com implantação de lente artificial"
+        },
+        "crosswalks": {
+            "cpt": "66984",
+            "ichi": "KIO.JK.AA",
+            "snomed_ct": "112792007",
+            "icd11_pcs": "KI20.0",
+            "icd10_cm": "08RJ3JZ"
+        },
+        "notes": "Extracapsular cataract removal with insertion of intraocular lens prosthesis.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0069436",
+        "composition": {
+            "target": "middle ear",
+            "action": "surgical drainage opening",
+            "means": "pressure-equalizing tube insertion"
+        },
+        "plain_language": {
+            "en": "Inserting ventilation tubes into the eardrum",
+            "es": "Inserción de tubos de drenaje en el tímpano",
+            "fr": "Pose d'aérateurs transtympaniques (Yoyo)",
+            "ar": "تركيب أنابيب تهوية وتصريف في غشاء طبلة الأذن",
+            "hi": "कान के परदे में वेंटिलेशन ट्यूब डालना",
+            "zh": "鼓膜切开伴压力平衡管防积水植入术",
+            "pt": "Inserção de tubos de ventilação no tímpano"
+        },
+        "crosswalks": {
+            "cpt": "69436",
+            "ichi": "KLO.JK.AB",
+            "snomed_ct": "25687000",
+            "icd11_pcs": "KL20.0",
+            "icd10_cm": "099970Z"
+        },
+        "notes": "Tympanostomy (requiring insertion of ventilating tube), local or general anesthesia.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0070553",
+        "composition": {
+            "target": "brain",
+            "action": "magnetic resonance imaging",
+            "means": "magnetic fields without and with contrast dye"
+        },
+        "plain_language": {
+            "en": "Brain MRI scan (before and after contrast dye)",
+            "es": "Resonancia magnética (RM) cerebral con y sin contraste",
+            "fr": "IRM du cerveau avec et sans produit de contraste",
+            "ar": "رنين مغناطيسي على المخ بالصبغة وبدون صبغة",
+            "hi": "कंट्रास्ट डाई के साथ और बिना दिमाग का एमआरआई स्कैन",
+            "zh": "脑部平扫加增强核磁共振 (MRI) 扫描",
+            "pt": "Ressonância magnética (RM) cerebral com e sem contraste"
+        },
+        "crosswalks": {
+            "cpt": "70553",
+            "ichi": "VVV.AC.AA",
+            "snomed_ct": "287572005",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Magnetic resonance imaging (MRI) of brain, without and with contrast.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0071046",
+        "composition": {
+            "target": "chest",
+            "action": "projection radiography",
+            "means": "X-ray"
+        },
+        "plain_language": {
+            "en": "Chest X-ray (two standard angles)",
+            "es": "Radiografía de tórax (dos vistas estándar)",
+            "fr": "Radiographie du thorax (deux clichés standard)",
+            "ar": "أشعة سينية على الصدر (وضعان)",
+            "hi": "छाती का एक्स-रे (दो स्टैंडर्ड एंगल्स)",
+            "zh": "胸部正侧位X光成像 (双位胸片)",
+            "pt": "Radiografia do tórax (duas incidências padrão)"
+        },
+        "crosswalks": {
+            "cpt": "71046",
+            "ichi": "VVV.AA.AA",
+            "snomed_ct": "284347000",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Chest radiograph, 2 views standard.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0071260",
+        "composition": {
+            "target": "chest",
+            "action": "computed tomography",
+            "means": "X-ray with contrast dye"
+        },
+        "plain_language": {
+            "en": "Chest CT scan (with contrast dye)",
+            "es": "Tomografía (TAC) de tórax con contraste",
+            "fr": "Scanner (TDM) du thorax avec produit de contraste",
+            "ar": "أشعة مقطعية على الصدر بالصبغة",
+            "hi": "कंट्रास्ट डाई के साथ छाती का सीटी स्कैन",
+            "zh": "胸部增强CT扫描",
+            "pt": "Tomografia computadorizada de tórax com contraste"
+        },
+        "crosswalks": {
+            "cpt": "71260",
+            "ichi": "VVV.AF.AA",
+            "snomed_ct": "444390001",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Computed tomography (CT) scan of chest with contrast dye.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0072148",
+        "composition": {
+            "target": "lumbar spine",
+            "action": "magnetic resonance imaging",
+            "means": "magnetic fields without contrast dye"
+        },
+        "plain_language": {
+            "en": "Lower back MRI scan (without contrast dye)",
+            "es": "Resonancia magnética (RM) de columna lumbar sin contraste",
+            "fr": "IRM de la colonne lombaire sans produit de contraste",
+            "ar": "رنين مغناطيسي على الفقرات القطنية بدون صبغة",
+            "hi": "बिना कंट्रास्ट डाई के पीठ के निचले हिस्से का एमआरआई स्कैन",
+            "zh": "腰椎平扫核磁共振 (MRI) 扫描",
+            "pt": "Ressonância magnética (RM) de coluna lombar sem contraste"
+        },
+        "crosswalks": {
+            "cpt": "72148",
+            "ichi": "VVV.AG.AA",
+            "snomed_ct": "430799008",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Magnetic resonance imaging (MRI) of lumbar spinal canal, without contrast.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0073721",
+        "composition": {
+            "target": "knee joint",
+            "action": "magnetic resonance imaging",
+            "means": "magnetic fields without contrast dye"
+        },
+        "plain_language": {
+            "en": "Knee MRI scan (without contrast dye)",
+            "es": "Resonancia magnética (RM) de rodilla sin contraste",
+            "fr": "IRM de l'articulation du genou sans produit de contraste",
+            "ar": "رنين مغناطيسي على مفصل الركبة بدون صبغة",
+            "hi": "बिना कंट्रास्ट डाई के घुटने का एमआरआई स्कैन",
+            "zh": "膝关节平扫核磁共振 (MRI) 扫描",
+            "pt": "Ressonância magnética (RM) de joelho sem contraste"
+        },
+        "crosswalks": {
+            "cpt": "73721",
+            "ichi": "VVV.AI.AA",
+            "snomed_ct": "431940003",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Magnetic resonance imaging (MRI) of knee joint, without contrast.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0074177",
+        "composition": {
+            "target": "abdomen and pelvis",
+            "action": "computed tomography",
+            "means": "X-ray with contrast dye"
+        },
+        "plain_language": {
+            "en": "Abdomen and pelvis CT scan (with contrast dye)",
+            "es": "Tomografía (TAC) de abdomen y pelvis con contraste",
+            "fr": "Scanner (TDM) de l'abdomen et du pelvis avec produit de contraste",
+            "ar": "أشعة مقطعية على البطن والحوض بالصبغة",
+            "hi": "कंट्रास्ट डाई के साथ पेट और पेल्विस का सीटी स्कैन",
+            "zh": "腹部和盆腔增强CT扫描",
+            "pt": "Tomografia computadorizada de abdômen e pelve com contraste"
+        },
+        "crosswalks": {
+            "cpt": "74177",
+            "ichi": "VVV.AB.AA",
+            "snomed_ct": "418196001",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Computed tomography (CT) scan, abdomen and pelvis, with contrast.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0076856",
+        "composition": {
+            "target": "pelvic organs",
+            "action": "ultrasonography",
+            "means": "high-frequency sound waves"
+        },
+        "plain_language": {
+            "en": "Ultrasound scan of pelvic organs",
+            "es": "Ecografía de órganos pélvicos",
+            "fr": "Échographie des organes pelviens",
+            "ar": "أشعة فوق صوتية (سونار) على أعضاء الحوض",
+            "hi": "पेल्विक अंगों का अल्ट्रासाउंड स्कैन",
+            "zh": "盆腔器官超声波检查",
+            "pt": "Ultrassonografia de órgãos pélvicos"
+        },
+        "crosswalks": {
+            "cpt": "76856",
+            "ichi": "VVV.AD.AA",
+            "snomed_ct": "80112001",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Pelvis ultrasound, real time imaging, complete study.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0077066",
+        "composition": {
+            "target": "breast",
+            "action": "diagnostic projection radiography",
+            "means": "low-dose X-ray"
+        },
+        "plain_language": {
+            "en": "Targeted diagnostic mammogram of both breasts",
+            "es": "Mamografía de diagnóstico dirigida en ambos senos",
+            "fr": "Mammographie diagnostique bilatérale ciblée",
+            "ar": "أشعة سينية لتشخيص أمراض الثديين (ماموجرام تشخيصي)",
+            "hi": "लक्षण दिखने पर स्तनों की जांच (डायग्नोस्टिक मैमोग्राफी)",
+            "zh": "双侧乳腺病变诊断放射检查 (诊断型乳腺钼靶)",
+            "pt": "Mamografia de diagnóstico dirigida em ambas as mamas"
+        },
+        "crosswalks": {
+            "cpt": "77066",
+            "ichi": "VVV.AH.AA",
+            "snomed_ct": "428414002",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Diagnostic mammography, bilateral, including CAD when performed.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0077067",
+        "composition": {
+            "target": "breast",
+            "action": "screening projection radiography",
+            "means": "low-dose X-ray"
+        },
+        "plain_language": {
+            "en": "Routine screening mammogram of both breasts",
+            "es": "Mamografía de detección de rutina en ambos senos",
+            "fr": "Mammographie de dépistage bilatérale de routine",
+            "ar": "أشعة سينية روتينية لفحص الثديين (ماموجرام)",
+            "hi": "स्तन कैंसर का पता लगाने की सामान्य जांच (मैमोग्राफी)",
+            "zh": "双侧乳腺癌常规放射筛查 (乳腺钼靶)",
+            "pt": "Mamografia de rastreio de rotina em ambas as mamas"
+        },
+        "crosswalks": {
+            "cpt": "77067",
+            "ichi": "VVV.AE.AA",
+            "snomed_ct": "241617006",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Screening mammography, bilateral, 2-view study of each breast.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0080048",
+        "composition": {
+            "target": "blood specimen",
+            "action": "panel basic chemistry analysis",
+            "means": "photometry"
+        },
+        "plain_language": {
+            "en": "Basic chemistry and hydration panel (BMP)",
+            "es": "Panel químico básico de electrolitos y azúcar (BMP)",
+            "fr": "Bilan chimique de base des électrolytes et glucose (BMP)",
+            "ar": "تحليل كيمياء الدم الأساسي والسكريات والأملاح (BMP)",
+            "hi": "मूल इलेक्ट्रोलाइट्स और शुगर की जांच (बीएमपी)",
+            "zh": "基础代谢电解质和血糖分析 (BMP)",
+            "pt": "Painel químico básico de eletrólitos e glicose (BMP)"
+        },
+        "crosswalks": {
+            "cpt": "80048",
+            "ichi": "UUU.AH.AA",
+            "snomed_ct": "442296005",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Basic metabolic panel (BMP), 8 standard chemical tests.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0080053",
+        "composition": {
+            "target": "blood specimen",
+            "action": "panel metabolic analysis",
+            "means": "photometry and ion-selective electrode"
+        },
+        "plain_language": {
+            "en": "Comprehensive body organ and electrolyte panel (CMP)",
+            "es": "Panel metabólico completo de electrolitos y órganos (CMP)",
+            "fr": "Bilan métabolique complet des organes et électrolytes (CMP)",
+            "ar": "تحليل التمثيل الغذائي الشامل ووظائف الأعضاء والأملاح (CMP)",
+            "hi": "अंगों की कार्यप्रणाली और इलेक्ट्रोलाइट्स की व्यापक जांच (सीएमपी)",
+            "zh": "综合代谢功能分析 (包含肝肾功能和电解质 CMP)",
+            "pt": "Painel metabólico completo de eletrólitos e órgãos (CMP)"
+        },
+        "crosswalks": {
+            "cpt": "80053",
+            "ichi": "UUU.AB.AA",
+            "snomed_ct": "442087002",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Comprehensive metabolic panel (CMP), 14 standard chemical tests.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0080061",
+        "composition": {
+            "target": "blood specimen",
+            "action": "panel lipid analysis",
+            "means": "colorimetry"
+        },
+        "plain_language": {
+            "en": "Cholesterol and fats screening test (Lipid Panel)",
+            "es": "Prueba de panel de lípidos y colesterol",
+            "fr": "Bilan lipidique et cholestérol (Bilan lipidique)",
+            "ar": "تحليل دهون الدم والكوليسترول",
+            "hi": "कोलेस्ट्रॉल और वसा की जांच (लिपिड प्रोफाइल)",
+            "zh": "血脂和胆固醇筛查分析",
+            "pt": "Exame de painel lipídico e colesterol"
+        },
+        "crosswalks": {
+            "cpt": "80061",
+            "ichi": "UUU.AC.AA",
+            "snomed_ct": "441753009",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Lipid panel (cholesterol, triglycerides, HDL, LDL calculate).",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0081001",
+        "composition": {
+            "target": "urine specimen",
+            "action": "automated physical and chemical analysis",
+            "means": "reagent strip and microscopy"
+        },
+        "plain_language": {
+            "en": "Urine analysis with microscope inspection",
+            "es": "Análisis de orina con inspección microscópica",
+            "fr": "Analyse d'urine avec examen microscopique",
+            "ar": "تحليل البول مع الفحص المجهري",
+            "hi": "सूक्ष्मदर्शी जांच के साथ मूत्र विश्लेषण",
+            "zh": "尿液常规筛查及镜检分析 (尿常规)",
+            "pt": "Análise de urina com exame microscópico"
+        },
+        "crosswalks": {
+            "cpt": "81001",
+            "ichi": "UUU.AE.AA",
+            "snomed_ct": "27171005",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Urinalysis, automated with microscopy.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0082306",
+        "composition": {
+            "target": "blood specimen",
+            "action": "vitamin assay",
+            "means": "liquid chromatography and mass spectrometry"
+        },
+        "plain_language": {
+            "en": "Vitamin D level screening blood test",
+            "es": "Prueba de sangre para medir nivel de Vitamina D",
+            "fr": "Test sanguin de mesure du taux de Vitamine D",
+            "ar": "تحليل نسبة فيتامين د في الدم",
+            "hi": "विटामिन डी का स्तर जांचने का टेस्ट",
+            "zh": "维生素D含量血液分析",
+            "pt": "Exame de sangue para medir nível de Vitamina D"
+        },
+        "crosswalks": {
+            "cpt": "82306",
+            "ichi": "UUU.AI.AA",
+            "snomed_ct": "72886008",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Vitamin D; 25-hydroxy, includes fraction 1 and fraction 2.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0083036",
+        "composition": {
+            "target": "blood specimen",
+            "action": "glycated hemoglobin assay",
+            "means": "chromatography"
+        },
+        "plain_language": {
+            "en": "Three-month average blood sugar test (HbA1c)",
+            "es": "Prueba de promedio de azúcar de tres meses (HbA1c)",
+            "fr": "Test de glycémie moyenne sur trois mois (Hémoglobine glyquée)",
+            "ar": "تحليل السكر التراكمي لثلاثة أشهر (HbA1c)",
+            "hi": "तीन महीने का औसत ब्लड शुगर टेस्ट (एचबीए1सी)",
+            "zh": "糖化血红蛋白平均血糖分析 (HbA1c)",
+            "pt": "Exame de glicose média de três meses (HbA1c)"
+        },
+        "crosswalks": {
+            "cpt": "83036",
+            "ichi": "UUU.AF.AA",
+            "snomed_ct": "43396009",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Hemoglobin A1c assay.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0084443",
+        "composition": {
+            "target": "blood specimen",
+            "action": "hormone immunoassay",
+            "means": "chemiluminescence"
+        },
+        "plain_language": {
+            "en": "Thyroid gland screening hormone test (TSH)",
+            "es": "Prueba de TSH para detectar problemas de tiroides",
+            "fr": "Test de TSH pour dépister les troubles de la thyroïde",
+            "ar": "تحليل هرمون الغدة الدرقية (TSH)",
+            "hi": "थायराइड की जांच का मुख्य हार्मोन टेस्ट (टीएसएच)",
+            "zh": "甲状腺促素筛查分析 (TSH)",
+            "pt": "Exame de hormônio da tireoide (TSH)"
+        },
+        "crosswalks": {
+            "cpt": "84443",
+            "ichi": "UUU.AD.AA",
+            "snomed_ct": "113063009",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Thyroid stimulating hormone (TSH) assay.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0085025",
+        "composition": {
+            "target": "blood specimen",
+            "action": "automated cell count analysis",
+            "means": "flow cytometry and microscopy"
+        },
+        "plain_language": {
+            "en": "Complete blood count with cell breakdown (CBC)",
+            "es": "Recuento sanguíneo completo con recuento de células (Hemograma)",
+            "fr": "Numération formule sanguine complète (NFS)",
+            "ar": "تحليل صورة الدم الكاملة مع فحص الخلايا التفصيلي",
+            "hi": "रक्त कोशिकाओं के विश्लेषण के साथ पूर्ण रक्त गणना (सीबीसी)",
+            "zh": "全血细胞计数及分类分析 (血常规)",
+            "pt": "Hemograma completo com contagem celular detalhada"
+        },
+        "crosswalks": {
+            "cpt": "85025",
+            "ichi": "UUU.AA.AA",
+            "snomed_ct": "26604007",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Complete blood count (CBC), automated, and automated differential WBC count.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0085610",
+        "composition": {
+            "target": "blood plasma",
+            "action": "coagulation time analysis",
+            "means": "electromechanical clot detection"
+        },
+        "plain_language": {
+            "en": "Blood clotting speed evaluation test (PT/INR)",
+            "es": "Prueba de velocidad de coagulación de la sangre (PT/INR)",
+            "fr": "Test de vitesse de coagulation sanguine (PT/INR)",
+            "ar": "تحليل سرعة تجلط الدم (PT/INR)",
+            "hi": "खून जमने की गति जांचने का टेस्ट (पीटी/आईएनआर)",
+            "zh": "凝血时间与凝血酶原活性分析 (PT/INR)",
+            "pt": "Exame de velocidade de coagulação sanguínea (PT/INR)"
+        },
+        "crosswalks": {
+            "cpt": "85610",
+            "ichi": "UUU.AG.AA",
+            "snomed_ct": "34532008",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Prothrombin time (PT) / International Normalized Ratio (INR).",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0087086",
+        "composition": {
+            "target": "urine specimen",
+            "action": "microbiological culture",
+            "means": "incubation and colony identification"
+        },
+        "plain_language": {
+            "en": "Urine infection diagnostic test (Urine Culture)",
+            "es": "Cultivo de orina para diagnosticar infecciones",
+            "fr": "Uroculture pour diagnostiquer une infection (ECBU)",
+            "ar": "مزرعة البول لتشخيص الالتهابات والعدوى",
+            "hi": "मूत्र संक्रमण का पता लगाने की जांच (यूरिन कल्चर)",
+            "zh": "尿液微生物培养及菌落计数 (尿培养)",
+            "pt": "Urocultura para diagnóstico de infecção urinária"
+        },
+        "crosswalks": {
+            "cpt": "87086",
+            "ichi": "UUU.AJ.AA",
+            "snomed_ct": "84178007",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Urine culture, colony count with isolation and identification.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0093000",
+        "composition": {
+            "target": "heart",
+            "action": "electrocardiogram tracking",
+            "means": "12-lead electrical sensor recording"
+        },
+        "plain_language": {
+            "en": "Standard 12-lead heart electrical test (ECG/EKG)",
+            "es": "Prueba eléctrica estándar del corazón de 12 derivaciones (ECG)",
+            "fr": "Électrocardiogramme standard à 12 dérivations (ECG)",
+            "ar": "رسم قلب كهربائي قياسي ذو 12 قناة (ECG)",
+            "hi": "हृदय की धड़कन जांचने का इलेक्ट्रिकल टेस्ट (ईसीजी)",
+            "zh": "标准十二导联心电图波形测试 (ECG/EKG)",
+            "pt": "Eletrocardiograma padrão de 12 derivações (ECG/EKG)"
+        },
+        "crosswalks": {
+            "cpt": "93000",
+            "ichi": "WWW.AA.AA",
+            "snomed_ct": "29303009",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Electrocardiogram (ECG/EKG), 12 leads, tracing and interpretation report.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0099202",
+        "composition": {
+            "target": "new patient",
+            "action": "evaluation and management",
+            "means": "15-29 minute cognitive visit"
+        },
+        "plain_language": {
+            "en": "Short checkup (Level 2) for a new patient",
+            "es": "Chequeo médico corto (Nivel 2) para paciente nuevo",
+            "fr": "Consultation médicale courte (Niveau 2) pour nouveau patient",
+            "ar": "مراجعة طبية قصيرة (المستوى 2) لمريض جديد",
+            "hi": "नए मरीज के लिए छोटी जांच (स्तर 2)",
+            "zh": "首诊新患者的简短医疗评估（二级）",
+            "pt": "Check-up médico curto (Nível 2) para paciente novo"
+        },
+        "crosswalks": {
+            "cpt": "99202",
+            "ichi": "ZZZ.AB.AA",
+            "snomed_ct": "439708006",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "New patient office visit, 20 minutes, straightforward clinical decision making.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0099203",
+        "composition": {
+            "target": "new patient",
+            "action": "evaluation and management",
+            "means": "30-44 minute cognitive visit"
+        },
+        "plain_language": {
+            "en": "Routine checkup and consultation (Level 3) for a new patient",
+            "es": "Consulta médica de rutina (Nivel 3) para paciente nuevo",
+            "fr": "Consultation de routine (Niveau 3) pour nouveau patient",
+            "ar": "استشارة روتينية (المستوى 3) لمريض جديد",
+            "hi": "नए मरीज के लिए सामान्य जांच व परामर्श (स्तर 3)",
+            "zh": "首诊新患者的普通医疗评估（三级）",
+            "pt": "Consulta de rotina (Nível 3) para paciente novo"
+        },
+        "crosswalks": {
+            "cpt": "99203",
+            "ichi": "ZZZ.AB.AB",
+            "snomed_ct": "439708006",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "New patient office visit, 30 minutes, low complexity decision making.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0099204",
+        "composition": {
+            "target": "new patient",
+            "action": "evaluation and management",
+            "means": "45-59 minute cognitive visit"
+        },
+        "plain_language": {
+            "en": "Detailed initial consultation (Level 4) for a new patient",
+            "es": "Consulta médica inicial detallada (Nivel 4) para paciente nuevo",
+            "fr": "Consultation initiale approfondie (Niveau 4) pour nouveau patient",
+            "ar": "استشارة طبية أولية مفصلة (المستوى 4) لمريض جديد",
+            "hi": "नए मरीज के लिए विस्तृत प्रारंभिक परामर्श (स्तर 4)",
+            "zh": "首诊新患者的深度医疗评估（四级）",
+            "pt": "Consulta médica inicial detalhada (Nível 4) para paciente novo"
+        },
+        "crosswalks": {
+            "cpt": "99204",
+            "ichi": "ZZZ.AB.AC",
+            "snomed_ct": "439708006",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "New patient office visit, 45 minutes, moderate complexity decision making.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0099205",
+        "composition": {
+            "target": "new patient",
+            "action": "evaluation and management",
+            "means": "60-74 minute cognitive visit"
+        },
+        "plain_language": {
+            "en": "Comprehensive medical consultation (Level 5) for a new patient",
+            "es": "Consulta médica compleja inicial (Nivel 5) para paciente nuevo",
+            "fr": "Consultation initiale complexe (Niveau 5) pour nouveau patient",
+            "ar": "استشارة طبية أولية شاملة ومعقدة (المستوى 5) لمريض جديد",
+            "hi": "नए मरीज के लिए व्यापक व जटिल परामर्श (स्तर 5)",
+            "zh": "首诊新患者的高难度医疗评估（五级）",
+            "pt": "Consulta médica complexa inicial (Nível 5) para paciente novo"
+        },
+        "crosswalks": {
+            "cpt": "99205",
+            "ichi": "ZZZ.AB.AD",
+            "snomed_ct": "439708006",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "New patient office visit, 60 minutes, high complexity decision making.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0099212",
+        "composition": {
+            "target": "established patient",
+            "action": "evaluation and management",
+            "means": "10-19 minute cognitive visit"
+        },
+        "plain_language": {
+            "en": "Short medical checkup (Level 2) for a regular patient",
+            "es": "Chequeo médico corto (Nivel 2) para paciente establecido",
+            "fr": "Consultation médicale courte (Niveau 2) pour patient régulier",
+            "ar": "مراجعة طبية قصيرة (المستوى 2) لمريض مسجل",
+            "hi": "नियमित मरीज के लिए छोटी स्वास्थ्य जांच (स्तर 2)",
+            "zh": "常规复诊患者的简短医疗评估（二级）",
+            "pt": "Check-up médico curto (Nível 2) para paciente estabelecido"
+        },
+        "crosswalks": {
+            "cpt": "99212",
+            "ichi": "ZZZ.AA.AA",
+            "snomed_ct": "439708006",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Established patient office visit, 10 minutes, straightforward clinical decision making.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0099213",
+        "composition": {
+            "target": "established patient",
+            "action": "evaluation and management",
+            "means": "20-29 minute cognitive visit"
+        },
+        "plain_language": {
+            "en": "Routine medical consultation (Level 3) for a regular patient",
+            "es": "Consulta médica de rutina (Nivel 3) para paciente establecido",
+            "fr": "Consultation médicale de routine (Niveau 3) pour patient régulier",
+            "ar": "استشارة طبية روتينية (المستوى 3) لمريض مسجل",
+            "hi": "नियमित मरीज के लिए सामान्य परामर्श (स्तर 3)",
+            "zh": "常规复诊患者的普通医疗评估（三级）",
+            "pt": "Consulta médica de rotina (Nível 3) para paciente estabelecido"
+        },
+        "crosswalks": {
+            "cpt": "99213",
+            "ichi": "ZZZ.AA.AB",
+            "snomed_ct": "439708006",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Established patient office visit, 15 minutes, low complexity decision making.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0099214",
+        "composition": {
+            "target": "established patient",
+            "action": "evaluation and management",
+            "means": "30-39 minute cognitive visit"
+        },
+        "plain_language": {
+            "en": "Detailed medical consultation (Level 4) for a regular patient",
+            "es": "Consulta médica detallada (Nivel 4) para paciente establecido",
+            "fr": "Consultation médicale approfondie (Niveau 4) pour patient régulier",
+            "ar": "استشارة طبية مفصلة (المستوى 4) لمريض مسجل",
+            "hi": "नियमित मरीज के लिए विस्तृत परामर्श (स्तर 4)",
+            "zh": "常规复诊患者的深度医疗评估（四级）",
+            "pt": "Consulta médica detalhada (Nível 4) para paciente estabelecido"
+        },
+        "crosswalks": {
+            "cpt": "99214",
+            "ichi": "ZZZ.AA.AC",
+            "snomed_ct": "439708006",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Established patient office visit, 25 minutes, moderate complexity decision making.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0099215",
+        "composition": {
+            "target": "established patient",
+            "action": "evaluation and management",
+            "means": "40-54 minute cognitive visit"
+        },
+        "plain_language": {
+            "en": "Comprehensive medical consultation (Level 5) for a regular patient",
+            "es": "Consulta médica compleja (Nivel 5) para paciente establecido",
+            "fr": "Consultation médicale complexe (Niveau 5) pour patient régulier",
+            "ar": "استشارة طبية شاملة ومعقدة (المستوى 5) لمريض مسجل",
+            "hi": "नियमित मरीज के लिए व्यापक/जटिल परामर्श (स्तर 5)",
+            "zh": "常规复诊患者的高难度医疗评估（五级）",
+            "pt": "Consulta médica complexa (Nível 5) para paciente estabelecido"
+        },
+        "crosswalks": {
+            "cpt": "99215",
+            "ichi": "ZZZ.AA.AD",
+            "snomed_ct": "439708006",
+            "icd11_pcs": null,
+            "icd10_cm": null
+        },
+        "notes": "Established patient office visit, 40 minutes, high complexity decision making.",
+        "provisional": false,
+        "version": "0.1.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110011600",
+        "composition": {
+            "target": "spleen",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the spleen with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de bazo con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de rate avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ الطحال مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ प्लीहा (तिल्ली) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描脾脏",
+            "pt": "Exame de imagem diagnóstica de baço com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "81600",
+            "ichi": "SPL.IM.CO",
+            "snomed_ct": "940011600",
+            "icd11_pcs": "SIC1.0",
+            "icd10_cm": "0SB600Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011002251",
+        "composition": {
+            "target": "kidney",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the kidney using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de riñón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de rein par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ الكلية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा गुर्दा (किडनी) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查肾脏",
+            "pt": "Visualização endoscópica de rim usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82251",
+            "ichi": "KID.IN.PE",
+            "snomed_ct": "940002251",
+            "icd11_pcs": "KIP1.0",
+            "icd10_cm": "0KB251Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110058839",
+        "composition": {
+            "target": "spleen",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the spleen with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de bazo con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de rate avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ الطحال مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ प्लीहा (तिल्ली) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查脾脏",
+            "pt": "Visualização endoscópica de baço com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "88839",
+            "ichi": "SPL.IN.CO",
+            "snomed_ct": "940058839",
+            "icd11_pcs": "SIC1.0",
+            "icd10_cm": "0SB839Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110213526",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the urinary bladder with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de vejiga urinaria con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de vessie avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ المثانة البولية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मूत्राशय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查膀胱",
+            "pt": "Visualização endoscópica de bexiga urinária com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "83526",
+            "ichi": "URI.IN.CO",
+            "snomed_ct": "940013526",
+            "icd11_pcs": "UIC1.0",
+            "icd10_cm": "0UB526Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110284272",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the thyroid gland with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de glándula tiroides con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de glande thyroïde avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ الغدة الدرقية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ थायराइड ग्रंथि का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查甲状腺",
+            "pt": "Visualização endoscópica de glândula tireoide com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "84272",
+            "ichi": "THY.IN.CO",
+            "snomed_ct": "940084272",
+            "icd11_pcs": "TIC1.0",
+            "icd10_cm": "0TB272Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110312310",
+        "composition": {
+            "target": "blood vessels",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the blood vessels through an open incision",
+            "es": "Extracción de muestra de tejido de vasos sanguíneos a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de vaisseaux sanguins par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ الأوعية الدموية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा रक्त वाहिकाएं का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检血管",
+            "pt": "Extração de fragmento tecidual de vasos sanguíneos através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "82310",
+            "ichi": "BLO.BI.OP",
+            "snomed_ct": "940012310",
+            "icd11_pcs": "BBO1.0",
+            "icd10_cm": "0BB310Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110368541",
+        "composition": {
+            "target": "liver",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the liver through an open incision",
+            "es": "Extirpación quirúrgica de hígado a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de foie par incision ouverte",
+            "ar": "استئصال جراحي لـ الكبد عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा यकृत (लीवर) का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除肝脏",
+            "pt": "Remoção cirúrgica de fígado através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "88541",
+            "ichi": "LIV.EX.OP",
+            "snomed_ct": "940068541",
+            "icd11_pcs": "LEO1.0",
+            "icd10_cm": "0LB541Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110391803",
+        "composition": {
+            "target": "stomach",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the stomach under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de estómago bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de estomac sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ المعدة بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में आमाशय (पेट) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查胃部",
+            "pt": "Visualização endoscópica de estômago sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "81803",
+            "ichi": "STO.IN.UL",
+            "snomed_ct": "940091803",
+            "icd11_pcs": "SIU1.0",
+            "icd10_cm": "0SB803Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110412128",
+        "composition": {
+            "target": "stomach",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the stomach using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de estómago usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de estomac par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ المعدة باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा आमाशय (पेट) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检胃部",
+            "pt": "Extração de fragmento tecidual de estômago usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82128",
+            "ichi": "STO.BI.PE",
+            "snomed_ct": "940012128",
+            "icd11_pcs": "SBP1.0",
+            "icd10_cm": "0SB128Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110435881",
+        "composition": {
+            "target": "skin",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the skin lesion through an open incision",
+            "es": "Reconstrucción anatómica de lesión de piel a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de lésion cutanée par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ آفة جلدية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा त्वचा की क्षति (घाव) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建皮肤病变",
+            "pt": "Reconstrução anatômica de lesão de pele através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "85881",
+            "ichi": "SKI.RE.OP",
+            "snomed_ct": "940035881",
+            "icd11_pcs": "SRO1.0",
+            "icd10_cm": "0SB881Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110441925",
+        "composition": {
+            "target": "stomach",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the stomach with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de estómago con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de estomac avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ المعدة مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ आमाशय (पेट) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建胃部",
+            "pt": "Reconstrução anatômica de estômago com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "81925",
+            "ichi": "STO.RE.CO",
+            "snomed_ct": "940041925",
+            "icd11_pcs": "SRC1.0",
+            "icd10_cm": "0SB925Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110560391",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the shoulder joint through an open incision",
+            "es": "Visualización endoscópica de articulación del hombro a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de articulation de l'épaule par incision ouverte",
+            "ar": "فحص بالمنظار لـ مفصل الكتف عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा कंधे का जोड़ का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查肩关节",
+            "pt": "Visualização endoscópica de articulação do ombro através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "80391",
+            "ichi": "SHO.IN.OP",
+            "snomed_ct": "940060391",
+            "icd11_pcs": "SIO1.0",
+            "icd10_cm": "0SB391Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110605382",
+        "composition": {
+            "target": "tonsils",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the tonsils with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de amígdalas con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de amygdales avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ اللوزتين مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ टॉन्सिल का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描扁桃体",
+            "pt": "Exame de imagem diagnóstica de amígdalas com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "85382",
+            "ichi": "TON.IM.CO",
+            "snomed_ct": "940005382",
+            "icd11_pcs": "TIC1.0",
+            "icd10_cm": "0TB382Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011062851",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the shoulder joint using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de articulación del hombro usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de articulation de l'épaule par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ مفصل الكتف باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा कंधे का जोड़ का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描肩关节",
+            "pt": "Exame de imagem diagnóstica de articulação do ombro usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82851",
+            "ichi": "SHO.IM.PE",
+            "snomed_ct": "940062851",
+            "icd11_pcs": "SIP1.0",
+            "icd10_cm": "0SB851Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110675243",
+        "composition": {
+            "target": "spleen",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the spleen through an open incision",
+            "es": "Extracción de muestra de tejido de bazo a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de rate par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ الطحال عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा प्लीहा (तिल्ली) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检脾脏",
+            "pt": "Extração de fragmento tecidual de baço através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "85243",
+            "ichi": "SPL.BI.OP",
+            "snomed_ct": "940075243",
+            "icd11_pcs": "SBO1.0",
+            "icd10_cm": "0SB243Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0110862285",
+        "composition": {
+            "target": "rectum",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the rectum using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de recto usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de rectum par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ المستقيم باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मलाशय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描直肠",
+            "pt": "Exame de imagem diagnóstica de reto usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82285",
+            "ichi": "REC.IM.PE",
+            "snomed_ct": "940062285",
+            "icd11_pcs": "RIP1.0",
+            "icd10_cm": "0RB285Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011096552",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the shoulder joint through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de articulación del hombro a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de articulation de l'épaule par incision ouverte",
+            "ar": "تصوير تشخيصي لـ مفصل الكتف عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा कंधे का जोड़ का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描肩关节",
+            "pt": "Exame de imagem diagnóstica de articulação do ombro através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "86552",
+            "ichi": "SHO.IM.OP",
+            "snomed_ct": "940096552",
+            "icd11_pcs": "SIO1.0",
+            "icd10_cm": "0SB552Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011096817",
+        "composition": {
+            "target": "tonsils",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the tonsils using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de amígdalas usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de amygdales par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ اللوزتين باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा टॉन्सिल का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查扁桃体",
+            "pt": "Visualização endoscópica de amígdalas usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "86817",
+            "ichi": "TON.IN.PE",
+            "snomed_ct": "940096817",
+            "icd11_pcs": "TIP1.0",
+            "icd10_cm": "0TB817Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011104157",
+        "composition": {
+            "target": "kidney",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the kidney under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de riñón bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de rein sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ الكلية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में गुर्दा (किडनी) का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除肾脏",
+            "pt": "Remoção cirúrgica de rim sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "84157",
+            "ichi": "KID.EX.UL",
+            "snomed_ct": "940004157",
+            "icd11_pcs": "KEU1.0",
+            "icd10_cm": "0KB157Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0111156490",
+        "composition": {
+            "target": "heart",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the heart through an open incision",
+            "es": "Reconstrucción anatómica de corazón a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de cœur par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ القلب عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा हृदय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建心脏",
+            "pt": "Reconstrução anatômica de coração através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "86490",
+            "ichi": "HEA.RE.OP",
+            "snomed_ct": "940056490",
+            "icd11_pcs": "HRO1.0",
+            "icd10_cm": "0HB490Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0111166979",
+        "composition": {
+            "target": "stomach",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the stomach through an open incision",
+            "es": "Extracción de muestra de tejido de estómago a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de estomac par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ المعدة عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा आमाशय (पेट) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检胃部",
+            "pt": "Extração de fragmento tecidual de estômago através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "86979",
+            "ichi": "STO.BI.OP",
+            "snomed_ct": "940066979",
+            "icd11_pcs": "SBO1.0",
+            "icd10_cm": "0SB979Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0111373527",
+        "composition": {
+            "target": "tonsils",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the tonsils under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de amígdalas bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de amygdales sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ اللوزتين بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में टॉन्सिल का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查扁桃体",
+            "pt": "Visualização endoscópica de amígdalas sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "83527",
+            "ichi": "TON.IN.UL",
+            "snomed_ct": "940073527",
+            "icd11_pcs": "TIU1.0",
+            "icd10_cm": "0TB527Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0111527634",
+        "composition": {
+            "target": "blood vessels",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the blood vessels using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de vasos sanguíneos usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de vaisseaux sanguins par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ الأوعية الدموية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा रक्त वाहिकाएं का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检血管",
+            "pt": "Extração de fragmento tecidual de vasos sanguíneos usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87634",
+            "ichi": "BLO.BI.PE",
+            "snomed_ct": "940027634",
+            "icd11_pcs": "BBP1.0",
+            "icd10_cm": "0BB634Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0111722651",
+        "composition": {
+            "target": "lung",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the lung using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de pulmón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de poumon par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ الرئة باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा फेफड़ा का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除肺部",
+            "pt": "Remoção cirúrgica de pulmão usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82651",
+            "ichi": "LUN.EX.PE",
+            "snomed_ct": "940022651",
+            "icd11_pcs": "LEP1.0",
+            "icd10_cm": "0LB651Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0111772207",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the shoulder joint with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de articulación del hombro con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de articulation de l'épaule avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ مفصل الكتف مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ कंधे का जोड़ का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查肩关节",
+            "pt": "Visualização endoscópica de articulação do ombro com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "82207",
+            "ichi": "SHO.IN.CO",
+            "snomed_ct": "940072207",
+            "icd11_pcs": "SIC1.0",
+            "icd10_cm": "0SB207Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0111777088",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the thyroid gland through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de glándula tiroides a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de glande thyroïde par incision ouverte",
+            "ar": "تصوير تشخيصي لـ الغدة الدرقية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा थायराइड ग्रंथि का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描甲状腺",
+            "pt": "Exame de imagem diagnóstica de glândula tireoide através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "87088",
+            "ichi": "THY.IM.OP",
+            "snomed_ct": "940077088",
+            "icd11_pcs": "TIO1.0",
+            "icd10_cm": "0TB088Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0111826303",
+        "composition": {
+            "target": "nasal passage",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the nasal passage with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de pasaje nasal con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de fosses nasales avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ الممر الأنفي مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ नाक का रास्ता का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描鼻腔通道",
+            "pt": "Exame de imagem diagnóstica de passagem nasal com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86303",
+            "ichi": "NAS.IM.CO",
+            "snomed_ct": "940026303",
+            "icd11_pcs": "NIC1.0",
+            "icd10_cm": "0NB303Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0111878010",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the shoulder joint under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de articulación del hombro bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de articulation de l'épaule sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ مفصل الكتف بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में कंधे का जोड़ का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查肩关节",
+            "pt": "Visualização endoscópica de articulação do ombro sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "88010",
+            "ichi": "SHO.IN.UL",
+            "snomed_ct": "940078010",
+            "icd11_pcs": "SIU1.0",
+            "icd10_cm": "0SB010Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0111882273",
+        "composition": {
+            "target": "rectum",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the rectum through an open incision",
+            "es": "Reconstrucción anatómica de recto a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de rectum par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ المستقيم عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा मलाशय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建直肠",
+            "pt": "Reconstrução anatômica de reto através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "82273",
+            "ichi": "REC.RE.OP",
+            "snomed_ct": "940082273",
+            "icd11_pcs": "RRO1.0",
+            "icd10_cm": "0RB273Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0111888949",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the shoulder joint through an open incision",
+            "es": "Reconstrucción anatómica de articulación del hombro a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de articulation de l'épaule par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ مفصل الكتف عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा कंधे का जोड़ का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建肩关节",
+            "pt": "Reconstrução anatômica de articulação do ombro através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "88949",
+            "ichi": "SHO.RE.OP",
+            "snomed_ct": "940088949",
+            "icd11_pcs": "SRO1.0",
+            "icd10_cm": "0SB949Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112033877",
+        "composition": {
+            "target": "lung",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the lung using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de pulmón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de poumon par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ الرئة باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा फेफड़ा का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描肺部",
+            "pt": "Exame de imagem diagnóstica de pulmão usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "83877",
+            "ichi": "LUN.IM.PE",
+            "snomed_ct": "940033877",
+            "icd11_pcs": "LIP1.0",
+            "icd10_cm": "0LB877Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011203890",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the shoulder joint with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de articulación del hombro con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de articulation de l'épaule avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ مفصل الكتف مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ कंधे का जोड़ का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描肩关节",
+            "pt": "Exame de imagem diagnóstica de articulação do ombro com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "83890",
+            "ichi": "SHO.IM.CO",
+            "snomed_ct": "940003890",
+            "icd11_pcs": "SIC1.0",
+            "icd10_cm": "0SB890Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112066599",
+        "composition": {
+            "target": "heart",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the heart under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de corazón bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de cœur sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ القلب بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में हृदय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检心脏",
+            "pt": "Extração de fragmento tecidual de coração sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "86599",
+            "ichi": "HEA.BI.UL",
+            "snomed_ct": "940066599",
+            "icd11_pcs": "HBU1.0",
+            "icd10_cm": "0HB599Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112100237",
+        "composition": {
+            "target": "stomach",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the stomach with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de estómago con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de estomac avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ المعدة مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ आमाशय (पेट) का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除胃部",
+            "pt": "Remoção cirúrgica de estômago com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "80237",
+            "ichi": "STO.EX.CO",
+            "snomed_ct": "940000237",
+            "icd11_pcs": "SEC1.0",
+            "icd10_cm": "0SB237Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112164442",
+        "composition": {
+            "target": "blood vessels",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the blood vessels using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de vasos sanguíneos usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de vaisseaux sanguins par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ الأوعية الدموية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा रक्त वाहिकाएं का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建血管",
+            "pt": "Reconstrução anatômica de vasos sanguíneos usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "84442",
+            "ichi": "BLO.RE.PE",
+            "snomed_ct": "940064442",
+            "icd11_pcs": "BRP1.0",
+            "icd10_cm": "0BB442Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112215142",
+        "composition": {
+            "target": "lung",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the lung through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de pulmón a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de poumon par incision ouverte",
+            "ar": "تصوير تشخيصي لـ الرئة عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा फेफड़ा का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描肺部",
+            "pt": "Exame de imagem diagnóstica de pulmão através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "85142",
+            "ichi": "LUN.IM.OP",
+            "snomed_ct": "940015142",
+            "icd11_pcs": "LIO1.0",
+            "icd10_cm": "0LB142Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112256974",
+        "composition": {
+            "target": "tonsils",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the tonsils with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de amígdalas con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de amygdales avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ اللوزتين مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ टॉन्सिल का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除扁桃体",
+            "pt": "Remoção cirúrgica de amígdalas com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86974",
+            "ichi": "TON.EX.CO",
+            "snomed_ct": "940056974",
+            "icd11_pcs": "TEC1.0",
+            "icd10_cm": "0TB974Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112405720",
+        "composition": {
+            "target": "heart",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the heart with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de corazón con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de cœur avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ القلب مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ हृदय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查心脏",
+            "pt": "Visualização endoscópica de coração com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "85720",
+            "ichi": "HEA.IN.CO",
+            "snomed_ct": "940005720",
+            "icd11_pcs": "HIC1.0",
+            "icd10_cm": "0HB720Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112483458",
+        "composition": {
+            "target": "skin",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the skin lesion with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de lesión de piel con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de lésion cutanée avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ آفة جلدية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ त्वचा की क्षति (घाव) का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除皮肤病变",
+            "pt": "Remoção cirúrgica de lesão de pele com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "83458",
+            "ichi": "SKI.EX.CO",
+            "snomed_ct": "940083458",
+            "icd11_pcs": "SEC1.0",
+            "icd10_cm": "0SB458Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112507896",
+        "composition": {
+            "target": "spleen",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the spleen under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de bazo bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de rate sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ الطحال بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में प्लीहा (तिल्ली) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建脾脏",
+            "pt": "Reconstrução anatômica de baço sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "87896",
+            "ichi": "SPL.RE.UL",
+            "snomed_ct": "940007896",
+            "icd11_pcs": "SRU1.0",
+            "icd10_cm": "0SB896Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112568153",
+        "composition": {
+            "target": "spleen",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the spleen under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de bazo bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de rate sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ الطحال بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में प्लीहा (तिल्ली) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描脾脏",
+            "pt": "Exame de imagem diagnóstica de baço sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "88153",
+            "ichi": "SPL.IM.UL",
+            "snomed_ct": "940068153",
+            "icd11_pcs": "SIU1.0",
+            "icd10_cm": "0SB153Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112605026",
+        "composition": {
+            "target": "nasal passage",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the nasal passage through an open incision",
+            "es": "Visualización endoscópica de pasaje nasal a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de fosses nasales par incision ouverte",
+            "ar": "فحص بالمنظار لـ الممر الأنفي عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा नाक का रास्ता का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查鼻腔通道",
+            "pt": "Visualização endoscópica de passagem nasal através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "85026",
+            "ichi": "NAS.IN.OP",
+            "snomed_ct": "940005026",
+            "icd11_pcs": "NIO1.0",
+            "icd10_cm": "0NB026Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112617310",
+        "composition": {
+            "target": "heart",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the heart under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de corazón bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de cœur sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ القلب بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में हृदय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查心脏",
+            "pt": "Visualização endoscópica de coração sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "87310",
+            "ichi": "HEA.IN.UL",
+            "snomed_ct": "940017310",
+            "icd11_pcs": "HIU1.0",
+            "icd10_cm": "0HB310Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112623787",
+        "composition": {
+            "target": "heart",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the heart using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de corazón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de cœur par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ القلب باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा हृदय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查心脏",
+            "pt": "Visualização endoscópica de coração usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "83787",
+            "ichi": "HEA.IN.PE",
+            "snomed_ct": "940023787",
+            "icd11_pcs": "HIP1.0",
+            "icd10_cm": "0HB787Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011274769",
+        "composition": {
+            "target": "blood vessels",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the blood vessels with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de vasos sanguíneos con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de vaisseaux sanguins avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ الأوعية الدموية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ रक्त वाहिकाएं का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除血管",
+            "pt": "Remoção cirúrgica de vasos sanguíneos com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "84769",
+            "ichi": "BLO.EX.CO",
+            "snomed_ct": "940074769",
+            "icd11_pcs": "BEC1.0",
+            "icd10_cm": "0BB769Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112819111",
+        "composition": {
+            "target": "lung",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the lung under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de pulmón bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de poumon sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ الرئة بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में फेफड़ा का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检肺部",
+            "pt": "Extração de fragmento tecidual de pulmão sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "89111",
+            "ichi": "LUN.BI.UL",
+            "snomed_ct": "940019111",
+            "icd11_pcs": "LBU1.0",
+            "icd10_cm": "0LB111Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112894672",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the shoulder joint using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de articulación del hombro usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de articulation de l'épaule par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ مفصل الكتف باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा कंधे का जोड़ का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除肩关节",
+            "pt": "Remoção cirúrgica de articulação do ombro usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "84672",
+            "ichi": "SHO.EX.PE",
+            "snomed_ct": "940094672",
+            "icd11_pcs": "SEP1.0",
+            "icd10_cm": "0SB672Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112936606",
+        "composition": {
+            "target": "skin",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the skin lesion using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de lesión de piel usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de lésion cutanée par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ آفة جلدية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा त्वचा की क्षति (घाव) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描皮肤病变",
+            "pt": "Exame de imagem diagnóstica de lesão de pele usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "86606",
+            "ichi": "SKI.IM.PE",
+            "snomed_ct": "940036606",
+            "icd11_pcs": "SIP1.0",
+            "icd10_cm": "0SB606Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01129480",
+        "composition": {
+            "target": "nasal passage",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the nasal passage with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de pasaje nasal con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de fosses nasales avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ الممر الأنفي مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ नाक का रास्ता का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查鼻腔通道",
+            "pt": "Visualização endoscópica de passagem nasal com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "89480",
+            "ichi": "NAS.IN.CO",
+            "snomed_ct": "940029480",
+            "icd11_pcs": "NIC1.0",
+            "icd10_cm": "0NB480Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0112986159",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the urinary bladder under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de vejiga urinaria bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de vessie sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ المثانة البولية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मूत्राशय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查膀胱",
+            "pt": "Visualização endoscópica de bexiga urinária sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "86159",
+            "ichi": "URI.IN.UL",
+            "snomed_ct": "940086159",
+            "icd11_pcs": "UIU1.0",
+            "icd10_cm": "0UB159Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011300507",
+        "composition": {
+            "target": "tonsils",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the tonsils through an open incision",
+            "es": "Extirpación quirúrgica de amígdalas a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de amygdales par incision ouverte",
+            "ar": "استئصال جراحي لـ اللوزتين عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा टॉन्सिल का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除扁桃体",
+            "pt": "Remoção cirúrgica de amígdalas através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "80507",
+            "ichi": "TON.EX.OP",
+            "snomed_ct": "940000507",
+            "icd11_pcs": "TEO1.0",
+            "icd10_cm": "0TB507Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011300914",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the thyroid gland using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de glándula tiroides usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de glande thyroïde par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ الغدة الدرقية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा थायराइड ग्रंथि का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查甲状腺",
+            "pt": "Visualização endoscópica de glândula tireoide usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "80914",
+            "ichi": "THY.IN.PE",
+            "snomed_ct": "940000914",
+            "icd11_pcs": "TIP1.0",
+            "icd10_cm": "0TB914Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113079295",
+        "composition": {
+            "target": "nasal passage",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the nasal passage through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de pasaje nasal a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de fosses nasales par incision ouverte",
+            "ar": "تصوير تشخيصي لـ الممر الأنفي عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा नाक का रास्ता का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描鼻腔通道",
+            "pt": "Exame de imagem diagnóstica de passagem nasal através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "89295",
+            "ichi": "NAS.IM.OP",
+            "snomed_ct": "940079295",
+            "icd11_pcs": "NIO1.0",
+            "icd10_cm": "0NB295Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113097405",
+        "composition": {
+            "target": "spleen",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the spleen with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de bazo con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de rate avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ الطحال مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ प्लीहा (तिल्ली) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建脾脏",
+            "pt": "Reconstrução anatômica de baço com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "87405",
+            "ichi": "SPL.RE.CO",
+            "snomed_ct": "940097405",
+            "icd11_pcs": "SRC1.0",
+            "icd10_cm": "0SB405Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113145013",
+        "composition": {
+            "target": "lung",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the lung with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de pulmón con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de poumon avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ الرئة مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ फेफड़ा का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检肺部",
+            "pt": "Extração de fragmento tecidual de pulmão com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "85013",
+            "ichi": "LUN.BI.CO",
+            "snomed_ct": "940045013",
+            "icd11_pcs": "LBC1.0",
+            "icd10_cm": "0LB013Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113222084",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the urinary bladder through an open incision",
+            "es": "Visualización endoscópica de vejiga urinaria a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de vessie par incision ouverte",
+            "ar": "فحص بالمنظار لـ المثانة البولية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा मूत्राशय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查膀胱",
+            "pt": "Visualização endoscópica de bexiga urinária através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "82084",
+            "ichi": "URI.IN.OP",
+            "snomed_ct": "940022084",
+            "icd11_pcs": "UIO1.0",
+            "icd10_cm": "0UB084Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113281306",
+        "composition": {
+            "target": "pancreas",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the pancreas using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de páncreas usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de pancréas par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ البنكرياس باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा अग्नाशय (पैनक्रियाज) का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除胰腺",
+            "pt": "Remoção cirúrgica de pâncreas usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "81306",
+            "ichi": "PAN.EX.PE",
+            "snomed_ct": "940081306",
+            "icd11_pcs": "PEP1.0",
+            "icd10_cm": "0PB306Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113391217",
+        "composition": {
+            "target": "blood vessels",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the blood vessels under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de vasos sanguíneos bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de vaisseaux sanguins sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ الأوعية الدموية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में रक्त वाहिकाएं का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描血管",
+            "pt": "Exame de imagem diagnóstica de vasos sanguíneos sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "81217",
+            "ichi": "BLO.IM.UL",
+            "snomed_ct": "940091217",
+            "icd11_pcs": "BIU1.0",
+            "icd10_cm": "0BB217Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113445592",
+        "composition": {
+            "target": "liver",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the liver with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de hígado con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de foie avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ الكبد مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ यकृत (लीवर) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查肝脏",
+            "pt": "Visualização endoscópica de fígado com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "85592",
+            "ichi": "LIV.IN.CO",
+            "snomed_ct": "940045592",
+            "icd11_pcs": "LIC1.0",
+            "icd10_cm": "0LB592Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113454909",
+        "composition": {
+            "target": "lung",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the lung using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de pulmón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de poumon par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ الرئة باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा फेफड़ा का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查肺部",
+            "pt": "Visualização endoscópica de pulmão usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "84909",
+            "ichi": "LUN.IN.PE",
+            "snomed_ct": "940054909",
+            "icd11_pcs": "LIP1.0",
+            "icd10_cm": "0LB909Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113498076",
+        "composition": {
+            "target": "nasal passage",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the nasal passage with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de pasaje nasal con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de fosses nasales avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ الممر الأنفي مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ नाक का रास्ता का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检鼻腔通道",
+            "pt": "Extração de fragmento tecidual de passagem nasal com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "88076",
+            "ichi": "NAS.BI.CO",
+            "snomed_ct": "940098076",
+            "icd11_pcs": "NBC1.0",
+            "icd10_cm": "0NB076Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113505958",
+        "composition": {
+            "target": "pancreas",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the pancreas using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de páncreas usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de pancréas par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ البنكرياس باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा अग्नाशय (पैनक्रियाज) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建胰腺",
+            "pt": "Reconstrução anatômica de pâncreas usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "85958",
+            "ichi": "PAN.RE.PE",
+            "snomed_ct": "940005958",
+            "icd11_pcs": "PRP1.0",
+            "icd10_cm": "0PB958Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113513565",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the thyroid gland under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de glándula tiroides bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de glande thyroïde sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ الغدة الدرقية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में थायराइड ग्रंथि का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检甲状腺",
+            "pt": "Extração de fragmento tecidual de glândula tireoide sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "83565",
+            "ichi": "THY.BI.UL",
+            "snomed_ct": "940013565",
+            "icd11_pcs": "TBU1.0",
+            "icd10_cm": "0TB565Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113552371",
+        "composition": {
+            "target": "skin",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the skin lesion through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de lesión de piel a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de lésion cutanée par incision ouverte",
+            "ar": "تصوير تشخيصي لـ آفة جلدية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा त्वचा की क्षति (घाव) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描皮肤病变",
+            "pt": "Exame de imagem diagnóstica de lesão de pele através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "82371",
+            "ichi": "SKI.IM.OP",
+            "snomed_ct": "940052371",
+            "icd11_pcs": "SIO1.0",
+            "icd10_cm": "0SB371Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113633003",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the thyroid gland using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de glándula tiroides usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de glande thyroïde par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ الغدة الدرقية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा थायराइड ग्रंथि का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建甲状腺",
+            "pt": "Reconstrução anatômica de glândula tireoide usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "83003",
+            "ichi": "THY.RE.PE",
+            "snomed_ct": "940033003",
+            "icd11_pcs": "TRP1.0",
+            "icd10_cm": "0TB003Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011364817",
+        "composition": {
+            "target": "spleen",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the spleen using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de bazo usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de rate par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ الطحال باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा प्लीहा (तिल्ली) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建脾脏",
+            "pt": "Reconstrução anatômica de baço usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "84817",
+            "ichi": "SPL.RE.PE",
+            "snomed_ct": "940064817",
+            "icd11_pcs": "SRP1.0",
+            "icd10_cm": "0SB817Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011367114",
+        "composition": {
+            "target": "blood vessels",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the blood vessels using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de vasos sanguíneos usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de vaisseaux sanguins par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ الأوعية الدموية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा रक्त वाहिकाएं का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除血管",
+            "pt": "Remoção cirúrgica de vasos sanguíneos usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87114",
+            "ichi": "BLO.EX.PE",
+            "snomed_ct": "940067114",
+            "icd11_pcs": "BEP1.0",
+            "icd10_cm": "0BB114Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113687722",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the thyroid gland using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de glándula tiroides usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de glande thyroïde par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ الغدة الدرقية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा थायराइड ग्रंथि का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检甲状腺",
+            "pt": "Extração de fragmento tecidual de glândula tireoide usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87722",
+            "ichi": "THY.BI.PE",
+            "snomed_ct": "940087722",
+            "icd11_pcs": "TBP1.0",
+            "icd10_cm": "0TB722Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113791595",
+        "composition": {
+            "target": "blood vessels",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the blood vessels through an open incision",
+            "es": "Extirpación quirúrgica de vasos sanguíneos a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de vaisseaux sanguins par incision ouverte",
+            "ar": "استئصال جراحي لـ الأوعية الدموية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा रक्त वाहिकाएं का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除血管",
+            "pt": "Remoção cirúrgica de vasos sanguíneos através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "81595",
+            "ichi": "BLO.EX.OP",
+            "snomed_ct": "940091595",
+            "icd11_pcs": "BEO1.0",
+            "icd10_cm": "0BB595Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113909022",
+        "composition": {
+            "target": "pancreas",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the pancreas with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de páncreas con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de pancréas avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ البنكرياس مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ अग्नाशय (पैनक्रियाज) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描胰腺",
+            "pt": "Exame de imagem diagnóstica de pâncreas com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "89022",
+            "ichi": "PAN.IM.CO",
+            "snomed_ct": "940009022",
+            "icd11_pcs": "PIC1.0",
+            "icd10_cm": "0PB022Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113949346",
+        "composition": {
+            "target": "lung",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the lung using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de pulmón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de poumon par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ الرئة باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा फेफड़ा का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检肺部",
+            "pt": "Extração de fragmento tecidual de pulmão usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "89346",
+            "ichi": "LUN.BI.PE",
+            "snomed_ct": "940049346",
+            "icd11_pcs": "LBP1.0",
+            "icd10_cm": "0LB346Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0113997888",
+        "composition": {
+            "target": "stomach",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the stomach using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de estómago usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de estomac par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ المعدة باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा आमाशय (पेट) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查胃部",
+            "pt": "Visualização endoscópica de estômago usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87888",
+            "ichi": "STO.IN.PE",
+            "snomed_ct": "940097888",
+            "icd11_pcs": "SIP1.0",
+            "icd10_cm": "0SB888Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114000847",
+        "composition": {
+            "target": "nasal passage",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the nasal passage using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de pasaje nasal usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de fosses nasales par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ الممر الأنفي باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा नाक का रास्ता का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描鼻腔通道",
+            "pt": "Exame de imagem diagnóstica de passagem nasal usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "80847",
+            "ichi": "NAS.IM.PE",
+            "snomed_ct": "940000847",
+            "icd11_pcs": "NIP1.0",
+            "icd10_cm": "0NB847Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114002497",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the urinary bladder with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de vejiga urinaria con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de vessie avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ المثانة البولية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मूत्राशय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检膀胱",
+            "pt": "Extração de fragmento tecidual de bexiga urinária com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "82497",
+            "ichi": "URI.BI.CO",
+            "snomed_ct": "940002497",
+            "icd11_pcs": "UBC1.0",
+            "icd10_cm": "0UB497Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114090618",
+        "composition": {
+            "target": "heart",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the heart under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de corazón bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de cœur sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ القلب بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में हृदय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建心脏",
+            "pt": "Reconstrução anatômica de coração sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "80618",
+            "ichi": "HEA.RE.UL",
+            "snomed_ct": "940090618",
+            "icd11_pcs": "HRU1.0",
+            "icd10_cm": "0HB618Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114103154",
+        "composition": {
+            "target": "stomach",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the stomach using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de estómago usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de estomac par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ المعدة باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा आमाशय (पेट) का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除胃部",
+            "pt": "Remoção cirúrgica de estômago usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "83154",
+            "ichi": "STO.EX.PE",
+            "snomed_ct": "940003154",
+            "icd11_pcs": "SEP1.0",
+            "icd10_cm": "0SB154Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114283939",
+        "composition": {
+            "target": "rectum",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the rectum under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de recto bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de rectum sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ المستقيم بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मलाशय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建直肠",
+            "pt": "Reconstrução anatômica de reto sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "83939",
+            "ichi": "REC.RE.UL",
+            "snomed_ct": "940083939",
+            "icd11_pcs": "RRU1.0",
+            "icd10_cm": "0RB939Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114449686",
+        "composition": {
+            "target": "rectum",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the rectum using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de recto usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de rectum par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ المستقيم باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मलाशय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建直肠",
+            "pt": "Reconstrução anatômica de reto usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "89686",
+            "ichi": "REC.RE.PE",
+            "snomed_ct": "940049686",
+            "icd11_pcs": "RRP1.0",
+            "icd10_cm": "0RB686Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114487444",
+        "composition": {
+            "target": "spleen",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the spleen using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de bazo usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de rate par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ الطحال باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा प्लीहा (तिल्ली) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描脾脏",
+            "pt": "Exame de imagem diagnóstica de baço usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87444",
+            "ichi": "SPL.IM.PE",
+            "snomed_ct": "940087444",
+            "icd11_pcs": "SIP1.0",
+            "icd10_cm": "0SB444Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114613813",
+        "composition": {
+            "target": "lung",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the lung with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de pulmón con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de poumon avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ الرئة مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ फेफड़ा का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描肺部",
+            "pt": "Exame de imagem diagnóstica de pulmão com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "83813",
+            "ichi": "LUN.IM.CO",
+            "snomed_ct": "940013813",
+            "icd11_pcs": "LIC1.0",
+            "icd10_cm": "0LB813Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114689240",
+        "composition": {
+            "target": "rectum",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the rectum with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de recto con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de rectum avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ المستقيم مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मलाशय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检直肠",
+            "pt": "Extração de fragmento tecidual de reto com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "89240",
+            "ichi": "REC.BI.CO",
+            "snomed_ct": "940089240",
+            "icd11_pcs": "RBC1.0",
+            "icd10_cm": "0RB240Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114692828",
+        "composition": {
+            "target": "kidney",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the kidney with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de riñón con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de rein avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ الكلية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ गुर्दा (किडनी) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检肾脏",
+            "pt": "Extração de fragmento tecidual de rim com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "82828",
+            "ichi": "KID.BI.CO",
+            "snomed_ct": "940092828",
+            "icd11_pcs": "KBC1.0",
+            "icd10_cm": "0KB828Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114696465",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the urinary bladder through an open incision",
+            "es": "Extracción de muestra de tejido de vejiga urinaria a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de vessie par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ المثانة البولية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा मूत्राशय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检膀胱",
+            "pt": "Extração de fragmento tecidual de bexiga urinária através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "86465",
+            "ichi": "URI.BI.OP",
+            "snomed_ct": "940096465",
+            "icd11_pcs": "UBO1.0",
+            "icd10_cm": "0UB465Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114708560",
+        "composition": {
+            "target": "kidney",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the kidney with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de riñón con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de rein avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ الكلية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ गुर्दा (किडनी) का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除肾脏",
+            "pt": "Remoção cirúrgica de rim com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "88560",
+            "ichi": "KID.EX.CO",
+            "snomed_ct": "940008560",
+            "icd11_pcs": "KEC1.0",
+            "icd10_cm": "0KB560Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114714260",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the thyroid gland through an open incision",
+            "es": "Reconstrucción anatómica de glándula tiroides a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de glande thyroïde par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ الغدة الدرقية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा थायराइड ग्रंथि का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建甲状腺",
+            "pt": "Reconstrução anatômica de glândula tireoide através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "84260",
+            "ichi": "THY.RE.OP",
+            "snomed_ct": "940014260",
+            "icd11_pcs": "TRO1.0",
+            "icd10_cm": "0TB260Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114721535",
+        "composition": {
+            "target": "liver",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the liver through an open incision",
+            "es": "Reconstrucción anatómica de hígado a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de foie par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ الكبد عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा यकृत (लीवर) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建肝脏",
+            "pt": "Reconstrução anatômica de fígado através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "81535",
+            "ichi": "LIV.RE.OP",
+            "snomed_ct": "940021535",
+            "icd11_pcs": "LRO1.0",
+            "icd10_cm": "0LB535Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114783502",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the shoulder joint using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de articulación del hombro usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de articulation de l'épaule par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ مفصل الكتف باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा कंधे का जोड़ का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建肩关节",
+            "pt": "Reconstrução anatômica de articulação do ombro usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "83502",
+            "ichi": "SHO.RE.PE",
+            "snomed_ct": "940083502",
+            "icd11_pcs": "SRP1.0",
+            "icd10_cm": "0SB502Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011494351",
+        "composition": {
+            "target": "stomach",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the stomach under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de estómago bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de estomac sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ المعدة بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में आमाशय (पेट) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检胃部",
+            "pt": "Extração de fragmento tecidual de estômago sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "84351",
+            "ichi": "STO.BI.UL",
+            "snomed_ct": "940094351",
+            "icd11_pcs": "SBU1.0",
+            "icd10_cm": "0SB351Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114975173",
+        "composition": {
+            "target": "nasal passage",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the nasal passage through an open incision",
+            "es": "Extirpación quirúrgica de pasaje nasal a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de fosses nasales par incision ouverte",
+            "ar": "استئصال جراحي لـ الممر الأنفي عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा नाक का रास्ता का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除鼻腔通道",
+            "pt": "Remoção cirúrgica de passagem nasal através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "85173",
+            "ichi": "NAS.EX.OP",
+            "snomed_ct": "940075173",
+            "icd11_pcs": "NEO1.0",
+            "icd10_cm": "0NB173Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114988510",
+        "composition": {
+            "target": "tonsils",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the tonsils through an open incision",
+            "es": "Visualización endoscópica de amígdalas a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de amygdales par incision ouverte",
+            "ar": "فحص بالمنظار لـ اللوزتين عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा टॉन्सिल का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查扁桃体",
+            "pt": "Visualização endoscópica de amígdalas através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "88510",
+            "ichi": "TON.IN.OP",
+            "snomed_ct": "940088510",
+            "icd11_pcs": "TIO1.0",
+            "icd10_cm": "0TB510Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0114990585",
+        "composition": {
+            "target": "skin",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the skin lesion under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de lesión de piel bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de lésion cutanée sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ آفة جلدية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में त्वचा की क्षति (घाव) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描皮肤病变",
+            "pt": "Exame de imagem diagnóstica de lesão de pele sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "80585",
+            "ichi": "SKI.IM.UL",
+            "snomed_ct": "940090585",
+            "icd11_pcs": "SIU1.0",
+            "icd10_cm": "0SB585Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011503300",
+        "composition": {
+            "target": "spleen",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the spleen using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de bazo usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de rate par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ الطحال باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा प्लीहा (तिल्ली) का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除脾脏",
+            "pt": "Remoção cirúrgica de baço usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "83300",
+            "ichi": "SPL.EX.PE",
+            "snomed_ct": "940003300",
+            "icd11_pcs": "SEP1.0",
+            "icd10_cm": "0SB300Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115065616",
+        "composition": {
+            "target": "spleen",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the spleen through an open incision",
+            "es": "Visualización endoscópica de bazo a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de rate par incision ouverte",
+            "ar": "فحص بالمنظار لـ الطحال عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा प्लीहा (तिल्ली) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查脾脏",
+            "pt": "Visualização endoscópica de baço através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "85616",
+            "ichi": "SPL.IN.OP",
+            "snomed_ct": "940065616",
+            "icd11_pcs": "SIO1.0",
+            "icd10_cm": "0SB616Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115080946",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the thyroid gland using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de glándula tiroides usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de glande thyroïde par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ الغدة الدرقية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा थायराइड ग्रंथि का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描甲状腺",
+            "pt": "Exame de imagem diagnóstica de glândula tireoide usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "80946",
+            "ichi": "THY.IM.PE",
+            "snomed_ct": "940080946",
+            "icd11_pcs": "TIP1.0",
+            "icd10_cm": "0TB946Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115186663",
+        "composition": {
+            "target": "tonsils",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the tonsils through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de amígdalas a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de amygdales par incision ouverte",
+            "ar": "تصوير تشخيصي لـ اللوزتين عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा टॉन्सिल का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描扁桃体",
+            "pt": "Exame de imagem diagnóstica de amígdalas através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "86663",
+            "ichi": "TON.IM.OP",
+            "snomed_ct": "940086663",
+            "icd11_pcs": "TIO1.0",
+            "icd10_cm": "0TB663Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115268355",
+        "composition": {
+            "target": "nasal passage",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the nasal passage under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de pasaje nasal bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de fosses nasales sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ الممر الأنفي بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में नाक का रास्ता का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描鼻腔通道",
+            "pt": "Exame de imagem diagnóstica de passagem nasal sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "88355",
+            "ichi": "NAS.IM.UL",
+            "snomed_ct": "940068355",
+            "icd11_pcs": "NIU1.0",
+            "icd10_cm": "0NB355Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011530081",
+        "composition": {
+            "target": "nasal passage",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the nasal passage using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de pasaje nasal usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de fosses nasales par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ الممر الأنفي باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा नाक का रास्ता का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查鼻腔通道",
+            "pt": "Visualização endoscópica de passagem nasal usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "80081",
+            "ichi": "NAS.IN.PE",
+            "snomed_ct": "940030081",
+            "icd11_pcs": "NIP1.0",
+            "icd10_cm": "0NB081Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115306588",
+        "composition": {
+            "target": "pancreas",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the pancreas with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de páncreas con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de pancréas avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ البنكرياس مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ अग्नाशय (पैनक्रियाज) का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除胰腺",
+            "pt": "Remoção cirúrgica de pâncreas com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86588",
+            "ichi": "PAN.EX.CO",
+            "snomed_ct": "940006588",
+            "icd11_pcs": "PEC1.0",
+            "icd10_cm": "0PB588Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115313326",
+        "composition": {
+            "target": "blood vessels",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the blood vessels under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de vasos sanguíneos bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de vaisseaux sanguins sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ الأوعية الدموية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में रक्त वाहिकाएं का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查血管",
+            "pt": "Visualização endoscópica de vasos sanguíneos sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "83326",
+            "ichi": "BLO.IN.UL",
+            "snomed_ct": "940013326",
+            "icd11_pcs": "BIU1.0",
+            "icd10_cm": "0BB326Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115394637",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the shoulder joint with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de articulación del hombro con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de articulation de l'épaule avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ مفصل الكتف مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ कंधे का जोड़ का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检肩关节",
+            "pt": "Extração de fragmento tecidual de articulação do ombro com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "84637",
+            "ichi": "SHO.BI.CO",
+            "snomed_ct": "940094637",
+            "icd11_pcs": "SBC1.0",
+            "icd10_cm": "0SB637Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115467179",
+        "composition": {
+            "target": "spleen",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the spleen using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de bazo usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de rate par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ الطحال باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा प्लीहा (तिल्ली) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检脾脏",
+            "pt": "Extração de fragmento tecidual de baço usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87179",
+            "ichi": "SPL.BI.PE",
+            "snomed_ct": "940067179",
+            "icd11_pcs": "SBP1.0",
+            "icd10_cm": "0SB179Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115490468",
+        "composition": {
+            "target": "skin",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the skin lesion using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de lesión de piel usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de lésion cutanée par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ آفة جلدية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा त्वचा की क्षति (घाव) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检皮肤病变",
+            "pt": "Extração de fragmento tecidual de lesão de pele usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "80468",
+            "ichi": "SKI.BI.PE",
+            "snomed_ct": "940090468",
+            "icd11_pcs": "SBP1.0",
+            "icd10_cm": "0SB468Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115530997",
+        "composition": {
+            "target": "tonsils",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the tonsils using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de amígdalas usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de amygdales par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ اللوزتين باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा टॉन्सिल का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建扁桃体",
+            "pt": "Reconstrução anatômica de amígdalas usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "80997",
+            "ichi": "TON.RE.PE",
+            "snomed_ct": "940030997",
+            "icd11_pcs": "TRP1.0",
+            "icd10_cm": "0TB997Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115540324",
+        "composition": {
+            "target": "liver",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the liver under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de hígado bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de foie sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ الكبد بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में यकृत (लीवर) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描肝脏",
+            "pt": "Exame de imagem diagnóstica de fígado sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "80324",
+            "ichi": "LIV.IM.UL",
+            "snomed_ct": "940040324",
+            "icd11_pcs": "LIU1.0",
+            "icd10_cm": "0LB324Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115591532",
+        "composition": {
+            "target": "liver",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the liver under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de hígado bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de foie sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ الكبد بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में यकृत (लीवर) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建肝脏",
+            "pt": "Reconstrução anatômica de fígado sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "81532",
+            "ichi": "LIV.RE.UL",
+            "snomed_ct": "940091532",
+            "icd11_pcs": "LRU1.0",
+            "icd10_cm": "0LB532Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115707889",
+        "composition": {
+            "target": "stomach",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the stomach under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de estómago bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de estomac sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ المعدة بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में आमाशय (पेट) का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除胃部",
+            "pt": "Remoção cirúrgica de estômago sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "87889",
+            "ichi": "STO.EX.UL",
+            "snomed_ct": "940007889",
+            "icd11_pcs": "SEU1.0",
+            "icd10_cm": "0SB889Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011582468",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the urinary bladder through an open incision",
+            "es": "Extirpación quirúrgica de vejiga urinaria a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de vessie par incision ouverte",
+            "ar": "استئصال جراحي لـ المثانة البولية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा मूत्राशय का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除膀胱",
+            "pt": "Remoção cirúrgica de bexiga urinária através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "82468",
+            "ichi": "URI.EX.OP",
+            "snomed_ct": "940082468",
+            "icd11_pcs": "UEO1.0",
+            "icd10_cm": "0UB468Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115847611",
+        "composition": {
+            "target": "pancreas",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the pancreas through an open incision",
+            "es": "Extirpación quirúrgica de páncreas a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de pancréas par incision ouverte",
+            "ar": "استئصال جراحي لـ البنكرياس عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा अग्नाशय (पैनक्रियाज) का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除胰腺",
+            "pt": "Remoção cirúrgica de pâncreas através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "87611",
+            "ichi": "PAN.EX.OP",
+            "snomed_ct": "940047611",
+            "icd11_pcs": "PEO1.0",
+            "icd10_cm": "0PB611Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115852906",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the thyroid gland using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de glándula tiroides usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de glande thyroïde par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ الغدة الدرقية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा थायराइड ग्रंथि का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除甲状腺",
+            "pt": "Remoção cirúrgica de glândula tireoide usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82906",
+            "ichi": "THY.EX.PE",
+            "snomed_ct": "940052906",
+            "icd11_pcs": "TEP1.0",
+            "icd10_cm": "0TB906Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115887051",
+        "composition": {
+            "target": "lung",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the lung under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de pulmón bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de poumon sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ الرئة بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में फेफड़ा का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建肺部",
+            "pt": "Reconstrução anatômica de pulmão sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "87051",
+            "ichi": "LUN.RE.UL",
+            "snomed_ct": "940087051",
+            "icd11_pcs": "LRU1.0",
+            "icd10_cm": "0LB051Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0115894300",
+        "composition": {
+            "target": "heart",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the heart using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de corazón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de cœur par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ القلب باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा हृदय का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除心脏",
+            "pt": "Remoção cirúrgica de coração usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "84300",
+            "ichi": "HEA.EX.PE",
+            "snomed_ct": "940094300",
+            "icd11_pcs": "HEP1.0",
+            "icd10_cm": "0HB300Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01159519",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the urinary bladder under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de vejiga urinaria bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de vessie sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ المثانة البولية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मूत्राशय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检膀胱",
+            "pt": "Extração de fragmento tecidual de bexiga urinária sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "89519",
+            "ichi": "URI.BI.UL",
+            "snomed_ct": "940059519",
+            "icd11_pcs": "UBU1.0",
+            "icd10_cm": "0UB519Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116124571",
+        "composition": {
+            "target": "heart",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the heart through an open incision",
+            "es": "Visualización endoscópica de corazón a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de cœur par incision ouverte",
+            "ar": "فحص بالمنظار لـ القلب عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा हृदय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查心脏",
+            "pt": "Visualização endoscópica de coração através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "84571",
+            "ichi": "HEA.IN.OP",
+            "snomed_ct": "940024571",
+            "icd11_pcs": "HIO1.0",
+            "icd10_cm": "0HB571Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116281001",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the shoulder joint using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de articulación del hombro usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de articulation de l'épaule par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ مفصل الكتف باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा कंधे का जोड़ का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查肩关节",
+            "pt": "Visualização endoscópica de articulação do ombro usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "81001",
+            "ichi": "SHO.IN.PE",
+            "snomed_ct": "940081001",
+            "icd11_pcs": "SIP1.0",
+            "icd10_cm": "0SB001Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116293639",
+        "composition": {
+            "target": "stomach",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the stomach through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de estómago a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de estomac par incision ouverte",
+            "ar": "تصوير تشخيصي لـ المعدة عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा आमाशय (पेट) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描胃部",
+            "pt": "Exame de imagem diagnóstica de estômago através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "83639",
+            "ichi": "STO.IM.OP",
+            "snomed_ct": "940093639",
+            "icd11_pcs": "SIO1.0",
+            "icd10_cm": "0SB639Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116405703",
+        "composition": {
+            "target": "nasal passage",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the nasal passage under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de pasaje nasal bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de fosses nasales sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ الممر الأنفي بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में नाक का रास्ता का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查鼻腔通道",
+            "pt": "Visualização endoscópica de passagem nasal sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "85703",
+            "ichi": "NAS.IN.UL",
+            "snomed_ct": "940005703",
+            "icd11_pcs": "NIU1.0",
+            "icd10_cm": "0NB703Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116453766",
+        "composition": {
+            "target": "kidney",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the kidney with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de riñón con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de rein avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ الكلية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ गुर्दा (किडनी) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描肾脏",
+            "pt": "Exame de imagem diagnóstica de rim com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "83766",
+            "ichi": "KID.IM.CO",
+            "snomed_ct": "940053766",
+            "icd11_pcs": "KIC1.0",
+            "icd10_cm": "0KB766Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116456525",
+        "composition": {
+            "target": "pancreas",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the pancreas under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de páncreas bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de pancréas sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ البنكرياس بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में अग्नाशय (पैनक्रियाज) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建胰腺",
+            "pt": "Reconstrução anatômica de pâncreas sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "86525",
+            "ichi": "PAN.RE.UL",
+            "snomed_ct": "940056525",
+            "icd11_pcs": "PRU1.0",
+            "icd10_cm": "0PB525Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011647569",
+        "composition": {
+            "target": "spleen",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the spleen with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de bazo con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de rate avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ الطحال مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ प्लीहा (तिल्ली) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检脾脏",
+            "pt": "Extração de fragmento tecidual de baço com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "87569",
+            "ichi": "SPL.BI.CO",
+            "snomed_ct": "940047569",
+            "icd11_pcs": "SBC1.0",
+            "icd10_cm": "0SB569Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116579124",
+        "composition": {
+            "target": "tonsils",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the tonsils through an open incision",
+            "es": "Extracción de muestra de tejido de amígdalas a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de amygdales par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ اللوزتين عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा टॉन्सिल का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检扁桃体",
+            "pt": "Extração de fragmento tecidual de amígdalas através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "89124",
+            "ichi": "TON.BI.OP",
+            "snomed_ct": "940079124",
+            "icd11_pcs": "TBO1.0",
+            "icd10_cm": "0TB124Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011658916",
+        "composition": {
+            "target": "rectum",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the rectum with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de recto con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de rectum avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ المستقيم مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मलाशय का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除直肠",
+            "pt": "Remoção cirúrgica de reto com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "88916",
+            "ichi": "REC.EX.CO",
+            "snomed_ct": "940058916",
+            "icd11_pcs": "REC1.0",
+            "icd10_cm": "0RB916Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116594889",
+        "composition": {
+            "target": "pancreas",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the pancreas with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de páncreas con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de pancréas avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ البنكرياس مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ अग्नाशय (पैनक्रियाज) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查胰腺",
+            "pt": "Visualização endoscópica de pâncreas com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "84889",
+            "ichi": "PAN.IN.CO",
+            "snomed_ct": "940094889",
+            "icd11_pcs": "PIC1.0",
+            "icd10_cm": "0PB889Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116636911",
+        "composition": {
+            "target": "rectum",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the rectum through an open incision",
+            "es": "Extracción de muestra de tejido de recto a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de rectum par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ المستقيم عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा मलाशय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检直肠",
+            "pt": "Extração de fragmento tecidual de reto através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "86911",
+            "ichi": "REC.BI.OP",
+            "snomed_ct": "940036911",
+            "icd11_pcs": "RBO1.0",
+            "icd10_cm": "0RB911Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116687500",
+        "composition": {
+            "target": "heart",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the heart through an open incision",
+            "es": "Extirpación quirúrgica de corazón a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de cœur par incision ouverte",
+            "ar": "استئصال جراحي لـ القلب عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा हृदय का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除心脏",
+            "pt": "Remoção cirúrgica de coração através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "87500",
+            "ichi": "HEA.EX.OP",
+            "snomed_ct": "940087500",
+            "icd11_pcs": "HEO1.0",
+            "icd10_cm": "0HB500Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116692930",
+        "composition": {
+            "target": "liver",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the liver under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de hígado bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de foie sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ الكبد بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में यकृत (लीवर) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查肝脏",
+            "pt": "Visualização endoscópica de fígado sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "82930",
+            "ichi": "LIV.IN.UL",
+            "snomed_ct": "940092930",
+            "icd11_pcs": "LIU1.0",
+            "icd10_cm": "0LB930Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116715725",
+        "composition": {
+            "target": "spleen",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the spleen under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de bazo bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de rate sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ الطحال بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में प्लीहा (तिल्ली) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查脾脏",
+            "pt": "Visualização endoscópica de baço sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "85725",
+            "ichi": "SPL.IN.UL",
+            "snomed_ct": "940015725",
+            "icd11_pcs": "SIU1.0",
+            "icd10_cm": "0SB725Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0116716300",
+        "composition": {
+            "target": "tonsils",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the tonsils using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de amígdalas usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de amygdales par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ اللوزتين باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा टॉन्सिल का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除扁桃体",
+            "pt": "Remoção cirúrgica de amígdalas usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "86300",
+            "ichi": "TON.EX.PE",
+            "snomed_ct": "940016300",
+            "icd11_pcs": "TEP1.0",
+            "icd10_cm": "0TB300Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011746221",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the thyroid gland under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de glándula tiroides bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de glande thyroïde sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ الغدة الدرقية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में थायराइड ग्रंथि का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描甲状腺",
+            "pt": "Exame de imagem diagnóstica de glândula tireoide sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "86221",
+            "ichi": "THY.IM.UL",
+            "snomed_ct": "940046221",
+            "icd11_pcs": "TIU1.0",
+            "icd10_cm": "0TB221Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011782973",
+        "composition": {
+            "target": "rectum",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the rectum with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de recto con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de rectum avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ المستقيم مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मलाशय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描直肠",
+            "pt": "Exame de imagem diagnóstica de reto com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "82973",
+            "ichi": "REC.IM.CO",
+            "snomed_ct": "940082973",
+            "icd11_pcs": "RIC1.0",
+            "icd10_cm": "0RB973Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01179441",
+        "composition": {
+            "target": "tonsils",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the tonsils under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de amígdalas bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de amygdales sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ اللوزتين بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में टॉन्सिल का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检扁桃体",
+            "pt": "Extração de fragmento tecidual de amígdalas sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "89441",
+            "ichi": "TON.BI.UL",
+            "snomed_ct": "940079441",
+            "icd11_pcs": "TBU1.0",
+            "icd10_cm": "0TB441Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011856296",
+        "composition": {
+            "target": "heart",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the heart with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de corazón con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de cœur avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ القلب مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ हृदय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检心脏",
+            "pt": "Extração de fragmento tecidual de coração com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86296",
+            "ichi": "HEA.BI.CO",
+            "snomed_ct": "940056296",
+            "icd11_pcs": "HBC1.0",
+            "icd10_cm": "0HB296Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011877281",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the shoulder joint under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de articulación del hombro bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de articulation de l'épaule sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ مفصل الكتف بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में कंधे का जोड़ का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检肩关节",
+            "pt": "Extração de fragmento tecidual de articulação do ombro sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "87281",
+            "ichi": "SHO.BI.UL",
+            "snomed_ct": "940077281",
+            "icd11_pcs": "SBU1.0",
+            "icd10_cm": "0SB281Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011930762",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the shoulder joint using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de articulación del hombro usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de articulation de l'épaule par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ مفصل الكتف باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा कंधे का जोड़ का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检肩关节",
+            "pt": "Extração de fragmento tecidual de articulação do ombro usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "80762",
+            "ichi": "SHO.BI.PE",
+            "snomed_ct": "940030762",
+            "icd11_pcs": "SBP1.0",
+            "icd10_cm": "0SB762Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011941267",
+        "composition": {
+            "target": "blood vessels",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the blood vessels under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de vasos sanguíneos bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de vaisseaux sanguins sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ الأوعية الدموية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में रक्त वाहिकाएं का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除血管",
+            "pt": "Remoção cirúrgica de vasos sanguíneos sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "81267",
+            "ichi": "BLO.EX.UL",
+            "snomed_ct": "940041267",
+            "icd11_pcs": "BEU1.0",
+            "icd10_cm": "0BB267Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-011963159",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the urinary bladder using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de vejiga urinaria usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de vessie par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ المثانة البولية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मूत्राशय का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除膀胱",
+            "pt": "Remoção cirúrgica de bexiga urinária usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "83159",
+            "ichi": "URI.EX.PE",
+            "snomed_ct": "940063159",
+            "icd11_pcs": "UEP1.0",
+            "icd10_cm": "0UB159Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012026167",
+        "composition": {
+            "target": "spleen",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the spleen under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de bazo bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de rate sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ الطحال بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में प्लीहा (तिल्ली) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检脾脏",
+            "pt": "Extração de fragmento tecidual de baço sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "86167",
+            "ichi": "SPL.BI.UL",
+            "snomed_ct": "940026167",
+            "icd11_pcs": "SBU1.0",
+            "icd10_cm": "0SB167Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012034931",
+        "composition": {
+            "target": "lung",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the lung through an open incision",
+            "es": "Visualización endoscópica de pulmón a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de poumon par incision ouverte",
+            "ar": "فحص بالمنظار لـ الرئة عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा फेफड़ा का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查肺部",
+            "pt": "Visualização endoscópica de pulmão através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "84931",
+            "ichi": "LUN.IN.OP",
+            "snomed_ct": "940034931",
+            "icd11_pcs": "LIO1.0",
+            "icd10_cm": "0LB931Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012101039",
+        "composition": {
+            "target": "heart",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the heart under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de corazón bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de cœur sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ القلب بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में हृदय का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除心脏",
+            "pt": "Remoção cirúrgica de coração sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "81039",
+            "ichi": "HEA.EX.UL",
+            "snomed_ct": "940001039",
+            "icd11_pcs": "HEU1.0",
+            "icd10_cm": "0HB039Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012105142",
+        "composition": {
+            "target": "liver",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the liver using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de hígado usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de foie par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ الكبد باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा यकृत (लीवर) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查肝脏",
+            "pt": "Visualização endoscópica de fígado usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "85142",
+            "ichi": "LIV.IN.PE",
+            "snomed_ct": "940005142",
+            "icd11_pcs": "LIP1.0",
+            "icd10_cm": "0LB142Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01216138",
+        "composition": {
+            "target": "lung",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the lung with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de pulmón con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de poumon avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ الرئة مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ फेफड़ा का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除肺部",
+            "pt": "Remoção cirúrgica de pulmão com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86138",
+            "ichi": "LUN.EX.CO",
+            "snomed_ct": "940016138",
+            "icd11_pcs": "LEC1.0",
+            "icd10_cm": "0LB138Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012168458",
+        "composition": {
+            "target": "kidney",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the kidney using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de riñón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de rein par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ الكلية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा गुर्दा (किडनी) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描肾脏",
+            "pt": "Exame de imagem diagnóstica de rim usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "88458",
+            "ichi": "KID.IM.PE",
+            "snomed_ct": "940068458",
+            "icd11_pcs": "KIP1.0",
+            "icd10_cm": "0KB458Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01218896",
+        "composition": {
+            "target": "spleen",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the spleen through an open incision",
+            "es": "Reconstrucción anatómica de bazo a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de rate par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ الطحال عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा प्लीहा (तिल्ली) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建脾脏",
+            "pt": "Reconstrução anatômica de baço através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "88896",
+            "ichi": "SPL.RE.OP",
+            "snomed_ct": "940018896",
+            "icd11_pcs": "SRO1.0",
+            "icd10_cm": "0SB896Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012196327",
+        "composition": {
+            "target": "tonsils",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the tonsils with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de amígdalas con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de amygdales avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ اللوزتين مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ टॉन्सिल का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建扁桃体",
+            "pt": "Reconstrução anatômica de amígdalas com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86327",
+            "ichi": "TON.RE.CO",
+            "snomed_ct": "940096327",
+            "icd11_pcs": "TRC1.0",
+            "icd10_cm": "0TB327Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012255394",
+        "composition": {
+            "target": "pancreas",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the pancreas using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de páncreas usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de pancréas par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ البنكرياس باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा अग्नाशय (पैनक्रियाज) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查胰腺",
+            "pt": "Visualização endoscópica de pâncreas usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "85394",
+            "ichi": "PAN.IN.PE",
+            "snomed_ct": "940055394",
+            "icd11_pcs": "PIP1.0",
+            "icd10_cm": "0PB394Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01232482",
+        "composition": {
+            "target": "pancreas",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the pancreas under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de páncreas bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de pancréas sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ البنكرياس بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में अग्नाशय (पैनक्रियाज) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检胰腺",
+            "pt": "Extração de fragmento tecidual de pâncreas sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "82482",
+            "ichi": "PAN.BI.UL",
+            "snomed_ct": "940032482",
+            "icd11_pcs": "PBU1.0",
+            "icd10_cm": "0PB482Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012381052",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the urinary bladder under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de vejiga urinaria bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de vessie sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ المثانة البولية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मूत्राशय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描膀胱",
+            "pt": "Exame de imagem diagnóstica de bexiga urinária sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "81052",
+            "ichi": "URI.IM.UL",
+            "snomed_ct": "940081052",
+            "icd11_pcs": "UIU1.0",
+            "icd10_cm": "0UB052Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012515672",
+        "composition": {
+            "target": "tonsils",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the tonsils under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de amígdalas bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de amygdales sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ اللوزتين بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में टॉन्सिल का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除扁桃体",
+            "pt": "Remoção cirúrgica de amígdalas sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "85672",
+            "ichi": "TON.EX.UL",
+            "snomed_ct": "940015672",
+            "icd11_pcs": "TEU1.0",
+            "icd10_cm": "0TB672Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012913466",
+        "composition": {
+            "target": "pancreas",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the pancreas using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de páncreas usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de pancréas par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ البنكرياس باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा अग्नाशय (पैनक्रियाज) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描胰腺",
+            "pt": "Exame de imagem diagnóstica de pâncreas usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "83466",
+            "ichi": "PAN.IM.PE",
+            "snomed_ct": "940013466",
+            "icd11_pcs": "PIP1.0",
+            "icd10_cm": "0PB466Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012942902",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the thyroid gland through an open incision",
+            "es": "Visualización endoscópica de glándula tiroides a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de glande thyroïde par incision ouverte",
+            "ar": "فحص بالمنظار لـ الغدة الدرقية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा थायराइड ग्रंथि का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查甲状腺",
+            "pt": "Visualização endoscópica de glândula tireoide através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "82902",
+            "ichi": "THY.IN.OP",
+            "snomed_ct": "940042902",
+            "icd11_pcs": "TIO1.0",
+            "icd10_cm": "0TB902Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012989741",
+        "composition": {
+            "target": "skin",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the skin lesion under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de lesión de piel bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de lésion cutanée sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ آفة جلدية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में त्वचा की क्षति (घाव) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检皮肤病变",
+            "pt": "Extração de fragmento tecidual de lesão de pele sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "89741",
+            "ichi": "SKI.BI.UL",
+            "snomed_ct": "940089741",
+            "icd11_pcs": "SBU1.0",
+            "icd10_cm": "0SB741Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-012991682",
+        "composition": {
+            "target": "blood vessels",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the blood vessels with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de vasos sanguíneos con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de vaisseaux sanguins avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ الأوعية الدموية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ रक्त वाहिकाएं का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查血管",
+            "pt": "Visualização endoscópica de vasos sanguíneos com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "81682",
+            "ichi": "BLO.IN.CO",
+            "snomed_ct": "940091682",
+            "icd11_pcs": "BIC1.0",
+            "icd10_cm": "0BB682Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013017234",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the thyroid gland with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de glándula tiroides con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de glande thyroïde avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ الغدة الدرقية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ थायराइड ग्रंथि का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建甲状腺",
+            "pt": "Reconstrução anatômica de glândula tireoide com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "87234",
+            "ichi": "THY.RE.CO",
+            "snomed_ct": "940017234",
+            "icd11_pcs": "TRC1.0",
+            "icd10_cm": "0TB234Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013067631",
+        "composition": {
+            "target": "spleen",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the spleen under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de bazo bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de rate sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ الطحال بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में प्लीहा (तिल्ली) का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除脾脏",
+            "pt": "Remoção cirúrgica de baço sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "87631",
+            "ichi": "SPL.EX.UL",
+            "snomed_ct": "940067631",
+            "icd11_pcs": "SEU1.0",
+            "icd10_cm": "0SB631Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013159012",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the shoulder joint under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de articulación del hombro bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de articulation de l'épaule sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ مفصل الكتف بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में कंधे का जोड़ का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建肩关节",
+            "pt": "Reconstrução anatômica de articulação do ombro sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "89012",
+            "ichi": "SHO.RE.UL",
+            "snomed_ct": "940059012",
+            "icd11_pcs": "SRU1.0",
+            "icd10_cm": "0SB012Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01321434",
+        "composition": {
+            "target": "kidney",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the kidney under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de riñón bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de rein sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ الكلية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में गुर्दा (किडनी) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描肾脏",
+            "pt": "Exame de imagem diagnóstica de rim sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "81434",
+            "ichi": "KID.IM.UL",
+            "snomed_ct": "940021434",
+            "icd11_pcs": "KIU1.0",
+            "icd10_cm": "0KB434Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013254827",
+        "composition": {
+            "target": "nasal passage",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the nasal passage with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de pasaje nasal con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de fosses nasales avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ الممر الأنفي مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ नाक का रास्ता का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除鼻腔通道",
+            "pt": "Remoção cirúrgica de passagem nasal com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "84827",
+            "ichi": "NAS.EX.CO",
+            "snomed_ct": "940054827",
+            "icd11_pcs": "NEC1.0",
+            "icd10_cm": "0NB827Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013268705",
+        "composition": {
+            "target": "pancreas",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the pancreas under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de páncreas bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de pancréas sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ البنكرياس بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में अग्नाशय (पैनक्रियाज) का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除胰腺",
+            "pt": "Remoção cirúrgica de pâncreas sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "88705",
+            "ichi": "PAN.EX.UL",
+            "snomed_ct": "940068705",
+            "icd11_pcs": "PEU1.0",
+            "icd10_cm": "0PB705Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013284344",
+        "composition": {
+            "target": "blood vessels",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the blood vessels under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de vasos sanguíneos bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de vaisseaux sanguins sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ الأوعية الدموية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में रक्त वाहिकाएं का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建血管",
+            "pt": "Reconstrução anatômica de vasos sanguíneos sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "84344",
+            "ichi": "BLO.RE.UL",
+            "snomed_ct": "940084344",
+            "icd11_pcs": "BRU1.0",
+            "icd10_cm": "0BB344Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013295340",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the urinary bladder under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de vejiga urinaria bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de vessie sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ المثانة البولية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मूत्राशय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建膀胱",
+            "pt": "Reconstrução anatômica de bexiga urinária sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "85340",
+            "ichi": "URI.RE.UL",
+            "snomed_ct": "940095340",
+            "icd11_pcs": "URU1.0",
+            "icd10_cm": "0UB340Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01336015",
+        "composition": {
+            "target": "blood vessels",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the blood vessels through an open incision",
+            "es": "Reconstrucción anatómica de vasos sanguíneos a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de vaisseaux sanguins par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ الأوعية الدموية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा रक्त वाहिकाएं का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建血管",
+            "pt": "Reconstrução anatômica de vasos sanguíneos através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "86015",
+            "ichi": "BLO.RE.OP",
+            "snomed_ct": "940036015",
+            "icd11_pcs": "BRO1.0",
+            "icd10_cm": "0BB015Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01336783",
+        "composition": {
+            "target": "tonsils",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the tonsils under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de amígdalas bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de amygdales sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ اللوزتين بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में टॉन्सिल का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描扁桃体",
+            "pt": "Exame de imagem diagnóstica de amígdalas sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "86783",
+            "ichi": "TON.IM.UL",
+            "snomed_ct": "940036783",
+            "icd11_pcs": "TIU1.0",
+            "icd10_cm": "0TB783Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013471983",
+        "composition": {
+            "target": "pancreas",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the pancreas through an open incision",
+            "es": "Reconstrucción anatómica de páncreas a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de pancréas par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ البنكرياس عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा अग्नाशय (पैनक्रियाज) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建胰腺",
+            "pt": "Reconstrução anatômica de pâncreas através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "81983",
+            "ichi": "PAN.RE.OP",
+            "snomed_ct": "940071983",
+            "icd11_pcs": "PRO1.0",
+            "icd10_cm": "0PB983Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013489844",
+        "composition": {
+            "target": "stomach",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the stomach under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de estómago bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de estomac sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ المعدة بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में आमाशय (पेट) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建胃部",
+            "pt": "Reconstrução anatômica de estômago sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "89844",
+            "ichi": "STO.RE.UL",
+            "snomed_ct": "940089844",
+            "icd11_pcs": "SRU1.0",
+            "icd10_cm": "0SB844Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013550105",
+        "composition": {
+            "target": "rectum",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the rectum through an open incision",
+            "es": "Visualización endoscópica de recto a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de rectum par incision ouverte",
+            "ar": "فحص بالمنظار لـ المستقيم عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा मलाशय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查直肠",
+            "pt": "Visualização endoscópica de reto através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "80105",
+            "ichi": "REC.IN.OP",
+            "snomed_ct": "940050105",
+            "icd11_pcs": "RIO1.0",
+            "icd10_cm": "0RB105Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01356772",
+        "composition": {
+            "target": "heart",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the heart with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de corazón con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de cœur avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ القلب مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ हृदय का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除心脏",
+            "pt": "Remoção cirúrgica de coração com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86772",
+            "ichi": "HEA.EX.CO",
+            "snomed_ct": "940056772",
+            "icd11_pcs": "HEC1.0",
+            "icd10_cm": "0HB772Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013586320",
+        "composition": {
+            "target": "liver",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the liver through an open incision",
+            "es": "Extracción de muestra de tejido de hígado a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de foie par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ الكبد عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा यकृत (लीवर) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检肝脏",
+            "pt": "Extração de fragmento tecidual de fígado através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "86320",
+            "ichi": "LIV.BI.OP",
+            "snomed_ct": "940086320",
+            "icd11_pcs": "LBO1.0",
+            "icd10_cm": "0LB320Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013626852",
+        "composition": {
+            "target": "nasal passage",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the nasal passage under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de pasaje nasal bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de fosses nasales sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ الممر الأنفي بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में नाक का रास्ता का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检鼻腔通道",
+            "pt": "Extração de fragmento tecidual de passagem nasal sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "86852",
+            "ichi": "NAS.BI.UL",
+            "snomed_ct": "940026852",
+            "icd11_pcs": "NBU1.0",
+            "icd10_cm": "0NB852Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013723692",
+        "composition": {
+            "target": "stomach",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the stomach through an open incision",
+            "es": "Reconstrucción anatómica de estómago a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de estomac par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ المعدة عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा आमाशय (पेट) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建胃部",
+            "pt": "Reconstrução anatômica de estômago através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "83692",
+            "ichi": "STO.RE.OP",
+            "snomed_ct": "940023692",
+            "icd11_pcs": "SRO1.0",
+            "icd10_cm": "0SB692Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013732287",
+        "composition": {
+            "target": "rectum",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the rectum through an open incision",
+            "es": "Extirpación quirúrgica de recto a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de rectum par incision ouverte",
+            "ar": "استئصال جراحي لـ المستقيم عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा मलाशय का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除直肠",
+            "pt": "Remoção cirúrgica de reto através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "82287",
+            "ichi": "REC.EX.OP",
+            "snomed_ct": "940032287",
+            "icd11_pcs": "REO1.0",
+            "icd10_cm": "0RB287Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013734324",
+        "composition": {
+            "target": "nasal passage",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the nasal passage using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de pasaje nasal usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de fosses nasales par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ الممر الأنفي باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा नाक का रास्ता का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检鼻腔通道",
+            "pt": "Extração de fragmento tecidual de passagem nasal usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "84324",
+            "ichi": "NAS.BI.PE",
+            "snomed_ct": "940034324",
+            "icd11_pcs": "NBP1.0",
+            "icd10_cm": "0NB324Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013817447",
+        "composition": {
+            "target": "skin",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the skin lesion under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de lesión de piel bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de lésion cutanée sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ آفة جلدية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में त्वचा की क्षति (घाव) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建皮肤病变",
+            "pt": "Reconstrução anatômica de lesão de pele sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "87447",
+            "ichi": "SKI.RE.UL",
+            "snomed_ct": "940017447",
+            "icd11_pcs": "SRU1.0",
+            "icd10_cm": "0SB447Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013822479",
+        "composition": {
+            "target": "skin",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the skin lesion with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de lesión de piel con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de lésion cutanée avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ آفة جلدية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ त्वचा की क्षति (घाव) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建皮肤病变",
+            "pt": "Reconstrução anatômica de lesão de pele com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "82479",
+            "ichi": "SKI.RE.CO",
+            "snomed_ct": "940022479",
+            "icd11_pcs": "SRC1.0",
+            "icd10_cm": "0SB479Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013899589",
+        "composition": {
+            "target": "rectum",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the rectum under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de recto bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de rectum sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ المستقيم بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मलाशय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描直肠",
+            "pt": "Exame de imagem diagnóstica de reto sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "89589",
+            "ichi": "REC.IM.UL",
+            "snomed_ct": "940099589",
+            "icd11_pcs": "RIU1.0",
+            "icd10_cm": "0RB589Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013914510",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the urinary bladder under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de vejiga urinaria bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de vessie sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ المثانة البولية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मूत्राशय का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除膀胱",
+            "pt": "Remoção cirúrgica de bexiga urinária sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "84510",
+            "ichi": "URI.EX.UL",
+            "snomed_ct": "940014510",
+            "icd11_pcs": "UEU1.0",
+            "icd10_cm": "0UB510Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-013915426",
+        "composition": {
+            "target": "lung",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the lung under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de pulmón bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de poumon sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ الرئة بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में फेफड़ा का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除肺部",
+            "pt": "Remoção cirúrgica de pulmão sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "85426",
+            "ichi": "LUN.EX.UL",
+            "snomed_ct": "940015426",
+            "icd11_pcs": "LEU1.0",
+            "icd10_cm": "0LB426Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014058687",
+        "composition": {
+            "target": "kidney",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the kidney through an open incision",
+            "es": "Reconstrucción anatómica de riñón a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de rein par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ الكلية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा गुर्दा (किडनी) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建肾脏",
+            "pt": "Reconstrução anatômica de rim através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "88687",
+            "ichi": "KID.RE.OP",
+            "snomed_ct": "940058687",
+            "icd11_pcs": "KRO1.0",
+            "icd10_cm": "0KB687Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014105312",
+        "composition": {
+            "target": "spleen",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the spleen using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de bazo usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de rate par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ الطحال باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा प्लीहा (तिल्ली) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查脾脏",
+            "pt": "Visualização endoscópica de baço usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "85312",
+            "ichi": "SPL.IN.PE",
+            "snomed_ct": "940005312",
+            "icd11_pcs": "SIP1.0",
+            "icd10_cm": "0SB312Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014168697",
+        "composition": {
+            "target": "stomach",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the stomach with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de estómago con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de estomac avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ المعدة مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ आमाशय (पेट) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查胃部",
+            "pt": "Visualização endoscópica de estômago com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "88697",
+            "ichi": "STO.IN.CO",
+            "snomed_ct": "940068697",
+            "icd11_pcs": "SIC1.0",
+            "icd10_cm": "0SB697Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014202902",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the urinary bladder through an open incision",
+            "es": "Reconstrucción anatómica de vejiga urinaria a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de vessie par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ المثانة البولية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा मूत्राशय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建膀胱",
+            "pt": "Reconstrução anatômica de bexiga urinária através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "82902",
+            "ichi": "URI.RE.OP",
+            "snomed_ct": "940002902",
+            "icd11_pcs": "URO1.0",
+            "icd10_cm": "0UB902Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01443410",
+        "composition": {
+            "target": "nasal passage",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the nasal passage through an open incision",
+            "es": "Reconstrucción anatómica de pasaje nasal a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de fosses nasales par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ الممر الأنفي عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा नाक का रास्ता का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建鼻腔通道",
+            "pt": "Reconstrução anatômica de passagem nasal através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "83410",
+            "ichi": "NAS.RE.OP",
+            "snomed_ct": "940043410",
+            "icd11_pcs": "NRO1.0",
+            "icd10_cm": "0NB410Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014474000",
+        "composition": {
+            "target": "stomach",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the stomach using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de estómago usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de estomac par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ المعدة باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा आमाशय (पेट) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建胃部",
+            "pt": "Reconstrução anatômica de estômago usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "84000",
+            "ichi": "STO.RE.PE",
+            "snomed_ct": "940074000",
+            "icd11_pcs": "SRP1.0",
+            "icd10_cm": "0SB000Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014478811",
+        "composition": {
+            "target": "spleen",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the spleen through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de bazo a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de rate par incision ouverte",
+            "ar": "تصوير تشخيصي لـ الطحال عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा प्लीहा (तिल्ली) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描脾脏",
+            "pt": "Exame de imagem diagnóstica de baço através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "88811",
+            "ichi": "SPL.IM.OP",
+            "snomed_ct": "940078811",
+            "icd11_pcs": "SIO1.0",
+            "icd10_cm": "0SB811Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014551648",
+        "composition": {
+            "target": "kidney",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the kidney through an open incision",
+            "es": "Extracción de muestra de tejido de riñón a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de rein par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ الكلية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा गुर्दा (किडनी) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检肾脏",
+            "pt": "Extração de fragmento tecidual de rim através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "81648",
+            "ichi": "KID.BI.OP",
+            "snomed_ct": "940051648",
+            "icd11_pcs": "KBO1.0",
+            "icd10_cm": "0KB648Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014555459",
+        "composition": {
+            "target": "liver",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the liver using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de hígado usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de foie par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ الكبد باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा यकृत (लीवर) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描肝脏",
+            "pt": "Exame de imagem diagnóstica de fígado usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "85459",
+            "ichi": "LIV.IM.PE",
+            "snomed_ct": "940055459",
+            "icd11_pcs": "LIP1.0",
+            "icd10_cm": "0LB459Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014635452",
+        "composition": {
+            "target": "lung",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the lung under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de pulmón bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de poumon sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ الرئة بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में फेफड़ा का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描肺部",
+            "pt": "Exame de imagem diagnóstica de pulmão sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "85452",
+            "ichi": "LUN.IM.UL",
+            "snomed_ct": "940035452",
+            "icd11_pcs": "LIU1.0",
+            "icd10_cm": "0LB452Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014671057",
+        "composition": {
+            "target": "nasal passage",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the nasal passage using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de pasaje nasal usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de fosses nasales par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ الممر الأنفي باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा नाक का रास्ता का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除鼻腔通道",
+            "pt": "Remoção cirúrgica de passagem nasal usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "81057",
+            "ichi": "NAS.EX.PE",
+            "snomed_ct": "940071057",
+            "icd11_pcs": "NEP1.0",
+            "icd10_cm": "0NB057Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014740352",
+        "composition": {
+            "target": "lung",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the lung through an open incision",
+            "es": "Extracción de muestra de tejido de pulmón a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de poumon par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ الرئة عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा फेफड़ा का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检肺部",
+            "pt": "Extração de fragmento tecidual de pulmão através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "80352",
+            "ichi": "LUN.BI.OP",
+            "snomed_ct": "940040352",
+            "icd11_pcs": "LBO1.0",
+            "icd10_cm": "0LB352Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014746866",
+        "composition": {
+            "target": "nasal passage",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the nasal passage using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de pasaje nasal usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de fosses nasales par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ الممر الأنفي باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा नाक का रास्ता का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建鼻腔通道",
+            "pt": "Reconstrução anatômica de passagem nasal usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "86866",
+            "ichi": "NAS.RE.PE",
+            "snomed_ct": "940046866",
+            "icd11_pcs": "NRP1.0",
+            "icd10_cm": "0NB866Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014839924",
+        "composition": {
+            "target": "kidney",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the kidney through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de riñón a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de rein par incision ouverte",
+            "ar": "تصوير تشخيصي لـ الكلية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा गुर्दा (किडनी) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描肾脏",
+            "pt": "Exame de imagem diagnóstica de rim através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "89924",
+            "ichi": "KID.IM.OP",
+            "snomed_ct": "940039924",
+            "icd11_pcs": "KIO1.0",
+            "icd10_cm": "0KB924Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-014848498",
+        "composition": {
+            "target": "skin",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the skin lesion under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de lesión de piel bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de lésion cutanée sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ آفة جلدية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में त्वचा की क्षति (घाव) का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除皮肤病变",
+            "pt": "Remoção cirúrgica de lesão de pele sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "88498",
+            "ichi": "SKI.EX.UL",
+            "snomed_ct": "940048498",
+            "icd11_pcs": "SEU1.0",
+            "icd10_cm": "0SB498Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015005410",
+        "composition": {
+            "target": "spleen",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the spleen through an open incision",
+            "es": "Extirpación quirúrgica de bazo a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de rate par incision ouverte",
+            "ar": "استئصال جراحي لـ الطحال عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा प्लीहा (तिल्ली) का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除脾脏",
+            "pt": "Remoção cirúrgica de baço através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "85410",
+            "ichi": "SPL.EX.OP",
+            "snomed_ct": "940005410",
+            "icd11_pcs": "SEO1.0",
+            "icd10_cm": "0SB410Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015069478",
+        "composition": {
+            "target": "skin",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the skin lesion using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de lesión de piel usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de lésion cutanée par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ آفة جلدية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा त्वचा की क्षति (घाव) का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除皮肤病变",
+            "pt": "Remoção cirúrgica de lesão de pele usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "89478",
+            "ichi": "SKI.EX.PE",
+            "snomed_ct": "940069478",
+            "icd11_pcs": "SEP1.0",
+            "icd10_cm": "0SB478Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015149246",
+        "composition": {
+            "target": "rectum",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the rectum under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de recto bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de rectum sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ المستقيم بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मलाशय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查直肠",
+            "pt": "Visualização endoscópica de reto sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "89246",
+            "ichi": "REC.IN.UL",
+            "snomed_ct": "940049246",
+            "icd11_pcs": "RIU1.0",
+            "icd10_cm": "0RB246Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015177793",
+        "composition": {
+            "target": "pancreas",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the pancreas under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de páncreas bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de pancréas sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ البنكرياس بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में अग्नाशय (पैनक्रियाज) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描胰腺",
+            "pt": "Exame de imagem diagnóstica de pâncreas sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "87793",
+            "ichi": "PAN.IM.UL",
+            "snomed_ct": "940077793",
+            "icd11_pcs": "PIU1.0",
+            "icd10_cm": "0PB793Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015201409",
+        "composition": {
+            "target": "kidney",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the kidney through an open incision",
+            "es": "Extirpación quirúrgica de riñón a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de rein par incision ouverte",
+            "ar": "استئصال جراحي لـ الكلية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा गुर्दा (किडनी) का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除肾脏",
+            "pt": "Remoção cirúrgica de rim através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "81409",
+            "ichi": "KID.EX.OP",
+            "snomed_ct": "940001409",
+            "icd11_pcs": "KEO1.0",
+            "icd10_cm": "0KB409Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015249050",
+        "composition": {
+            "target": "liver",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the liver through an open incision",
+            "es": "Visualización endoscópica de hígado a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de foie par incision ouverte",
+            "ar": "فحص بالمنظار لـ الكبد عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा यकृत (लीवर) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查肝脏",
+            "pt": "Visualização endoscópica de fígado através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "89050",
+            "ichi": "LIV.IN.OP",
+            "snomed_ct": "940049050",
+            "icd11_pcs": "LIO1.0",
+            "icd10_cm": "0LB050Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015273545",
+        "composition": {
+            "target": "pancreas",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the pancreas through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de páncreas a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de pancréas par incision ouverte",
+            "ar": "تصوير تشخيصي لـ البنكرياس عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा अग्नाशय (पैनक्रियाज) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描胰腺",
+            "pt": "Exame de imagem diagnóstica de pâncreas através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "83545",
+            "ichi": "PAN.IM.OP",
+            "snomed_ct": "940073545",
+            "icd11_pcs": "PIO1.0",
+            "icd10_cm": "0PB545Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015317696",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the urinary bladder with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de vejiga urinaria con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de vessie avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ المثانة البولية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मूत्राशय का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除膀胱",
+            "pt": "Remoção cirúrgica de bexiga urinária com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "87696",
+            "ichi": "URI.EX.CO",
+            "snomed_ct": "940017696",
+            "icd11_pcs": "UEC1.0",
+            "icd10_cm": "0UB696Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015345091",
+        "composition": {
+            "target": "tonsils",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the tonsils using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de amígdalas usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de amygdales par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ اللوزتين باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा टॉन्सिल का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描扁桃体",
+            "pt": "Exame de imagem diagnóstica de amígdalas usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "85091",
+            "ichi": "TON.IM.PE",
+            "snomed_ct": "940045091",
+            "icd11_pcs": "TIP1.0",
+            "icd10_cm": "0TB091Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015560773",
+        "composition": {
+            "target": "liver",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the liver through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de hígado a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de foie par incision ouverte",
+            "ar": "تصوير تشخيصي لـ الكبد عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा यकृत (लीवर) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描肝脏",
+            "pt": "Exame de imagem diagnóstica de fígado através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "80773",
+            "ichi": "LIV.IM.OP",
+            "snomed_ct": "940060773",
+            "icd11_pcs": "LIO1.0",
+            "icd10_cm": "0LB773Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015731447",
+        "composition": {
+            "target": "liver",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the liver using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de hígado usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de foie par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ الكبد باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा यकृत (लीवर) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检肝脏",
+            "pt": "Extração de fragmento tecidual de fígado usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "81447",
+            "ichi": "LIV.BI.PE",
+            "snomed_ct": "940031447",
+            "icd11_pcs": "LBP1.0",
+            "icd10_cm": "0LB447Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015766942",
+        "composition": {
+            "target": "spleen",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the spleen with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de bazo con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de rate avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ الطحال مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ प्लीहा (तिल्ली) का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除脾脏",
+            "pt": "Remoção cirúrgica de baço com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86942",
+            "ichi": "SPL.EX.CO",
+            "snomed_ct": "940066942",
+            "icd11_pcs": "SEC1.0",
+            "icd10_cm": "0SB942Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015819536",
+        "composition": {
+            "target": "heart",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the heart with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de corazón con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de cœur avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ القلب مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ हृदय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描心脏",
+            "pt": "Exame de imagem diagnóstica de coração com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "89536",
+            "ichi": "HEA.IM.CO",
+            "snomed_ct": "940019536",
+            "icd11_pcs": "HIC1.0",
+            "icd10_cm": "0HB536Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-015820512",
+        "composition": {
+            "target": "skin",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the skin lesion using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de lesión de piel usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de lésion cutanée par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ آفة جلدية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा त्वचा की क्षति (घाव) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查皮肤病变",
+            "pt": "Visualização endoscópica de lesão de pele usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "80512",
+            "ichi": "SKI.IN.PE",
+            "snomed_ct": "940020512",
+            "icd11_pcs": "SIP1.0",
+            "icd10_cm": "0SB512Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016003148",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the shoulder joint under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de articulación del hombro bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de articulation de l'épaule sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ مفصل الكتف بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में कंधे का जोड़ का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描肩关节",
+            "pt": "Exame de imagem diagnóstica de articulação do ombro sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "83148",
+            "ichi": "SHO.IM.UL",
+            "snomed_ct": "940003148",
+            "icd11_pcs": "SIU1.0",
+            "icd10_cm": "0SB148Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01604429",
+        "composition": {
+            "target": "rectum",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the rectum using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de recto usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de rectum par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ المستقيم باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मलाशय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查直肠",
+            "pt": "Visualização endoscópica de reto usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "84429",
+            "ichi": "REC.IN.PE",
+            "snomed_ct": "940004429",
+            "icd11_pcs": "RIP1.0",
+            "icd10_cm": "0RB429Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016104764",
+        "composition": {
+            "target": "lung",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the lung with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de pulmón con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de poumon avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ الرئة مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ फेफड़ा का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查肺部",
+            "pt": "Visualização endoscópica de pulmão com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "84764",
+            "ichi": "LUN.IN.CO",
+            "snomed_ct": "940004764",
+            "icd11_pcs": "LIC1.0",
+            "icd10_cm": "0LB764Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016126259",
+        "composition": {
+            "target": "skin",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the skin lesion through an open incision",
+            "es": "Visualización endoscópica de lesión de piel a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de lésion cutanée par incision ouverte",
+            "ar": "فحص بالمنظار لـ آفة جلدية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा त्वचा की क्षति (घाव) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查皮肤病变",
+            "pt": "Visualização endoscópica de lesão de pele através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "86259",
+            "ichi": "SKI.IN.OP",
+            "snomed_ct": "940026259",
+            "icd11_pcs": "SIO1.0",
+            "icd10_cm": "0SB259Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016304530",
+        "composition": {
+            "target": "nasal passage",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the nasal passage with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de pasaje nasal con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de fosses nasales avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ الممر الأنفي مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ नाक का रास्ता का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建鼻腔通道",
+            "pt": "Reconstrução anatômica de passagem nasal com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "84530",
+            "ichi": "NAS.RE.CO",
+            "snomed_ct": "940004530",
+            "icd11_pcs": "NRC1.0",
+            "icd10_cm": "0NB530Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016307293",
+        "composition": {
+            "target": "stomach",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the stomach using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de estómago usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de estomac par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ المعدة باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा आमाशय (पेट) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描胃部",
+            "pt": "Exame de imagem diagnóstica de estômago usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87293",
+            "ichi": "STO.IM.PE",
+            "snomed_ct": "940007293",
+            "icd11_pcs": "SIP1.0",
+            "icd10_cm": "0SB293Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016336361",
+        "composition": {
+            "target": "liver",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the liver with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de hígado con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de foie avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ الكبد مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ यकृत (लीवर) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检肝脏",
+            "pt": "Extração de fragmento tecidual de fígado com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86361",
+            "ichi": "LIV.BI.CO",
+            "snomed_ct": "940036361",
+            "icd11_pcs": "LBC1.0",
+            "icd10_cm": "0LB361Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016345171",
+        "composition": {
+            "target": "tonsils",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the tonsils under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de amígdalas bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de amygdales sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ اللوزتين بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में टॉन्सिल का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建扁桃体",
+            "pt": "Reconstrução anatômica de amígdalas sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "85171",
+            "ichi": "TON.RE.UL",
+            "snomed_ct": "940045171",
+            "icd11_pcs": "TRU1.0",
+            "icd10_cm": "0TB171Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016357073",
+        "composition": {
+            "target": "skin",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the skin lesion with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de lesión de piel con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de lésion cutanée avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ آفة جلدية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ त्वचा की क्षति (घाव) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检皮肤病变",
+            "pt": "Extração de fragmento tecidual de lesão de pele com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "87073",
+            "ichi": "SKI.BI.CO",
+            "snomed_ct": "940057073",
+            "icd11_pcs": "SBC1.0",
+            "icd10_cm": "0SB073Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016406630",
+        "composition": {
+            "target": "lung",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the lung under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de pulmón bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de poumon sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ الرئة بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में फेफड़ा का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查肺部",
+            "pt": "Visualização endoscópica de pulmão sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "86630",
+            "ichi": "LUN.IN.UL",
+            "snomed_ct": "940006630",
+            "icd11_pcs": "LIU1.0",
+            "icd10_cm": "0LB630Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016407353",
+        "composition": {
+            "target": "heart",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the heart using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de corazón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de cœur par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ القلب باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा हृदय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建心脏",
+            "pt": "Reconstrução anatômica de coração usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87353",
+            "ichi": "HEA.RE.PE",
+            "snomed_ct": "940007353",
+            "icd11_pcs": "HRP1.0",
+            "icd10_cm": "0HB353Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016419841",
+        "composition": {
+            "target": "rectum",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the rectum under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de recto bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de rectum sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ المستقيم بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मलाशय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检直肠",
+            "pt": "Extração de fragmento tecidual de reto sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "89841",
+            "ichi": "REC.BI.UL",
+            "snomed_ct": "940019841",
+            "icd11_pcs": "RBU1.0",
+            "icd10_cm": "0RB841Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016599060",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the thyroid gland with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de glándula tiroides con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de glande thyroïde avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ الغدة الدرقية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ थायराइड ग्रंथि का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描甲状腺",
+            "pt": "Exame de imagem diagnóstica de glândula tireoide com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "89060",
+            "ichi": "THY.IM.CO",
+            "snomed_ct": "940099060",
+            "icd11_pcs": "TIC1.0",
+            "icd10_cm": "0TB060Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016624020",
+        "composition": {
+            "target": "skin",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the skin lesion through an open incision",
+            "es": "Extirpación quirúrgica de lesión de piel a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de lésion cutanée par incision ouverte",
+            "ar": "استئصال جراحي لـ آفة جلدية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा त्वचा की क्षति (घाव) का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除皮肤病变",
+            "pt": "Remoção cirúrgica de lesão de pele através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "84020",
+            "ichi": "SKI.EX.OP",
+            "snomed_ct": "940024020",
+            "icd11_pcs": "SEO1.0",
+            "icd10_cm": "0SB020Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016696743",
+        "composition": {
+            "target": "kidney",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the kidney under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de riñón bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de rein sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ الكلية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में गुर्दा (किडनी) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检肾脏",
+            "pt": "Extração de fragmento tecidual de rim sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "86743",
+            "ichi": "KID.BI.UL",
+            "snomed_ct": "940096743",
+            "icd11_pcs": "KBU1.0",
+            "icd10_cm": "0KB743Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016825722",
+        "composition": {
+            "target": "pancreas",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the pancreas through an open incision",
+            "es": "Extracción de muestra de tejido de páncreas a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de pancréas par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ البنكرياس عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा अग्नाशय (पैनक्रियाज) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检胰腺",
+            "pt": "Extração de fragmento tecidual de pâncreas através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "85722",
+            "ichi": "PAN.BI.OP",
+            "snomed_ct": "940025722",
+            "icd11_pcs": "PBO1.0",
+            "icd10_cm": "0PB722Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01690552",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the shoulder joint through an open incision",
+            "es": "Extirpación quirúrgica de articulación del hombro a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de articulation de l'épaule par incision ouverte",
+            "ar": "استئصال جراحي لـ مفصل الكتف عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा कंधे का जोड़ का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除肩关节",
+            "pt": "Remoção cirúrgica de articulação do ombro através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "80552",
+            "ichi": "SHO.EX.OP",
+            "snomed_ct": "940090552",
+            "icd11_pcs": "SEO1.0",
+            "icd10_cm": "0SB552Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01692087",
+        "composition": {
+            "target": "pancreas",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the pancreas with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de páncreas con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de pancréas avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ البنكرياس مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ अग्नाशय (पैनक्रियाज) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建胰腺",
+            "pt": "Reconstrução anatômica de pâncreas com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "82087",
+            "ichi": "PAN.RE.CO",
+            "snomed_ct": "940092087",
+            "icd11_pcs": "PRC1.0",
+            "icd10_cm": "0PB087Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016923220",
+        "composition": {
+            "target": "blood vessels",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the blood vessels with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de vasos sanguíneos con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de vaisseaux sanguins avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ الأوعية الدموية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ रक्त वाहिकाएं का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描血管",
+            "pt": "Exame de imagem diagnóstica de vasos sanguíneos com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "83220",
+            "ichi": "BLO.IM.CO",
+            "snomed_ct": "940023220",
+            "icd11_pcs": "BIC1.0",
+            "icd10_cm": "0BB220Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016932968",
+        "composition": {
+            "target": "rectum",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the rectum using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de recto usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de rectum par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ المستقيم باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मलाशय का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除直肠",
+            "pt": "Remoção cirúrgica de reto usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82968",
+            "ichi": "REC.EX.PE",
+            "snomed_ct": "940032968",
+            "icd11_pcs": "REP1.0",
+            "icd10_cm": "0RB968Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016945627",
+        "composition": {
+            "target": "liver",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the liver under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de hígado bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de foie sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ الكبد بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में यकृत (लीवर) का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除肝脏",
+            "pt": "Remoção cirúrgica de fígado sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "85627",
+            "ichi": "LIV.EX.UL",
+            "snomed_ct": "940045627",
+            "icd11_pcs": "LEU1.0",
+            "icd10_cm": "0LB627Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-016964277",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the shoulder joint under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de articulación del hombro bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de articulation de l'épaule sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ مفصل الكتف بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में कंधे का जोड़ का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除肩关节",
+            "pt": "Remoção cirúrgica de articulação do ombro sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "84277",
+            "ichi": "SHO.EX.UL",
+            "snomed_ct": "940064277",
+            "icd11_pcs": "SEU1.0",
+            "icd10_cm": "0SB277Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017011498",
+        "composition": {
+            "target": "heart",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the heart through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de corazón a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de cœur par incision ouverte",
+            "ar": "تصوير تشخيصي لـ القلب عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा हृदय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描心脏",
+            "pt": "Exame de imagem diagnóstica de coração através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "81498",
+            "ichi": "HEA.IM.OP",
+            "snomed_ct": "940011498",
+            "icd11_pcs": "HIO1.0",
+            "icd10_cm": "0HB498Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017058590",
+        "composition": {
+            "target": "kidney",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the kidney using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de riñón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de rein par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ الكلية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा गुर्दा (किडनी) का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除肾脏",
+            "pt": "Remoção cirúrgica de rim usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "88590",
+            "ichi": "KID.EX.PE",
+            "snomed_ct": "940058590",
+            "icd11_pcs": "KEP1.0",
+            "icd10_cm": "0KB590Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017060187",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the thyroid gland under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de glándula tiroides bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de glande thyroïde sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ الغدة الدرقية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में थायराइड ग्रंथि का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除甲状腺",
+            "pt": "Remoção cirúrgica de glândula tireoide sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "80187",
+            "ichi": "THY.EX.UL",
+            "snomed_ct": "940060187",
+            "icd11_pcs": "TEU1.0",
+            "icd10_cm": "0TB187Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017082456",
+        "composition": {
+            "target": "kidney",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the kidney using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de riñón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de rein par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ الكلية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा गुर्दा (किडनी) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建肾脏",
+            "pt": "Reconstrução anatômica de rim usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82456",
+            "ichi": "KID.RE.PE",
+            "snomed_ct": "940082456",
+            "icd11_pcs": "KRP1.0",
+            "icd10_cm": "0KB456Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017087646",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the thyroid gland under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de glándula tiroides bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de glande thyroïde sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ الغدة الدرقية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में थायराइड ग्रंथि का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建甲状腺",
+            "pt": "Reconstrução anatômica de glândula tireoide sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "87646",
+            "ichi": "THY.RE.UL",
+            "snomed_ct": "940087646",
+            "icd11_pcs": "TRU1.0",
+            "icd10_cm": "0TB646Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0172099",
+        "composition": {
+            "target": "nasal passage",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the nasal passage under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de pasaje nasal bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de fosses nasales sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ الممر الأنفي بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में नाक का रास्ता का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除鼻腔通道",
+            "pt": "Remoção cirúrgica de passagem nasal sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "82099",
+            "ichi": "NAS.EX.UL",
+            "snomed_ct": "940072099",
+            "icd11_pcs": "NEU1.0",
+            "icd10_cm": "0NB099Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01738152",
+        "composition": {
+            "target": "stomach",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the stomach with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de estómago con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de estomac avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ المعدة مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ आमाशय (पेट) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检胃部",
+            "pt": "Extração de fragmento tecidual de estômago com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "88152",
+            "ichi": "STO.BI.CO",
+            "snomed_ct": "940038152",
+            "icd11_pcs": "SBC1.0",
+            "icd10_cm": "0SB152Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017417366",
+        "composition": {
+            "target": "pancreas",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the pancreas using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de páncreas usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de pancréas par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ البنكرياس باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा अग्नाशय (पैनक्रियाज) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检胰腺",
+            "pt": "Extração de fragmento tecidual de pâncreas usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87366",
+            "ichi": "PAN.BI.PE",
+            "snomed_ct": "940017366",
+            "icd11_pcs": "PBP1.0",
+            "icd10_cm": "0PB366Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017448099",
+        "composition": {
+            "target": "liver",
+            "action": "excision",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the liver using keyhole minimally invasive access",
+            "es": "Extirpación quirúrgica de hígado usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Ablation chirurgicale de foie par accès laparoscopique minimalement invasif",
+            "ar": "استئصال جراحي لـ الكبد باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा यकृत (लीवर) का सर्जरी द्वारा निकालना",
+            "zh": "采用微创内镜入路手术切除肝脏",
+            "pt": "Remoção cirúrgica de fígado usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "88099",
+            "ichi": "LIV.EX.PE",
+            "snomed_ct": "940048099",
+            "icd11_pcs": "LEP1.0",
+            "icd10_cm": "0LB099Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017451710",
+        "composition": {
+            "target": "blood vessels",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the blood vessels through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de vasos sanguíneos a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de vaisseaux sanguins par incision ouverte",
+            "ar": "تصوير تشخيصي لـ الأوعية الدموية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा रक्त वाहिकाएं का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描血管",
+            "pt": "Exame de imagem diagnóstica de vasos sanguíneos através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "81710",
+            "ichi": "BLO.IM.OP",
+            "snomed_ct": "940051710",
+            "icd11_pcs": "BIO1.0",
+            "icd10_cm": "0BB710Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017479126",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the urinary bladder with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de vejiga urinaria con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de vessie avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ المثانة البولية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मूत्राशय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描膀胱",
+            "pt": "Exame de imagem diagnóstica de bexiga urinária com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "89126",
+            "ichi": "URI.IM.CO",
+            "snomed_ct": "940079126",
+            "icd11_pcs": "UIC1.0",
+            "icd10_cm": "0UB126Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017537848",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the urinary bladder using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de vejiga urinaria usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de vessie par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ المثانة البولية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मूत्राशय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描膀胱",
+            "pt": "Exame de imagem diagnóstica de bexiga urinária usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87848",
+            "ichi": "URI.IM.PE",
+            "snomed_ct": "940037848",
+            "icd11_pcs": "UIP1.0",
+            "icd10_cm": "0UB848Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017580056",
+        "composition": {
+            "target": "tonsils",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the tonsils with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de amígdalas con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de amygdales avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ اللوزتين مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ टॉन्सिल का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检扁桃体",
+            "pt": "Extração de fragmento tecidual de amígdalas com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "80056",
+            "ichi": "TON.BI.CO",
+            "snomed_ct": "940080056",
+            "icd11_pcs": "TBC1.0",
+            "icd10_cm": "0TB056Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017616786",
+        "composition": {
+            "target": "rectum",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the rectum with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de recto con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de rectum avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ المستقيم مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मलाशय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建直肠",
+            "pt": "Reconstrução anatômica de reto com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86786",
+            "ichi": "REC.RE.CO",
+            "snomed_ct": "940016786",
+            "icd11_pcs": "RRC1.0",
+            "icd10_cm": "0RB786Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017648642",
+        "composition": {
+            "target": "skin",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the skin lesion under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de lesión de piel bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de lésion cutanée sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ آفة جلدية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में त्वचा की क्षति (घाव) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查皮肤病变",
+            "pt": "Visualização endoscópica de lesão de pele sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "88642",
+            "ichi": "SKI.IN.UL",
+            "snomed_ct": "940048642",
+            "icd11_pcs": "SIU1.0",
+            "icd10_cm": "0SB642Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017681156",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the thyroid gland with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de glándula tiroides con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de glande thyroïde avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ الغدة الدرقية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ थायराइड ग्रंथि का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检甲状腺",
+            "pt": "Extração de fragmento tecidual de glândula tireoide com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "81156",
+            "ichi": "THY.BI.CO",
+            "snomed_ct": "940081156",
+            "icd11_pcs": "TBC1.0",
+            "icd10_cm": "0TB156Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017749509",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the urinary bladder using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de vejiga urinaria usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de vessie par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ المثانة البولية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मूत्राशय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建膀胱",
+            "pt": "Reconstrução anatômica de bexiga urinária usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "89509",
+            "ichi": "URI.RE.PE",
+            "snomed_ct": "940049509",
+            "icd11_pcs": "URP1.0",
+            "icd10_cm": "0UB509Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017788937",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the shoulder joint with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de articulación del hombro con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de articulation de l'épaule avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ مفصل الكتف مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ कंधे का जोड़ का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建肩关节",
+            "pt": "Reconstrução anatômica de articulação do ombro com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "88937",
+            "ichi": "SHO.RE.CO",
+            "snomed_ct": "940088937",
+            "icd11_pcs": "SRC1.0",
+            "icd10_cm": "0SB937Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01779351",
+        "composition": {
+            "target": "blood vessels",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the blood vessels with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de vasos sanguíneos con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de vaisseaux sanguins avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ الأوعية الدموية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ रक्त वाहिकाएं का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检血管",
+            "pt": "Extração de fragmento tecidual de vasos sanguíneos com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "89351",
+            "ichi": "BLO.BI.CO",
+            "snomed_ct": "940079351",
+            "icd11_pcs": "BBC1.0",
+            "icd10_cm": "0BB351Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017834194",
+        "composition": {
+            "target": "kidney",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the kidney under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de riñón bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de rein sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ الكلية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में गुर्दा (किडनी) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建肾脏",
+            "pt": "Reconstrução anatômica de rim sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "84194",
+            "ichi": "KID.RE.UL",
+            "snomed_ct": "940034194",
+            "icd11_pcs": "KRU1.0",
+            "icd10_cm": "0KB194Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017892351",
+        "composition": {
+            "target": "skin",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the skin lesion with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de lesión de piel con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de lésion cutanée avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ آفة جلدية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ त्वचा की क्षति (घाव) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描皮肤病变",
+            "pt": "Exame de imagem diagnóstica de lesão de pele com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "82351",
+            "ichi": "SKI.IM.CO",
+            "snomed_ct": "940092351",
+            "icd11_pcs": "SIC1.0",
+            "icd10_cm": "0SB351Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017962852",
+        "composition": {
+            "target": "blood vessels",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the blood vessels using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de vasos sanguíneos usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de vaisseaux sanguins par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ الأوعية الدموية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा रक्त वाहिकाएं का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查血管",
+            "pt": "Visualização endoscópica de vasos sanguíneos usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82852",
+            "ichi": "BLO.IN.PE",
+            "snomed_ct": "940062852",
+            "icd11_pcs": "BIP1.0",
+            "icd10_cm": "0BB852Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017977784",
+        "composition": {
+            "target": "heart",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the heart using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de corazón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de cœur par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ القلب باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा हृदय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描心脏",
+            "pt": "Exame de imagem diagnóstica de coração usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87784",
+            "ichi": "HEA.IM.PE",
+            "snomed_ct": "940077784",
+            "icd11_pcs": "HIP1.0",
+            "icd10_cm": "0HB784Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017982697",
+        "composition": {
+            "target": "lung",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the lung with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de pulmón con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de poumon avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ الرئة مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ फेफड़ा का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建肺部",
+            "pt": "Reconstrução anatômica de pulmão com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "82697",
+            "ichi": "LUN.RE.CO",
+            "snomed_ct": "940082697",
+            "icd11_pcs": "LRC1.0",
+            "icd10_cm": "0LB697Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-017997013",
+        "composition": {
+            "target": "heart",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the heart using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de corazón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de cœur par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ القلب باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा हृदय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检心脏",
+            "pt": "Extração de fragmento tecidual de coração usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87013",
+            "ichi": "HEA.BI.PE",
+            "snomed_ct": "940097013",
+            "icd11_pcs": "HBP1.0",
+            "icd10_cm": "0HB013Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018007110",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the thyroid gland through an open incision",
+            "es": "Extracción de muestra de tejido de glándula tiroides a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de glande thyroïde par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ الغدة الدرقية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा थायराइड ग्रंथि का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检甲状腺",
+            "pt": "Extração de fragmento tecidual de glândula tireoide através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "87110",
+            "ichi": "THY.BI.OP",
+            "snomed_ct": "940007110",
+            "icd11_pcs": "TBO1.0",
+            "icd10_cm": "0TB110Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018173311",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the thyroid gland under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de glándula tiroides bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de glande thyroïde sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ الغدة الدرقية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में थायराइड ग्रंथि का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查甲状腺",
+            "pt": "Visualização endoscópica de glândula tireoide sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "83311",
+            "ichi": "THY.IN.UL",
+            "snomed_ct": "940073311",
+            "icd11_pcs": "TIU1.0",
+            "icd10_cm": "0TB311Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018247122",
+        "composition": {
+            "target": "skin",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the skin lesion with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de lesión de piel con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de lésion cutanée avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ آفة جلدية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ त्वचा की क्षति (घाव) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查皮肤病变",
+            "pt": "Visualização endoscópica de lesão de pele com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "87122",
+            "ichi": "SKI.IN.CO",
+            "snomed_ct": "940047122",
+            "icd11_pcs": "SIC1.0",
+            "icd10_cm": "0SB122Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018258331",
+        "composition": {
+            "target": "skin",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the skin lesion through an open incision",
+            "es": "Extracción de muestra de tejido de lesión de piel a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de lésion cutanée par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ آفة جلدية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा त्वचा की क्षति (घाव) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检皮肤病变",
+            "pt": "Extração de fragmento tecidual de lesão de pele através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "88331",
+            "ichi": "SKI.BI.OP",
+            "snomed_ct": "940058331",
+            "icd11_pcs": "SBO1.0",
+            "icd10_cm": "0SB331Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018303681",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the shoulder joint through an open incision",
+            "es": "Extracción de muestra de tejido de articulación del hombro a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de articulation de l'épaule par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ مفصل الكتف عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा कंधे का जोड़ का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检肩关节",
+            "pt": "Extração de fragmento tecidual de articulação do ombro através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "83681",
+            "ichi": "SHO.BI.OP",
+            "snomed_ct": "940003681",
+            "icd11_pcs": "SBO1.0",
+            "icd10_cm": "0SB681Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018331072",
+        "composition": {
+            "target": "shoulder joint",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the shoulder joint with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de articulación del hombro con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de articulation de l'épaule avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ مفصل الكتف مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ कंधे का जोड़ का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除肩关节",
+            "pt": "Remoção cirúrgica de articulação do ombro com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "81072",
+            "ichi": "SHO.EX.CO",
+            "snomed_ct": "940031072",
+            "icd11_pcs": "SEC1.0",
+            "icd10_cm": "0SB072Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018340920",
+        "composition": {
+            "target": "kidney",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the kidney through an open incision",
+            "es": "Visualización endoscópica de riñón a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de rein par incision ouverte",
+            "ar": "فحص بالمنظار لـ الكلية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा गुर्दा (किडनी) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查肾脏",
+            "pt": "Visualização endoscópica de rim através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "80920",
+            "ichi": "KID.IN.OP",
+            "snomed_ct": "940040920",
+            "icd11_pcs": "KIO1.0",
+            "icd10_cm": "0KB920Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018402639",
+        "composition": {
+            "target": "blood vessels",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the blood vessels with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de vasos sanguíneos con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de vaisseaux sanguins avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ الأوعية الدموية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ रक्त वाहिकाएं का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建血管",
+            "pt": "Reconstrução anatômica de vasos sanguíneos com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "82639",
+            "ichi": "BLO.RE.CO",
+            "snomed_ct": "940002639",
+            "icd11_pcs": "BRC1.0",
+            "icd10_cm": "0BB639Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018422653",
+        "composition": {
+            "target": "heart",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the heart through an open incision",
+            "es": "Extracción de muestra de tejido de corazón a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de cœur par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ القلب عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा हृदय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检心脏",
+            "pt": "Extração de fragmento tecidual de coração através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "82653",
+            "ichi": "HEA.BI.OP",
+            "snomed_ct": "940022653",
+            "icd11_pcs": "HBO1.0",
+            "icd10_cm": "0HB653Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018492675",
+        "composition": {
+            "target": "blood vessels",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the blood vessels under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de vasos sanguíneos bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de vaisseaux sanguins sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ الأوعية الدموية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में रक्त वाहिकाएं का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检血管",
+            "pt": "Extração de fragmento tecidual de vasos sanguíneos sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "82675",
+            "ichi": "BLO.BI.UL",
+            "snomed_ct": "940092675",
+            "icd11_pcs": "BBU1.0",
+            "icd10_cm": "0BB675Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018505473",
+        "composition": {
+            "target": "rectum",
+            "action": "excision",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the rectum under high-frequency sound wave mapping",
+            "es": "Extirpación quirúrgica de recto bajo guía de ecografía en tiempo real",
+            "fr": "Ablation chirurgicale de rectum sous guidage échographique en temps réel",
+            "ar": "استئصال جراحي لـ المستقيم بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में मलाशय का सर्जरी द्वारा निकालना",
+            "zh": "在超声波实时定位引导下手术切除直肠",
+            "pt": "Remoção cirúrgica de reto sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "85473",
+            "ichi": "REC.EX.UL",
+            "snomed_ct": "940005473",
+            "icd11_pcs": "REU1.0",
+            "icd10_cm": "0RB473Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-01859086",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "inspection",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the urinary bladder using keyhole minimally invasive access",
+            "es": "Visualización endoscópica de vejiga urinaria usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Visualisation endoscopique de vessie par accès laparoscopique minimalement invasif",
+            "ar": "فحص بالمنظار لـ المثانة البولية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मूत्राशय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "采用微创内镜入路内镜直视检查膀胱",
+            "pt": "Visualização endoscópica de bexiga urinária usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "89086",
+            "ichi": "URI.IN.PE",
+            "snomed_ct": "940059086",
+            "icd11_pcs": "UIP1.0",
+            "icd10_cm": "0UB086Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018596888",
+        "composition": {
+            "target": "liver",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the liver with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de hígado con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de foie avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ الكبد مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ यकृत (लीवर) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建肝脏",
+            "pt": "Reconstrução anatômica de fígado com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86888",
+            "ichi": "LIV.RE.CO",
+            "snomed_ct": "940096888",
+            "icd11_pcs": "LRC1.0",
+            "icd10_cm": "0LB888Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018599117",
+        "composition": {
+            "target": "blood vessels",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the blood vessels through an open incision",
+            "es": "Visualización endoscópica de vasos sanguíneos a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de vaisseaux sanguins par incision ouverte",
+            "ar": "فحص بالمنظار لـ الأوعية الدموية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा रक्त वाहिकाएं का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查血管",
+            "pt": "Visualização endoscópica de vasos sanguíneos através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "89117",
+            "ichi": "BLO.IN.OP",
+            "snomed_ct": "940099117",
+            "icd11_pcs": "BIO1.0",
+            "icd10_cm": "0BB117Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018622171",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the urinary bladder using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de vejiga urinaria usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de vessie par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ المثانة البولية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मूत्राशय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检膀胱",
+            "pt": "Extração de fragmento tecidual de bexiga urinária usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82171",
+            "ichi": "URI.BI.PE",
+            "snomed_ct": "940022171",
+            "icd11_pcs": "UBP1.0",
+            "icd10_cm": "0UB171Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018637910",
+        "composition": {
+            "target": "rectum",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the rectum using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de recto usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de rectum par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ المستقيم باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मलाशय का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检直肠",
+            "pt": "Extração de fragmento tecidual de reto usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "87910",
+            "ichi": "REC.BI.PE",
+            "snomed_ct": "940037910",
+            "icd11_pcs": "RBP1.0",
+            "icd10_cm": "0RB910Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018675273",
+        "composition": {
+            "target": "liver",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the liver using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de hígado usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de foie par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ الكبد باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा यकृत (लीवर) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建肝脏",
+            "pt": "Reconstrução anatômica de fígado usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "85273",
+            "ichi": "LIV.RE.PE",
+            "snomed_ct": "940075273",
+            "icd11_pcs": "LRP1.0",
+            "icd10_cm": "0LB273Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018832174",
+        "composition": {
+            "target": "blood vessels",
+            "action": "imaging",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the blood vessels using keyhole minimally invasive access",
+            "es": "Escaneo de diagnóstico por imágenes de vasos sanguíneos usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Scanner d'imagerie diagnostique de vaisseaux sanguins par accès laparoscopique minimalement invasif",
+            "ar": "تصوير تشخيصي لـ الأوعية الدموية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा रक्त वाहिकाएं का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "采用微创内镜入路诊断影像学扫描血管",
+            "pt": "Exame de imagem diagnóstica de vasos sanguíneos usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82174",
+            "ichi": "BLO.IM.PE",
+            "snomed_ct": "940032174",
+            "icd11_pcs": "BIP1.0",
+            "icd10_cm": "0BB174Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018906627",
+        "composition": {
+            "target": "pancreas",
+            "action": "biopsy",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the pancreas with infusion of contrast fluid and X-ray mapping",
+            "es": "Extracción de muestra de tejido de páncreas con infusión de líquido de contraste y radiografías",
+            "fr": "Prélèvement de tissu pour biopsie de pancréas avec injection de produit de contraste et radiographie",
+            "ar": "أخذ عينة من الأنسجة لـ البنكرياس مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ अग्नाशय (पैनक्रियाज) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "配合造影剂灌注及X光造影针吸组织活检胰腺",
+            "pt": "Extração de fragmento tecidual de pâncreas com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86627",
+            "ichi": "PAN.BI.CO",
+            "snomed_ct": "940006627",
+            "icd11_pcs": "PBC1.0",
+            "icd10_cm": "0PB627Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018968404",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the thyroid gland through an open incision",
+            "es": "Extirpación quirúrgica de glándula tiroides a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de glande thyroïde par incision ouverte",
+            "ar": "استئصال جراحي لـ الغدة الدرقية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा थायराइड ग्रंथि का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除甲状腺",
+            "pt": "Remoção cirúrgica de glândula tireoide através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "88404",
+            "ichi": "THY.EX.OP",
+            "snomed_ct": "940068404",
+            "icd11_pcs": "TEO1.0",
+            "icd10_cm": "0TB404Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018978937",
+        "composition": {
+            "target": "lung",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the lung through an open incision",
+            "es": "Extirpación quirúrgica de pulmón a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de poumon par incision ouverte",
+            "ar": "استئصال جراحي لـ الرئة عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा फेफड़ा का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除肺部",
+            "pt": "Remoção cirúrgica de pulmão através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "88937",
+            "ichi": "LUN.EX.OP",
+            "snomed_ct": "940078937",
+            "icd11_pcs": "LEO1.0",
+            "icd10_cm": "0LB937Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018988835",
+        "composition": {
+            "target": "lung",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the lung using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de pulmón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de poumon par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ الرئة باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा फेफड़ा का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建肺部",
+            "pt": "Reconstrução anatômica de pulmão usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "88835",
+            "ichi": "LUN.RE.PE",
+            "snomed_ct": "940088835",
+            "icd11_pcs": "LRP1.0",
+            "icd10_cm": "0LB835Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-018999884",
+        "composition": {
+            "target": "liver",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the liver with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de hígado con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de foie avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ الكبد مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ यकृत (लीवर) का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除肝脏",
+            "pt": "Remoção cirúrgica de fígado com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "89884",
+            "ichi": "LIV.EX.CO",
+            "snomed_ct": "940099884",
+            "icd11_pcs": "LEC1.0",
+            "icd10_cm": "0LB884Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019022810",
+        "composition": {
+            "target": "skin",
+            "action": "repair",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the skin lesion using keyhole minimally invasive access",
+            "es": "Reconstrucción anatómica de lesión de piel usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Reconstruction anatomique de lésion cutanée par accès laparoscopique minimalement invasif",
+            "ar": "إعادة بناء تشريحية لـ آفة جلدية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा त्वचा की क्षति (घाव) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "采用微创内镜入路结构修补与重建皮肤病变",
+            "pt": "Reconstrução anatômica de lesão de pele usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "82810",
+            "ichi": "SKI.RE.PE",
+            "snomed_ct": "940022810",
+            "icd11_pcs": "SRP1.0",
+            "icd10_cm": "0SB810Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019043525",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the urinary bladder with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de vejiga urinaria con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de vessie avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ المثانة البولية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मूत्राशय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建膀胱",
+            "pt": "Reconstrução anatômica de bexiga urinária com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "83525",
+            "ichi": "URI.RE.CO",
+            "snomed_ct": "940043525",
+            "icd11_pcs": "URC1.0",
+            "icd10_cm": "0UB525Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019133310",
+        "composition": {
+            "target": "stomach",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the stomach through an open incision",
+            "es": "Visualización endoscópica de estómago a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de estomac par incision ouverte",
+            "ar": "فحص بالمنظار لـ المعدة عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा आमाशय (पेट) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查胃部",
+            "pt": "Visualização endoscópica de estômago através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "83310",
+            "ichi": "STO.IN.OP",
+            "snomed_ct": "940033310",
+            "icd11_pcs": "SIO1.0",
+            "icd10_cm": "0SB310Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019157351",
+        "composition": {
+            "target": "liver",
+            "action": "biopsy",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the liver under high-frequency sound wave mapping",
+            "es": "Extracción de muestra de tejido de hígado bajo guía de ecografía en tiempo real",
+            "fr": "Prélèvement de tissu pour biopsie de foie sous guidage échographique en temps réel",
+            "ar": "أخذ عينة من الأنسجة لـ الكبد بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में यकृत (लीवर) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "在超声波实时定位引导下针吸组织活检肝脏",
+            "pt": "Extração de fragmento tecidual de fígado sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "87351",
+            "ichi": "LIV.BI.UL",
+            "snomed_ct": "940057351",
+            "icd11_pcs": "LBU1.0",
+            "icd10_cm": "0LB351Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019162944",
+        "composition": {
+            "target": "stomach",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the stomach under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de estómago bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de estomac sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ المعدة بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में आमाशय (पेट) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描胃部",
+            "pt": "Exame de imagem diagnóstica de estômago sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "82944",
+            "ichi": "STO.IM.UL",
+            "snomed_ct": "940062944",
+            "icd11_pcs": "SIU1.0",
+            "icd10_cm": "0SB944Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019178996",
+        "composition": {
+            "target": "urinary bladder",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the urinary bladder through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de vejiga urinaria a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de vessie par incision ouverte",
+            "ar": "تصوير تشخيصي لـ المثانة البولية عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा मूत्राशय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描膀胱",
+            "pt": "Exame de imagem diagnóstica de bexiga urinária através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "88996",
+            "ichi": "URI.IM.OP",
+            "snomed_ct": "940078996",
+            "icd11_pcs": "UIO1.0",
+            "icd10_cm": "0UB996Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019183427",
+        "composition": {
+            "target": "nasal passage",
+            "action": "repair",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the nasal passage under high-frequency sound wave mapping",
+            "es": "Reconstrucción anatómica de pasaje nasal bajo guía de ecografía en tiempo real",
+            "fr": "Reconstruction anatomique de fosses nasales sous guidage échographique en temps réel",
+            "ar": "إعادة بناء تشريحية لـ الممر الأنفي بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में नाक का रास्ता का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "在超声波实时定位引导下结构修补与重建鼻腔通道",
+            "pt": "Reconstrução anatômica de passagem nasal sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "83427",
+            "ichi": "NAS.RE.UL",
+            "snomed_ct": "940083427",
+            "icd11_pcs": "NRU1.0",
+            "icd10_cm": "0NB427Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019216879",
+        "composition": {
+            "target": "rectum",
+            "action": "imaging",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the rectum through an open incision",
+            "es": "Escaneo de diagnóstico por imágenes de recto a través de una incisión abierta",
+            "fr": "Scanner d'imagerie diagnostique de rectum par incision ouverte",
+            "ar": "تصوير تشخيصي لـ المستقيم عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा मलाशय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "通过开放性切口进行诊断影像学扫描直肠",
+            "pt": "Exame de imagem diagnóstica de reto através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "86879",
+            "ichi": "REC.IM.OP",
+            "snomed_ct": "940016879",
+            "icd11_pcs": "RIO1.0",
+            "icd10_cm": "0RB879Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019267974",
+        "composition": {
+            "target": "pancreas",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the pancreas under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de páncreas bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de pancréas sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ البنكرياس بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में अग्नाशय (पैनक्रियाज) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查胰腺",
+            "pt": "Visualização endoscópica de pâncreas sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "87974",
+            "ichi": "PAN.IN.UL",
+            "snomed_ct": "940067974",
+            "icd11_pcs": "PIU1.0",
+            "icd10_cm": "0PB974Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019307373",
+        "composition": {
+            "target": "thyroid gland",
+            "action": "excision",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the thyroid gland with infusion of contrast fluid and X-ray mapping",
+            "es": "Extirpación quirúrgica de glándula tiroides con infusión de líquido de contraste y radiografías",
+            "fr": "Ablation chirurgicale de glande thyroïde avec injection de produit de contraste et radiographie",
+            "ar": "استئصال جراحي لـ الغدة الدرقية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ थायराइड ग्रंथि का सर्जरी द्वारा निकालना",
+            "zh": "配合造影剂灌注及X光造影手术切除甲状腺",
+            "pt": "Remoção cirúrgica de glândula tireoide com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "87373",
+            "ichi": "THY.EX.CO",
+            "snomed_ct": "940007373",
+            "icd11_pcs": "TEC1.0",
+            "icd10_cm": "0TB373Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019312556",
+        "composition": {
+            "target": "nasal passage",
+            "action": "biopsy",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the nasal passage through an open incision",
+            "es": "Extracción de muestra de tejido de pasaje nasal a través de una incisión abierta",
+            "fr": "Prélèvement de tissu pour biopsie de fosses nasales par incision ouverte",
+            "ar": "أخذ عينة من الأنسجة لـ الممر الأنفي عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा नाक का रास्ता का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "通过开放性切口进行针吸组织活检鼻腔通道",
+            "pt": "Extração de fragmento tecidual de passagem nasal através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "82556",
+            "ichi": "NAS.BI.OP",
+            "snomed_ct": "940012556",
+            "icd11_pcs": "NBO1.0",
+            "icd10_cm": "0NB556Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019345003",
+        "composition": {
+            "target": "rectum",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the rectum with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de recto con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de rectum avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ المستقيم مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मलाशय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查直肠",
+            "pt": "Visualização endoscópica de reto com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "85003",
+            "ichi": "REC.IN.CO",
+            "snomed_ct": "940045003",
+            "icd11_pcs": "RIC1.0",
+            "icd10_cm": "0RB003Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019355006",
+        "composition": {
+            "target": "kidney",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the kidney with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de riñón con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de rein avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ الكلية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ गुर्दा (किडनी) का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建肾脏",
+            "pt": "Reconstrução anatômica de rim com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "85006",
+            "ichi": "KID.RE.CO",
+            "snomed_ct": "940055006",
+            "icd11_pcs": "KRC1.0",
+            "icd10_cm": "0KB006Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019424517",
+        "composition": {
+            "target": "tonsils",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the tonsils through an open incision",
+            "es": "Reconstrucción anatómica de amígdalas a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de amygdales par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ اللوزتين عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा टॉन्सिल का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建扁桃体",
+            "pt": "Reconstrução anatômica de amígdalas através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "84517",
+            "ichi": "TON.RE.OP",
+            "snomed_ct": "940024517",
+            "icd11_pcs": "TRO1.0",
+            "icd10_cm": "0TB517Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019474735",
+        "composition": {
+            "target": "heart",
+            "action": "repair",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the heart with infusion of contrast fluid and X-ray mapping",
+            "es": "Reconstrucción anatómica de corazón con infusión de líquido de contraste y radiografías",
+            "fr": "Reconstruction anatomique de cœur avec injection de produit de contraste et radiographie",
+            "ar": "إعادة بناء تشريحية لـ القلب مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ हृदय का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "配合造影剂灌注及X光造影结构修补与重建心脏",
+            "pt": "Reconstrução anatômica de coração com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "84735",
+            "ichi": "HEA.RE.CO",
+            "snomed_ct": "940074735",
+            "icd11_pcs": "HRC1.0",
+            "icd10_cm": "0HB735Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-0195101",
+        "composition": {
+            "target": "tonsils",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the tonsils using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de amígdalas usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de amygdales par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ اللوزتين باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा टॉन्सिल का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检扁桃体",
+            "pt": "Extração de fragmento tecidual de amígdalas usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "85101",
+            "ichi": "TON.BI.PE",
+            "snomed_ct": "940095101",
+            "icd11_pcs": "TBP1.0",
+            "icd10_cm": "0TB101Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019573390",
+        "composition": {
+            "target": "tonsils",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the tonsils with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de amígdalas con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de amygdales avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ اللوزتين مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ टॉन्सिल का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查扁桃体",
+            "pt": "Visualização endoscópica de amígdalas com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "83390",
+            "ichi": "TON.IN.CO",
+            "snomed_ct": "940073390",
+            "icd11_pcs": "TIC1.0",
+            "icd10_cm": "0TB390Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019578289",
+        "composition": {
+            "target": "kidney",
+            "action": "inspection",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the kidney under high-frequency sound wave mapping",
+            "es": "Visualización endoscópica de riñón bajo guía de ecografía en tiempo real",
+            "fr": "Visualisation endoscopique de rein sous guidage échographique en temps réel",
+            "ar": "فحص بالمنظار لـ الكلية بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में गुर्दा (किडनी) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "在超声波实时定位引导下内镜直视检查肾脏",
+            "pt": "Visualização endoscópica de rim sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "88289",
+            "ichi": "KID.IN.UL",
+            "snomed_ct": "940078289",
+            "icd11_pcs": "KIU1.0",
+            "icd10_cm": "0KB289Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019711716",
+        "composition": {
+            "target": "kidney",
+            "action": "biopsy",
+            "means": "percutaneous endoscopic"
+        },
+        "plain_language": {
+            "en": "Tissue core extraction of the kidney using keyhole minimally invasive access",
+            "es": "Extracción de muestra de tejido de riñón usando acceso laparoscópico mínimamente invasivo",
+            "fr": "Prélèvement de tissu pour biopsie de rein par accès laparoscopique minimalement invasif",
+            "ar": "أخذ عينة من الأنسجة لـ الكلية باستخدام تقنية المنظار طفيفة التوغل",
+            "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा गुर्दा (किडनी) का बायोप्सी हेतु ऊतक निकालना",
+            "zh": "采用微创内镜入路针吸组织活检肾脏",
+            "pt": "Extração de fragmento tecidual de rim usando acesso laparoscópico minimamente invasivo"
+        },
+        "crosswalks": {
+            "cpt": "81716",
+            "ichi": "KID.BI.PE",
+            "snomed_ct": "940011716",
+            "icd11_pcs": "KBP1.0",
+            "icd10_cm": "0KB716Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019748886",
+        "composition": {
+            "target": "heart",
+            "action": "imaging",
+            "means": "ultrasound guidance"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the heart under high-frequency sound wave mapping",
+            "es": "Escaneo de diagnóstico por imágenes de corazón bajo guía de ecografía en tiempo real",
+            "fr": "Scanner d'imagerie diagnostique de cœur sous guidage échographique en temps réel",
+            "ar": "تصوير تشخيصي لـ القلب بتوجيه من الموجات فوق الصوتية",
+            "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में हृदय का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "在超声波实时定位引导下诊断影像学扫描心脏",
+            "pt": "Exame de imagem diagnóstica de coração sob orientação ultrassonográfica"
+        },
+        "crosswalks": {
+            "cpt": "88886",
+            "ichi": "HEA.IM.UL",
+            "snomed_ct": "940048886",
+            "icd11_pcs": "HIU1.0",
+            "icd10_cm": "0HB886Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019785644",
+        "composition": {
+            "target": "stomach",
+            "action": "excision",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Surgical removal of the stomach through an open incision",
+            "es": "Extirpación quirúrgica de estómago a través de una incisión abierta",
+            "fr": "Ablation chirurgicale de estomac par incision ouverte",
+            "ar": "استئصال جراحي لـ المعدة عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा आमाशय (पेट) का सर्जरी द्वारा निकालना",
+            "zh": "通过开放性切口进行手术切除胃部",
+            "pt": "Remoção cirúrgica de estômago através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "85644",
+            "ichi": "STO.EX.OP",
+            "snomed_ct": "940085644",
+            "icd11_pcs": "SEO1.0",
+            "icd10_cm": "0SB644Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019833858",
+        "composition": {
+            "target": "lung",
+            "action": "repair",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Anatomical reconstruction of the lung through an open incision",
+            "es": "Reconstrucción anatómica de pulmón a través de una incisión abierta",
+            "fr": "Reconstruction anatomique de poumon par incision ouverte",
+            "ar": "إعادة بناء تشريحية لـ الرئة عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा फेफड़ा का शारीरिक पुनर्निर्माण (मरम्मत)",
+            "zh": "通过开放性切口进行结构修补与重建肺部",
+            "pt": "Reconstrução anatômica de pulmão através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "83858",
+            "ichi": "LUN.RE.OP",
+            "snomed_ct": "940033858",
+            "icd11_pcs": "LRO1.0",
+            "icd10_cm": "0LB858Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019886871",
+        "composition": {
+            "target": "stomach",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the stomach with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de estómago con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de estomac avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ المعدة مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ आमाशय (पेट) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描胃部",
+            "pt": "Exame de imagem diagnóstica de estômago com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "86871",
+            "ichi": "STO.IM.CO",
+            "snomed_ct": "940086871",
+            "icd11_pcs": "SIC1.0",
+            "icd10_cm": "0SB871Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019920863",
+        "composition": {
+            "target": "pancreas",
+            "action": "inspection",
+            "means": "open"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the pancreas through an open incision",
+            "es": "Visualización endoscópica de páncreas a través de una incisión abierta",
+            "fr": "Visualisation endoscopique de pancréas par incision ouverte",
+            "ar": "فحص بالمنظار لـ البنكرياس عبر شق جراحي مفتوح",
+            "hi": "खुली सर्जरी द्वारा अग्नाशय (पैनक्रियाज) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "通过开放性切口进行内镜直视检查胰腺",
+            "pt": "Visualização endoscópica de pâncreas através de incisão aberta"
+        },
+        "crosswalks": {
+            "cpt": "80863",
+            "ichi": "PAN.IN.OP",
+            "snomed_ct": "940020863",
+            "icd11_pcs": "PIO1.0",
+            "icd10_cm": "0PB863Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019931161",
+        "composition": {
+            "target": "kidney",
+            "action": "inspection",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Endoscopic visualization of the kidney with infusion of contrast fluid and X-ray mapping",
+            "es": "Visualización endoscópica de riñón con infusión de líquido de contraste y radiografías",
+            "fr": "Visualisation endoscopique de rein avec injection de produit de contraste et radiographie",
+            "ar": "فحص بالمنظار لـ الكلية مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ गुर्दा (किडनी) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+            "zh": "配合造影剂灌注及X光造影内镜直视检查肾脏",
+            "pt": "Visualização endoscópica de rim com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "81161",
+            "ichi": "KID.IN.CO",
+            "snomed_ct": "940031161",
+            "icd11_pcs": "KIC1.0",
+            "icd10_cm": "0KB161Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    },
+    {
+        "omni_id": "OMNI-019991941",
+        "composition": {
+            "target": "liver",
+            "action": "imaging",
+            "means": "contrast dye enhanced X-ray"
+        },
+        "plain_language": {
+            "en": "Diagnostic imaging scan of the liver with infusion of contrast fluid and X-ray mapping",
+            "es": "Escaneo de diagnóstico por imágenes de hígado con infusión de líquido de contraste y radiografías",
+            "fr": "Scanner d'imagerie diagnostique de foie avec injection de produit de contraste et radiographie",
+            "ar": "تصوير تشخيصي لـ الكبد مع حقن صبغة التباين والأشعة السينية",
+            "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ यकृत (लीवर) का डायग्नोस्टिक इमेजिंग स्कैन",
+            "zh": "配合造影剂灌注及X光造影诊断影像学扫描肝脏",
+            "pt": "Exame de imagem diagnóstica de fígado com infusão de contraste e radiografia"
+        },
+        "crosswalks": {
+            "cpt": "81941",
+            "ichi": "LIV.IM.CO",
+            "snomed_ct": "940091941",
+            "icd11_pcs": "LIC1.0",
+            "icd10_cm": "0LB941Z"
+        },
+        "notes": "Programmatically generated post-coordinated expansion code.",
+        "provisional": true,
+        "version": "0.2.0",
+        "added": "2026-05"
+    }
+];

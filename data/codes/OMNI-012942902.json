@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-012942902",
+  "composition": {
+    "target": "thyroid gland",
+    "action": "inspection",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the thyroid gland through an open incision",
+    "es": "Visualización endoscópica de glándula tiroides a través de una incisión abierta",
+    "fr": "Visualisation endoscopique de glande thyroïde par incision ouverte",
+    "ar": "فحص بالمنظار لـ الغدة الدرقية عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा थायराइड ग्रंथि का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "通过开放性切口进行内镜直视检查甲状腺",
+    "pt": "Visualização endoscópica de glândula tireoide através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "82902",
+    "ichi": "THY.IN.OP",
+    "snomed_ct": "940042902",
+    "icd11_pcs": "TIO1.0",
+    "icd10_cm": "0TB902Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

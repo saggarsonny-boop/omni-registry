@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0113687722",
+  "composition": {
+    "target": "thyroid gland",
+    "action": "biopsy",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the thyroid gland using keyhole minimally invasive access",
+    "es": "Extracción de muestra de tejido de glándula tiroides usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Prélèvement de tissu pour biopsie de glande thyroïde par accès laparoscopique minimalement invasif",
+    "ar": "أخذ عينة من الأنسجة لـ الغدة الدرقية باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा थायराइड ग्रंथि का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "采用微创内镜入路针吸组织活检甲状腺",
+    "pt": "Extração de fragmento tecidual de glândula tireoide usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "87722",
+    "ichi": "THY.BI.PE",
+    "snomed_ct": "940087722",
+    "icd11_pcs": "TBP1.0",
+    "icd10_cm": "0TB722Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

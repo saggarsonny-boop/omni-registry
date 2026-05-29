@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-01179441",
+  "composition": {
+    "target": "tonsils",
+    "action": "biopsy",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the tonsils under high-frequency sound wave mapping",
+    "es": "Extracción de muestra de tejido de amígdalas bajo guía de ecografía en tiempo real",
+    "fr": "Prélèvement de tissu pour biopsie de amygdales sous guidage échographique en temps réel",
+    "ar": "أخذ عينة من الأنسجة لـ اللوزتين بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में टॉन्सिल का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "在超声波实时定位引导下针吸组织活检扁桃体",
+    "pt": "Extração de fragmento tecidual de amígdalas sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "89441",
+    "ichi": "TON.BI.UL",
+    "snomed_ct": "940079441",
+    "icd11_pcs": "TBU1.0",
+    "icd10_cm": "0TB441Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

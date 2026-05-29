@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0115490468",
+  "composition": {
+    "target": "skin",
+    "action": "biopsy",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the skin lesion using keyhole minimally invasive access",
+    "es": "Extracción de muestra de tejido de lesión de piel usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Prélèvement de tissu pour biopsie de lésion cutanée par accès laparoscopique minimalement invasif",
+    "ar": "أخذ عينة من الأنسجة لـ آفة جلدية باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा त्वचा की क्षति (घाव) का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "采用微创内镜入路针吸组织活检皮肤病变",
+    "pt": "Extração de fragmento tecidual de lesão de pele usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "80468",
+    "ichi": "SKI.BI.PE",
+    "snomed_ct": "940090468",
+    "icd11_pcs": "SBP1.0",
+    "icd10_cm": "0SB468Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

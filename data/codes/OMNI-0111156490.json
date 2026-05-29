@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0111156490",
+  "composition": {
+    "target": "heart",
+    "action": "repair",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the heart through an open incision",
+    "es": "Reconstrucción anatómica de corazón a través de una incisión abierta",
+    "fr": "Reconstruction anatomique de cœur par incision ouverte",
+    "ar": "إعادة بناء تشريحية لـ القلب عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा हृदय का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "通过开放性切口进行结构修补与重建心脏",
+    "pt": "Reconstrução anatômica de coração através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "86490",
+    "ichi": "HEA.RE.OP",
+    "snomed_ct": "940056490",
+    "icd11_pcs": "HRO1.0",
+    "icd10_cm": "0HB490Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

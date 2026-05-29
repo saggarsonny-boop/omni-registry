@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import OMNILogo from "@/components/OMNILogo";
+import CodeExportPanel from "@/components/CodeExportPanel";
 import { getCodeById, getAllCodeIds, OMNICode } from "@/lib/registry";
 import { LOCALE_NAMES } from "@/lib/locales";
 import { notFound } from "next/navigation";
@@ -70,7 +71,7 @@ export default async function CodeDetails({ params }: CodeDetailsProps) {
             "@context": "https://schema.org",
             "@type": "MedicalCode",
             "codeValue": code.omni_id,
-            "codingSystem": "O.M.N.I. (Open Medical Nomenclature and Interventions)",
+            "codingSystem": "O.M.N.I. (Open Medical Nomenclature & Interventions)",
             "name": code.plain_language.en,
             "description": code.plain_language.en,
             "inLanguage": "en",
@@ -258,6 +259,9 @@ export default async function CodeDetails({ params }: CodeDetailsProps) {
             </div>
           )}
         </div>
+
+        {/* EHR INTEGRATION & EXPORT PANEL */}
+        <CodeExportPanel codeData={code} />
 
       </div>
     </div>

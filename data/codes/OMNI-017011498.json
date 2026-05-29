@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-017011498",
+  "composition": {
+    "target": "heart",
+    "action": "imaging",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the heart through an open incision",
+    "es": "Escaneo de diagnóstico por imágenes de corazón a través de una incisión abierta",
+    "fr": "Scanner d'imagerie diagnostique de cœur par incision ouverte",
+    "ar": "تصوير تشخيصي لـ القلب عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा हृदय का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "通过开放性切口进行诊断影像学扫描心脏",
+    "pt": "Exame de imagem diagnóstica de coração através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "81498",
+    "ichi": "HEA.IM.OP",
+    "snomed_ct": "940011498",
+    "icd11_pcs": "HIO1.0",
+    "icd10_cm": "0HB498Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

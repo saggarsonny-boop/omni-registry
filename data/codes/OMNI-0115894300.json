@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0115894300",
+  "composition": {
+    "target": "heart",
+    "action": "excision",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the heart using keyhole minimally invasive access",
+    "es": "Extirpación quirúrgica de corazón usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Ablation chirurgicale de cœur par accès laparoscopique minimalement invasif",
+    "ar": "استئصال جراحي لـ القلب باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा हृदय का सर्जरी द्वारा निकालना",
+    "zh": "采用微创内镜入路手术切除心脏",
+    "pt": "Remoção cirúrgica de coração usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "84300",
+    "ichi": "HEA.EX.PE",
+    "snomed_ct": "940094300",
+    "icd11_pcs": "HEP1.0",
+    "icd10_cm": "0HB300Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

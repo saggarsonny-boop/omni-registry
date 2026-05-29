@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011096817",
+  "composition": {
+    "target": "tonsils",
+    "action": "inspection",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the tonsils using keyhole minimally invasive access",
+    "es": "Visualización endoscópica de amígdalas usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Visualisation endoscopique de amygdales par accès laparoscopique minimalement invasif",
+    "ar": "فحص بالمنظار لـ اللوزتين باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा टॉन्सिल का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "采用微创内镜入路内镜直视检查扁桃体",
+    "pt": "Visualização endoscópica de amígdalas usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "86817",
+    "ichi": "TON.IN.PE",
+    "snomed_ct": "940096817",
+    "icd11_pcs": "TIP1.0",
+    "icd10_cm": "0TB817Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

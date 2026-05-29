@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0113513565",
+  "composition": {
+    "target": "thyroid gland",
+    "action": "biopsy",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the thyroid gland under high-frequency sound wave mapping",
+    "es": "Extracción de muestra de tejido de glándula tiroides bajo guía de ecografía en tiempo real",
+    "fr": "Prélèvement de tissu pour biopsie de glande thyroïde sous guidage échographique en temps réel",
+    "ar": "أخذ عينة من الأنسجة لـ الغدة الدرقية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में थायराइड ग्रंथि का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "在超声波实时定位引导下针吸组织活检甲状腺",
+    "pt": "Extração de fragmento tecidual de glândula tireoide sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "83565",
+    "ichi": "THY.BI.UL",
+    "snomed_ct": "940013565",
+    "icd11_pcs": "TBU1.0",
+    "icd10_cm": "0TB565Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-01232482",
+  "composition": {
+    "target": "pancreas",
+    "action": "biopsy",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the pancreas under high-frequency sound wave mapping",
+    "es": "Extracción de muestra de tejido de páncreas bajo guía de ecografía en tiempo real",
+    "fr": "Prélèvement de tissu pour biopsie de pancréas sous guidage échographique en temps réel",
+    "ar": "أخذ عينة من الأنسجة لـ البنكرياس بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में अग्नाशय (पैनक्रियाज) का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "在超声波实时定位引导下针吸组织活检胰腺",
+    "pt": "Extração de fragmento tecidual de pâncreas sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "82482",
+    "ichi": "PAN.BI.UL",
+    "snomed_ct": "940032482",
+    "icd11_pcs": "PBU1.0",
+    "icd10_cm": "0PB482Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

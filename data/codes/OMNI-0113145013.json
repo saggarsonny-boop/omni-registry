@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0113145013",
+  "composition": {
+    "target": "lung",
+    "action": "biopsy",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the lung with infusion of contrast fluid and X-ray mapping",
+    "es": "Extracción de muestra de tejido de pulmón con infusión de líquido de contraste y radiografías",
+    "fr": "Prélèvement de tissu pour biopsie de poumon avec injection de produit de contraste et radiographie",
+    "ar": "أخذ عينة من الأنسجة لـ الرئة مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ फेफड़ा का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "配合造影剂灌注及X光造影针吸组织活检肺部",
+    "pt": "Extração de fragmento tecidual de pulmão com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "85013",
+    "ichi": "LUN.BI.CO",
+    "snomed_ct": "940045013",
+    "icd11_pcs": "LBC1.0",
+    "icd10_cm": "0LB013Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

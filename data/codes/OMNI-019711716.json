@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-019711716",
+  "composition": {
+    "target": "kidney",
+    "action": "biopsy",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the kidney using keyhole minimally invasive access",
+    "es": "Extracción de muestra de tejido de riñón usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Prélèvement de tissu pour biopsie de rein par accès laparoscopique minimalement invasif",
+    "ar": "أخذ عينة من الأنسجة لـ الكلية باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा गुर्दा (किडनी) का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "采用微创内镜入路针吸组织活检肾脏",
+    "pt": "Extração de fragmento tecidual de rim usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "81716",
+    "ichi": "KID.BI.PE",
+    "snomed_ct": "940011716",
+    "icd11_pcs": "KBP1.0",
+    "icd10_cm": "0KB716Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

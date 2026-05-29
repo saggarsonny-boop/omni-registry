@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0115591532",
+  "composition": {
+    "target": "liver",
+    "action": "repair",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the liver under high-frequency sound wave mapping",
+    "es": "Reconstrucción anatómica de hígado bajo guía de ecografía en tiempo real",
+    "fr": "Reconstruction anatomique de foie sous guidage échographique en temps réel",
+    "ar": "إعادة بناء تشريحية لـ الكبد بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में यकृत (लीवर) का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "在超声波实时定位引导下结构修补与重建肝脏",
+    "pt": "Reconstrução anatômica de fígado sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "81532",
+    "ichi": "LIV.RE.UL",
+    "snomed_ct": "940091532",
+    "icd11_pcs": "LRU1.0",
+    "icd10_cm": "0LB532Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

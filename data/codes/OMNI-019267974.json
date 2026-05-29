@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-019267974",
+  "composition": {
+    "target": "pancreas",
+    "action": "inspection",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the pancreas under high-frequency sound wave mapping",
+    "es": "Visualización endoscópica de páncreas bajo guía de ecografía en tiempo real",
+    "fr": "Visualisation endoscopique de pancréas sous guidage échographique en temps réel",
+    "ar": "فحص بالمنظار لـ البنكرياس بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में अग्नाशय (पैनक्रियाज) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "在超声波实时定位引导下内镜直视检查胰腺",
+    "pt": "Visualização endoscópica de pâncreas sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "87974",
+    "ichi": "PAN.IN.UL",
+    "snomed_ct": "940067974",
+    "icd11_pcs": "PIU1.0",
+    "icd10_cm": "0PB974Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

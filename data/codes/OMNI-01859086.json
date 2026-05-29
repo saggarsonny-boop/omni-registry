@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-01859086",
+  "composition": {
+    "target": "urinary bladder",
+    "action": "inspection",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the urinary bladder using keyhole minimally invasive access",
+    "es": "Visualización endoscópica de vejiga urinaria usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Visualisation endoscopique de vessie par accès laparoscopique minimalement invasif",
+    "ar": "فحص بالمنظار لـ المثانة البولية باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मूत्राशय का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "采用微创内镜入路内镜直视检查膀胱",
+    "pt": "Visualização endoscópica de bexiga urinária usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "89086",
+    "ichi": "URI.IN.PE",
+    "snomed_ct": "940059086",
+    "icd11_pcs": "UIP1.0",
+    "icd10_cm": "0UB086Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

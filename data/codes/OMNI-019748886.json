@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-019748886",
+  "composition": {
+    "target": "heart",
+    "action": "imaging",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the heart under high-frequency sound wave mapping",
+    "es": "Escaneo de diagnóstico por imágenes de corazón bajo guía de ecografía en tiempo real",
+    "fr": "Scanner d'imagerie diagnostique de cœur sous guidage échographique en temps réel",
+    "ar": "تصوير تشخيصي لـ القلب بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में हृदय का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "在超声波实时定位引导下诊断影像学扫描心脏",
+    "pt": "Exame de imagem diagnóstica de coração sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "88886",
+    "ichi": "HEA.IM.UL",
+    "snomed_ct": "940048886",
+    "icd11_pcs": "HIU1.0",
+    "icd10_cm": "0HB886Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

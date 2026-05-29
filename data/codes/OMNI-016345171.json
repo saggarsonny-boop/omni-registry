@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-016345171",
+  "composition": {
+    "target": "tonsils",
+    "action": "repair",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the tonsils under high-frequency sound wave mapping",
+    "es": "Reconstrucción anatómica de amígdalas bajo guía de ecografía en tiempo real",
+    "fr": "Reconstruction anatomique de amygdales sous guidage échographique en temps réel",
+    "ar": "إعادة بناء تشريحية لـ اللوزتين بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में टॉन्सिल का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "在超声波实时定位引导下结构修补与重建扁桃体",
+    "pt": "Reconstrução anatômica de amígdalas sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "85171",
+    "ichi": "TON.RE.UL",
+    "snomed_ct": "940045171",
+    "icd11_pcs": "TRU1.0",
+    "icd10_cm": "0TB171Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

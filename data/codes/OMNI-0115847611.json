@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0115847611",
+  "composition": {
+    "target": "pancreas",
+    "action": "excision",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the pancreas through an open incision",
+    "es": "Extirpación quirúrgica de páncreas a través de una incisión abierta",
+    "fr": "Ablation chirurgicale de pancréas par incision ouverte",
+    "ar": "استئصال جراحي لـ البنكرياس عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा अग्नाशय (पैनक्रियाज) का सर्जरी द्वारा निकालना",
+    "zh": "通过开放性切口进行手术切除胰腺",
+    "pt": "Remoção cirúrgica de pâncreas através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "87611",
+    "ichi": "PAN.EX.OP",
+    "snomed_ct": "940047611",
+    "icd11_pcs": "PEO1.0",
+    "icd10_cm": "0PB611Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

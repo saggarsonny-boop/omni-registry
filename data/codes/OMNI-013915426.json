@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-013915426",
+  "composition": {
+    "target": "lung",
+    "action": "excision",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the lung under high-frequency sound wave mapping",
+    "es": "Extirpación quirúrgica de pulmón bajo guía de ecografía en tiempo real",
+    "fr": "Ablation chirurgicale de poumon sous guidage échographique en temps réel",
+    "ar": "استئصال جراحي لـ الرئة بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में फेफड़ा का सर्जरी द्वारा निकालना",
+    "zh": "在超声波实时定位引导下手术切除肺部",
+    "pt": "Remoção cirúrgica de pulmão sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "85426",
+    "ichi": "LUN.EX.UL",
+    "snomed_ct": "940015426",
+    "icd11_pcs": "LEU1.0",
+    "icd10_cm": "0LB426Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

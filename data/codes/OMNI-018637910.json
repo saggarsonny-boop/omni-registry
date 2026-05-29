@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-018637910",
+  "composition": {
+    "target": "rectum",
+    "action": "biopsy",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the rectum using keyhole minimally invasive access",
+    "es": "Extracción de muestra de tejido de recto usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Prélèvement de tissu pour biopsie de rectum par accès laparoscopique minimalement invasif",
+    "ar": "أخذ عينة من الأنسجة لـ المستقيم باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा मलाशय का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "采用微创内镜入路针吸组织活检直肠",
+    "pt": "Extração de fragmento tecidual de reto usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "87910",
+    "ichi": "REC.BI.PE",
+    "snomed_ct": "940037910",
+    "icd11_pcs": "RBP1.0",
+    "icd10_cm": "0RB910Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

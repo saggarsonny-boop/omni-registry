@@ -110,15 +110,29 @@ export function convertCode(input: string): ConversionResult {
     // Match composition fields
     if (detectedType === "omni_composition") {
       const comp = code.composition;
-      const combined = `${comp.target} ${comp.action} ${comp.means}`.toLowerCase();
-      // Check if query matches target, action, means keywords
-      if (query.includes(comp.target.toLowerCase()) && query.includes(comp.action.toLowerCase()) && query.includes(comp.means.toLowerCase())) {
-        matchedCode = code;
-        break;
+
+      // Handle bracketed composition strictly if any bracket characters exist
+      if (clean.includes("[") || clean.includes("]")) {
+        const isGrammarCorrect = /^\[[^\]]+\]\[[^\]]+\]\[[^\]]+\]$/.test(clean);
+        if (isGrammarCorrect) {
+          const tokens = clean.split(/[\[\]]+/).filter(Boolean).map(t => t.trim().toLowerCase());
+          if (tokens.length === 3) {
+            if (comp.target.toLowerCase() === tokens[0] &&
+                comp.action.toLowerCase() === tokens[1] &&
+                comp.means.toLowerCase() === tokens[2]) {
+              matchedCode = code;
+              break;
+            }
+          }
+        }
+        // Skip loose keyword matching if brackets are present but malformed
+        continue;
       }
-      // Bracketed match
-      const bracketed = `[${comp.target}][${comp.action}][${comp.means}]`.toLowerCase();
-      if (bracketed.includes(query) || query.includes(bracketed)) {
+
+      // Plain text (no brackets) keyword match
+      if (query.includes(comp.target.toLowerCase()) && 
+          query.includes(comp.action.toLowerCase()) && 
+          query.includes(comp.means.toLowerCase())) {
         matchedCode = code;
         break;
       }

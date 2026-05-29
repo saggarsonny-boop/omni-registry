@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-018675273",
+  "composition": {
+    "target": "liver",
+    "action": "repair",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the liver using keyhole minimally invasive access",
+    "es": "Reconstrucción anatómica de hígado usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Reconstruction anatomique de foie par accès laparoscopique minimalement invasif",
+    "ar": "إعادة بناء تشريحية لـ الكبد باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा यकृत (लीवर) का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "采用微创内镜入路结构修补与重建肝脏",
+    "pt": "Reconstrução anatômica de fígado usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "85273",
+    "ichi": "LIV.RE.PE",
+    "snomed_ct": "940075273",
+    "icd11_pcs": "LRP1.0",
+    "icd10_cm": "0LB273Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

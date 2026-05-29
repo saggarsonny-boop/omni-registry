@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-018331072",
+  "composition": {
+    "target": "shoulder joint",
+    "action": "excision",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the shoulder joint with infusion of contrast fluid and X-ray mapping",
+    "es": "Extirpación quirúrgica de articulación del hombro con infusión de líquido de contraste y radiografías",
+    "fr": "Ablation chirurgicale de articulation de l'épaule avec injection de produit de contraste et radiographie",
+    "ar": "استئصال جراحي لـ مفصل الكتف مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ कंधे का जोड़ का सर्जरी द्वारा निकालना",
+    "zh": "配合造影剂灌注及X光造影手术切除肩关节",
+    "pt": "Remoção cirúrgica de articulação do ombro com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "81072",
+    "ichi": "SHO.EX.CO",
+    "snomed_ct": "940031072",
+    "icd11_pcs": "SEC1.0",
+    "icd10_cm": "0SB072Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

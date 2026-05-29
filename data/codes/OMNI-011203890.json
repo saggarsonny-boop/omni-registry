@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011203890",
+  "composition": {
+    "target": "shoulder joint",
+    "action": "imaging",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the shoulder joint with infusion of contrast fluid and X-ray mapping",
+    "es": "Escaneo de diagnóstico por imágenes de articulación del hombro con infusión de líquido de contraste y radiografías",
+    "fr": "Scanner d'imagerie diagnostique de articulation de l'épaule avec injection de produit de contraste et radiographie",
+    "ar": "تصوير تشخيصي لـ مفصل الكتف مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ कंधे का जोड़ का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "配合造影剂灌注及X光造影诊断影像学扫描肩关节",
+    "pt": "Exame de imagem diagnóstica de articulação do ombro com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "83890",
+    "ichi": "SHO.IM.CO",
+    "snomed_ct": "940003890",
+    "icd11_pcs": "SIC1.0",
+    "icd10_cm": "0SB890Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

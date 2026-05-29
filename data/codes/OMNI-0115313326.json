@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0115313326",
+  "composition": {
+    "target": "blood vessels",
+    "action": "inspection",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the blood vessels under high-frequency sound wave mapping",
+    "es": "Visualización endoscópica de vasos sanguíneos bajo guía de ecografía en tiempo real",
+    "fr": "Visualisation endoscopique de vaisseaux sanguins sous guidage échographique en temps réel",
+    "ar": "فحص بالمنظار لـ الأوعية الدموية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में रक्त वाहिकाएं का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "在超声波实时定位引导下内镜直视检查血管",
+    "pt": "Visualização endoscópica de vasos sanguíneos sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "83326",
+    "ichi": "BLO.IN.UL",
+    "snomed_ct": "940013326",
+    "icd11_pcs": "BIU1.0",
+    "icd10_cm": "0BB326Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

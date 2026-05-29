@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0115306588",
+  "composition": {
+    "target": "pancreas",
+    "action": "excision",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the pancreas with infusion of contrast fluid and X-ray mapping",
+    "es": "Extirpación quirúrgica de páncreas con infusión de líquido de contraste y radiografías",
+    "fr": "Ablation chirurgicale de pancréas avec injection de produit de contraste et radiographie",
+    "ar": "استئصال جراحي لـ البنكرياس مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ अग्नाशय (पैनक्रियाज) का सर्जरी द्वारा निकालना",
+    "zh": "配合造影剂灌注及X光造影手术切除胰腺",
+    "pt": "Remoção cirúrgica de pâncreas com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "86588",
+    "ichi": "PAN.EX.CO",
+    "snomed_ct": "940006588",
+    "icd11_pcs": "PEC1.0",
+    "icd10_cm": "0PB588Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

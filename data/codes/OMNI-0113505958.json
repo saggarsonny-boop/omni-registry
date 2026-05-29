@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0113505958",
+  "composition": {
+    "target": "pancreas",
+    "action": "repair",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the pancreas using keyhole minimally invasive access",
+    "es": "Reconstrucción anatómica de páncreas usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Reconstruction anatomique de pancréas par accès laparoscopique minimalement invasif",
+    "ar": "إعادة بناء تشريحية لـ البنكرياس باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा अग्नाशय (पैनक्रियाज) का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "采用微创内镜入路结构修补与重建胰腺",
+    "pt": "Reconstrução anatômica de pâncreas usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "85958",
+    "ichi": "PAN.RE.PE",
+    "snomed_ct": "940005958",
+    "icd11_pcs": "PRP1.0",
+    "icd10_cm": "0PB958Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

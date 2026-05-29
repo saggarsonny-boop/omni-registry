@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0113949346",
+  "composition": {
+    "target": "lung",
+    "action": "biopsy",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the lung using keyhole minimally invasive access",
+    "es": "Extracción de muestra de tejido de pulmón usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Prélèvement de tissu pour biopsie de poumon par accès laparoscopique minimalement invasif",
+    "ar": "أخذ عينة من الأنسجة لـ الرئة باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा फेफड़ा का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "采用微创内镜入路针吸组织活检肺部",
+    "pt": "Extração de fragmento tecidual de pulmão usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "89346",
+    "ichi": "LUN.BI.PE",
+    "snomed_ct": "940049346",
+    "icd11_pcs": "LBP1.0",
+    "icd10_cm": "0LB346Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

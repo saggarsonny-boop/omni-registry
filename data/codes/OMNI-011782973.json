@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011782973",
+  "composition": {
+    "target": "rectum",
+    "action": "imaging",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the rectum with infusion of contrast fluid and X-ray mapping",
+    "es": "Escaneo de diagnóstico por imágenes de recto con infusión de líquido de contraste y radiografías",
+    "fr": "Scanner d'imagerie diagnostique de rectum avec injection de produit de contraste et radiographie",
+    "ar": "تصوير تشخيصي لـ المستقيم مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ मलाशय का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "配合造影剂灌注及X光造影诊断影像学扫描直肠",
+    "pt": "Exame de imagem diagnóstica de reto com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "82973",
+    "ichi": "REC.IM.CO",
+    "snomed_ct": "940082973",
+    "icd11_pcs": "RIC1.0",
+    "icd10_cm": "0RB973Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

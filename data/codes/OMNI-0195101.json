@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0195101",
+  "composition": {
+    "target": "tonsils",
+    "action": "biopsy",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the tonsils using keyhole minimally invasive access",
+    "es": "Extracción de muestra de tejido de amígdalas usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Prélèvement de tissu pour biopsie de amygdales par accès laparoscopique minimalement invasif",
+    "ar": "أخذ عينة من الأنسجة لـ اللوزتين باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा टॉन्सिल का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "采用微创内镜入路针吸组织活检扁桃体",
+    "pt": "Extração de fragmento tecidual de amígdalas usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "85101",
+    "ichi": "TON.BI.PE",
+    "snomed_ct": "940095101",
+    "icd11_pcs": "TBP1.0",
+    "icd10_cm": "0TB101Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

@@ -65,7 +65,7 @@ export default function HiveHeader() {
               O.M.N.I. Registry
             </span>
             <span className="text-[10px] text-hive-muted font-mono tracking-wider leading-none">
-              v0.1.0 · SEED
+              v0.2.0 · SPEC
             </span>
           </span>
         </a>
@@ -77,6 +77,9 @@ export default function HiveHeader() {
           </a>
           <a href="/convert" className="text-sm font-medium text-hive-muted hover:text-hive-gold transition-colors touch-target flex items-center">
             {t("nav_convert", locale)}
+          </a>
+          <a href="/integrate" className="text-sm font-medium text-hive-muted hover:text-hive-gold transition-colors touch-target flex items-center">
+            {locale === "zh" ? "系统集成" : locale === "es" ? "Integrar" : locale === "fr" ? "Intégration" : locale === "ar" ? "دمج" : locale === "hi" ? "एकीकृत" : locale === "pt" ? "Integrar" : "Integrate"}
           </a>
           <a href="/governance" className="text-sm font-medium text-hive-muted hover:text-hive-gold transition-colors touch-target flex items-center">
             {t("nav_governance", locale)}

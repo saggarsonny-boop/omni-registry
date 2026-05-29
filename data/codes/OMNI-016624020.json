@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-016624020",
+  "composition": {
+    "target": "skin",
+    "action": "excision",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the skin lesion through an open incision",
+    "es": "Extirpación quirúrgica de lesión de piel a través de una incisión abierta",
+    "fr": "Ablation chirurgicale de lésion cutanée par incision ouverte",
+    "ar": "استئصال جراحي لـ آفة جلدية عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा त्वचा की क्षति (घाव) का सर्जरी द्वारा निकालना",
+    "zh": "通过开放性切口进行手术切除皮肤病变",
+    "pt": "Remoção cirúrgica de lesão de pele através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "84020",
+    "ichi": "SKI.EX.OP",
+    "snomed_ct": "940024020",
+    "icd11_pcs": "SEO1.0",
+    "icd10_cm": "0SB020Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

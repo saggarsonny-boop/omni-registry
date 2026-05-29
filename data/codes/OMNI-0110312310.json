@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0110312310",
+  "composition": {
+    "target": "blood vessels",
+    "action": "biopsy",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the blood vessels through an open incision",
+    "es": "Extracción de muestra de tejido de vasos sanguíneos a través de una incisión abierta",
+    "fr": "Prélèvement de tissu pour biopsie de vaisseaux sanguins par incision ouverte",
+    "ar": "أخذ عينة من الأنسجة لـ الأوعية الدموية عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा रक्त वाहिकाएं का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "通过开放性切口进行针吸组织活检血管",
+    "pt": "Extração de fragmento tecidual de vasos sanguíneos através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "82310",
+    "ichi": "BLO.BI.OP",
+    "snomed_ct": "940012310",
+    "icd11_pcs": "BBO1.0",
+    "icd10_cm": "0BB310Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

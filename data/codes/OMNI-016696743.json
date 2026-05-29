@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-016696743",
+  "composition": {
+    "target": "kidney",
+    "action": "biopsy",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the kidney under high-frequency sound wave mapping",
+    "es": "Extracción de muestra de tejido de riñón bajo guía de ecografía en tiempo real",
+    "fr": "Prélèvement de tissu pour biopsie de rein sous guidage échographique en temps réel",
+    "ar": "أخذ عينة من الأنسجة لـ الكلية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में गुर्दा (किडनी) का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "在超声波实时定位引导下针吸组织活检肾脏",
+    "pt": "Extração de fragmento tecidual de rim sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "86743",
+    "ichi": "KID.BI.UL",
+    "snomed_ct": "940096743",
+    "icd11_pcs": "KBU1.0",
+    "icd10_cm": "0KB743Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

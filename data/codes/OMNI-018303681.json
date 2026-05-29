@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-018303681",
+  "composition": {
+    "target": "shoulder joint",
+    "action": "biopsy",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the shoulder joint through an open incision",
+    "es": "Extracción de muestra de tejido de articulación del hombro a través de una incisión abierta",
+    "fr": "Prélèvement de tissu pour biopsie de articulation de l'épaule par incision ouverte",
+    "ar": "أخذ عينة من الأنسجة لـ مفصل الكتف عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा कंधे का जोड़ का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "通过开放性切口进行针吸组织活检肩关节",
+    "pt": "Extração de fragmento tecidual de articulação do ombro através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "83681",
+    "ichi": "SHO.BI.OP",
+    "snomed_ct": "940003681",
+    "icd11_pcs": "SBO1.0",
+    "icd10_cm": "0SB681Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

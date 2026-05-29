@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0115186663",
+  "composition": {
+    "target": "tonsils",
+    "action": "imaging",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the tonsils through an open incision",
+    "es": "Escaneo de diagnóstico por imágenes de amígdalas a través de una incisión abierta",
+    "fr": "Scanner d'imagerie diagnostique de amygdales par incision ouverte",
+    "ar": "تصوير تشخيصي لـ اللوزتين عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा टॉन्सिल का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "通过开放性切口进行诊断影像学扫描扁桃体",
+    "pt": "Exame de imagem diagnóstica de amígdalas através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "86663",
+    "ichi": "TON.IM.OP",
+    "snomed_ct": "940086663",
+    "icd11_pcs": "TIO1.0",
+    "icd10_cm": "0TB663Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

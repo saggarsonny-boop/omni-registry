@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011096552",
+  "composition": {
+    "target": "shoulder joint",
+    "action": "imaging",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the shoulder joint through an open incision",
+    "es": "Escaneo de diagnóstico por imágenes de articulación del hombro a través de una incisión abierta",
+    "fr": "Scanner d'imagerie diagnostique de articulation de l'épaule par incision ouverte",
+    "ar": "تصوير تشخيصي لـ مفصل الكتف عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा कंधे का जोड़ का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "通过开放性切口进行诊断影像学扫描肩关节",
+    "pt": "Exame de imagem diagnóstica de articulação do ombro através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "86552",
+    "ichi": "SHO.IM.OP",
+    "snomed_ct": "940096552",
+    "icd11_pcs": "SIO1.0",
+    "icd10_cm": "0SB552Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

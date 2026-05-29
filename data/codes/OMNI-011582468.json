@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-011582468",
+  "composition": {
+    "target": "urinary bladder",
+    "action": "excision",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Surgical removal of the urinary bladder through an open incision",
+    "es": "Extirpación quirúrgica de vejiga urinaria a través de una incisión abierta",
+    "fr": "Ablation chirurgicale de vessie par incision ouverte",
+    "ar": "استئصال جراحي لـ المثانة البولية عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा मूत्राशय का सर्जरी द्वारा निकालना",
+    "zh": "通过开放性切口进行手术切除膀胱",
+    "pt": "Remoção cirúrgica de bexiga urinária através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "82468",
+    "ichi": "URI.EX.OP",
+    "snomed_ct": "940082468",
+    "icd11_pcs": "UEO1.0",
+    "icd10_cm": "0UB468Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

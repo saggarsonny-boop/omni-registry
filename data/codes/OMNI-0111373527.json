@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0111373527",
+  "composition": {
+    "target": "tonsils",
+    "action": "inspection",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the tonsils under high-frequency sound wave mapping",
+    "es": "Visualización endoscópica de amígdalas bajo guía de ecografía en tiempo real",
+    "fr": "Visualisation endoscopique de amygdales sous guidage échographique en temps réel",
+    "ar": "فحص بالمنظار لـ اللوزتين بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में टॉन्सिल का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "在超声波实时定位引导下内镜直视检查扁桃体",
+    "pt": "Visualização endoscópica de amígdalas sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "83527",
+    "ichi": "TON.IN.UL",
+    "snomed_ct": "940073527",
+    "icd11_pcs": "TIU1.0",
+    "icd10_cm": "0TB527Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

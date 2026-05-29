@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0113391217",
+  "composition": {
+    "target": "blood vessels",
+    "action": "imaging",
+    "means": "ultrasound guidance"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the blood vessels under high-frequency sound wave mapping",
+    "es": "Escaneo de diagnóstico por imágenes de vasos sanguíneos bajo guía de ecografía en tiempo real",
+    "fr": "Scanner d'imagerie diagnostique de vaisseaux sanguins sous guidage échographique en temps réel",
+    "ar": "تصوير تشخيصي لـ الأوعية الدموية بتوجيه من الموجات فوق الصوتية",
+    "hi": "अल्ट्रासाउंड तरंगों के मार्गदर्शन में रक्त वाहिकाएं का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "在超声波实时定位引导下诊断影像学扫描血管",
+    "pt": "Exame de imagem diagnóstica de vasos sanguíneos sob orientação ultrassonográfica"
+  },
+  "crosswalks": {
+    "cpt": "81217",
+    "ichi": "BLO.IM.UL",
+    "snomed_ct": "940091217",
+    "icd11_pcs": "BIU1.0",
+    "icd10_cm": "0BB217Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

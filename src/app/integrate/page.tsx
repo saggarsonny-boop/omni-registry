@@ -218,6 +218,7 @@ def fetch_omni_code(query_value):
               <div className="w-full bg-hive-gold/10 border border-hive-gold/20 py-2 rounded text-[10px] font-mono font-bold text-hive-gold uppercase tracking-wider mt-2">
                 100% Risk Free Workflow
               </div>
+            </div>
           </div>
         </section>
 

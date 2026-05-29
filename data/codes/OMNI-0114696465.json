@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0114696465",
+  "composition": {
+    "target": "urinary bladder",
+    "action": "biopsy",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Tissue core extraction of the urinary bladder through an open incision",
+    "es": "Extracción de muestra de tejido de vejiga urinaria a través de una incisión abierta",
+    "fr": "Prélèvement de tissu pour biopsie de vessie par incision ouverte",
+    "ar": "أخذ عينة من الأنسجة لـ المثانة البولية عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा मूत्राशय का बायोप्सी हेतु ऊतक निकालना",
+    "zh": "通过开放性切口进行针吸组织活检膀胱",
+    "pt": "Extração de fragmento tecidual de bexiga urinária através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "86465",
+    "ichi": "URI.BI.OP",
+    "snomed_ct": "940096465",
+    "icd11_pcs": "UBO1.0",
+    "icd10_cm": "0UB465Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

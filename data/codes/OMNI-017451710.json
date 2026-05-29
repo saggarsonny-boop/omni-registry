@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-017451710",
+  "composition": {
+    "target": "blood vessels",
+    "action": "imaging",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the blood vessels through an open incision",
+    "es": "Escaneo de diagnóstico por imágenes de vasos sanguíneos a través de una incisión abierta",
+    "fr": "Scanner d'imagerie diagnostique de vaisseaux sanguins par incision ouverte",
+    "ar": "تصوير تشخيصي لـ الأوعية الدموية عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा रक्त वाहिकाएं का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "通过开放性切口进行诊断影像学扫描血管",
+    "pt": "Exame de imagem diagnóstica de vasos sanguíneos através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "81710",
+    "ichi": "BLO.IM.OP",
+    "snomed_ct": "940051710",
+    "icd11_pcs": "BIO1.0",
+    "icd10_cm": "0BB710Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

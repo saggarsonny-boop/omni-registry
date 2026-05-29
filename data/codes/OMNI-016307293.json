@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-016307293",
+  "composition": {
+    "target": "stomach",
+    "action": "imaging",
+    "means": "percutaneous endoscopic"
+  },
+  "plain_language": {
+    "en": "Diagnostic imaging scan of the stomach using keyhole minimally invasive access",
+    "es": "Escaneo de diagnóstico por imágenes de estómago usando acceso laparoscópico mínimamente invasivo",
+    "fr": "Scanner d'imagerie diagnostique de estomac par accès laparoscopique minimalement invasif",
+    "ar": "تصوير تشخيصي لـ المعدة باستخدام تقنية المنظار طفيفة التوغل",
+    "hi": "कीहोल (न्यूनतम आक्रामक) तकनीक द्वारा आमाशय (पेट) का डायग्नोस्टिक इमेजिंग स्कैन",
+    "zh": "采用微创内镜入路诊断影像学扫描胃部",
+    "pt": "Exame de imagem diagnóstica de estômago usando acesso laparoscópico minimamente invasivo"
+  },
+  "crosswalks": {
+    "cpt": "87293",
+    "ichi": "STO.IM.PE",
+    "snomed_ct": "940007293",
+    "icd11_pcs": "SIP1.0",
+    "icd10_cm": "0SB293Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

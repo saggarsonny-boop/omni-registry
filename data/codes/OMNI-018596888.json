@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-018596888",
+  "composition": {
+    "target": "liver",
+    "action": "repair",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the liver with infusion of contrast fluid and X-ray mapping",
+    "es": "Reconstrucción anatómica de hígado con infusión de líquido de contraste y radiografías",
+    "fr": "Reconstruction anatomique de foie avec injection de produit de contraste et radiographie",
+    "ar": "إعادة بناء تشريحية لـ الكبد مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ यकृत (लीवर) का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "配合造影剂灌注及X光造影结构修补与重建肝脏",
+    "pt": "Reconstrução anatômica de fígado com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "86888",
+    "ichi": "LIV.RE.CO",
+    "snomed_ct": "940096888",
+    "icd11_pcs": "LRC1.0",
+    "icd10_cm": "0LB888Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

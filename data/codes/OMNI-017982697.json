@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-017982697",
+  "composition": {
+    "target": "lung",
+    "action": "repair",
+    "means": "contrast dye enhanced X-ray"
+  },
+  "plain_language": {
+    "en": "Anatomical reconstruction of the lung with infusion of contrast fluid and X-ray mapping",
+    "es": "Reconstrucción anatómica de pulmón con infusión de líquido de contraste y radiografías",
+    "fr": "Reconstruction anatomique de poumon avec injection de produit de contraste et radiographie",
+    "ar": "إعادة بناء تشريحية لـ الرئة مع حقن صبغة التباين والأشعة السينية",
+    "hi": "कंट्रास्ट डाई और एक्स-रे मैपिंग के साथ फेफड़ा का शारीरिक पुनर्निर्माण (मरम्मत)",
+    "zh": "配合造影剂灌注及X光造影结构修补与重建肺部",
+    "pt": "Reconstrução anatômica de pulmão com infusão de contraste e radiografia"
+  },
+  "crosswalks": {
+    "cpt": "82697",
+    "ichi": "LUN.RE.CO",
+    "snomed_ct": "940082697",
+    "icd11_pcs": "LRC1.0",
+    "icd10_cm": "0LB697Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}

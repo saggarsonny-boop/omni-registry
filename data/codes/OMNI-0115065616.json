@@ -1,0 +1,28 @@
+{
+  "omni_id": "OMNI-0115065616",
+  "composition": {
+    "target": "spleen",
+    "action": "inspection",
+    "means": "open"
+  },
+  "plain_language": {
+    "en": "Endoscopic visualization of the spleen through an open incision",
+    "es": "Visualización endoscópica de bazo a través de una incisión abierta",
+    "fr": "Visualisation endoscopique de rate par incision ouverte",
+    "ar": "فحص بالمنظار لـ الطحال عبر شق جراحي مفتوح",
+    "hi": "खुली सर्जरी द्वारा प्लीहा (तिल्ली) का दूरबीन द्वारा जांच (विज़ुअलाइज़ेशन)",
+    "zh": "通过开放性切口进行内镜直视检查脾脏",
+    "pt": "Visualização endoscópica de baço através de incisão aberta"
+  },
+  "crosswalks": {
+    "cpt": "85616",
+    "ichi": "SPL.IN.OP",
+    "snomed_ct": "940065616",
+    "icd11_pcs": "SIO1.0",
+    "icd10_cm": "0SB616Z"
+  },
+  "notes": "Programmatically generated post-coordinated expansion code.",
+  "provisional": true,
+  "version": "0.2.0",
+  "added": "2026-05"
+}
