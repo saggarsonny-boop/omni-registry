@@ -199,9 +199,53 @@ def fetch_omni_code(query_value):
               <div className="w-full bg-hive-gold/10 border border-hive-gold/20 py-2 rounded text-[10px] font-mono font-bold text-hive-gold uppercase tracking-wider mt-2">
                 100% Risk Free Workflow
               </div>
+          </div>
+        </section>
+
+        {/* Logistical Mechanics of EMR Rate Reduction */}
+        <section className="bg-hive-paper border border-hive-border rounded-2xl p-6 md:p-8 flex flex-col gap-6 hive-glass relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-hive-gold/5 rounded-full blur-3xl pointer-events-none" />
+          
+          <div className="flex flex-col gap-1 border-b border-hive-border/60 pb-4">
+            <span className="text-xs text-hive-gold font-mono uppercase tracking-wider">Logistical Mechanics</span>
+            <h2 className="font-display font-bold text-2xl text-hive-paper-text tracking-wide">
+              How Do You Actually Get Your EMR Bill Lowered?
+            </h2>
+            <p className="text-xs text-hive-muted font-mono uppercase tracking-wider">
+              EMR vendors won't voluntarily lower your rate—here are the three audited path strategies to claim your savings
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-2">
+            {/* Pathway 1 */}
+            <div className="bg-[#090909]/60 border border-hive-border/40 p-5 rounded-xl flex flex-col gap-3">
+              <span className="text-[10px] font-mono font-bold tracking-widest text-hive-gold uppercase">Strategy A: Enterprise Audited Downgrade</span>
+              <h4 className="text-sm font-bold text-hive-paper-text leading-snug">Contract Profile De-provisioning</h4>
+              <p className="text-xs text-hive-muted leading-relaxed">
+                <strong>For Group Practices & Hospitals:</strong> EMR contracts are itemized by user privileges. Request your EMR Account Manager to migrate your 80% non-billing logins (nurses, MAs, researchers) to a <strong>"Clinical Documentation Only (No CPT Database Access)"</strong> tier. The vendor de-provisions CPT search for those logins, stops paying AMA seat royalties under their audit, and slashes the fee directly from your monthly EMR invoice.
+              </p>
+            </div>
+
+            {/* Pathway 2 */}
+            <div className="bg-[#090909]/60 border border-hive-border/40 p-5 rounded-xl flex flex-col gap-3">
+              <span className="text-[10px] font-mono font-bold tracking-widest text-hive-gold uppercase">Strategy B: The Sovereign Platform Switch</span>
+              <h4 className="text-sm font-bold text-hive-paper-text leading-snug">O.M.N.I.-Native DPC Migration</h4>
+              <p className="text-xs text-hive-muted leading-relaxed">
+                <strong>For Cash & Direct Care (DPC) Clinics:</strong> If you are currently paying $99/mo per provider for legacy billing EMRs like Practice Fusion, migrate completely to a modern DPC EMR or open-source notes manager running on O.M.N.I. Because these platforms have no billing modules or CPT database packages, they pay <strong>$0.00 in CPT royalties</strong>, structurally pricing their SaaS at just $40/mo—delivering a direct 60% software savings on day one.
+              </p>
+            </div>
+
+            {/* Pathway 3 */}
+            <div className="bg-[#090909]/60 border border-hive-border/40 p-5 rounded-xl flex flex-col gap-3">
+              <span className="text-[10px] font-mono font-bold tracking-widest text-hive-gold uppercase">Strategy C: Decoupled API CPT Waiver</span>
+              <h4 className="text-sm font-bold text-hive-paper-text leading-snug">Client-Side Intercept & Waiver</h4>
+              <p className="text-xs text-hive-muted leading-relaxed">
+                <strong>For Standard EMR Users:</strong> Disable the EMR's native CPT lookup features entirely across your account and sign a standard CPT licensing waiver with the vendor. Integrate our O.M.N.I. browser extension or Edge Connector into your clinical interface. Your doctors write and search procedure codes dynamically for free, while your EMR vendor legally removes the CPT seat surcharge from your account.
+              </p>
             </div>
           </div>
         </section>
+
 
         {/* EMR Dual-Output Bridge Explainer */}
         <section className="bg-hive-paper border border-hive-border rounded-2xl p-6 md:p-8 flex flex-col gap-6 hive-glass relative overflow-hidden">
