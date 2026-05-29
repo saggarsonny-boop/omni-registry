@@ -250,13 +250,13 @@ export default function Browse() {
                     {/* Axis Composition Tags */}
                     <div className="flex flex-wrap gap-1.5 mt-2">
                       <span className="text-[10px] font-mono bg-[#090909] border border-hive-border hover:border-hive-gold/40 px-2.5 py-1 rounded text-hive-paper-text/80">
-                        Alvo: {comp.target}
+                        Target: {comp.target}
                       </span>
                       <span className="text-[10px] font-mono bg-[#090909] border border-hive-border hover:border-hive-gold/40 px-2.5 py-1 rounded text-hive-paper-text/80">
-                        Ação: {comp.action}
+                        Action: {comp.action}
                       </span>
                       <span className="text-[10px] font-mono bg-[#090909] border border-hive-border hover:border-hive-gold/40 px-2.5 py-1 rounded text-hive-paper-text/80">
-                        Meio: {comp.means}
+                        Means: {comp.means}
                       </span>
                     </div>
                   </div>
