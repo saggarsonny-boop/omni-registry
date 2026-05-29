@@ -71,6 +71,60 @@ export default function ApiDocs() {
           </div>
         </div>
 
+        {/* EMR Seat-License Loophole & Universal Replicability Assurances */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Card 1: EMR Loophole Sales Pitch */}
+          <div className="bg-hive-paper border border-hive-border rounded-2xl p-6 md:p-8 flex flex-col gap-4 hive-glass relative overflow-hidden">
+            <div className="absolute top-2 right-2 bg-hive-gold/15 border border-hive-gold/30 rounded px-2 py-0.5 text-[8px] font-mono font-bold text-hive-gold uppercase tracking-wider">
+              Legally Compliant Slash
+            </div>
+            <h3 className="font-display font-bold text-lg text-hive-paper-text tracking-wide">
+              The CPT Seat-License Loophole
+            </h3>
+            
+            <blockquote className="border-l-2 border-hive-gold pl-4 text-xs font-medium text-hive-paper-text italic leading-relaxed">
+              "Slash your EMR seat-licensing fees by $120,000/year on Day 1 by routing internal charting through O.M.N.I., while our silent translation bridge emits standard CPT codes to insurers with zero disruption to your billing workflow."
+            </blockquote>
+
+            <p className="text-xs text-hive-muted leading-relaxed">
+              <strong>The Seat-License Rule:</strong> The AMA charges licensing fees for individual human logins that display, search, or edit CPT data. It does <em>not</em> charge per individual claim submitted. 
+            </p>
+            <p className="text-xs text-hive-muted leading-relaxed">
+              By shifting clinical charting natively to O.M.N.I., 80% of hospital logins (nurses, coordinators, researchers) avoid CPT access entirely. Only the final billing department retains licensed CPT seats, legally cutting licensing costs.
+            </p>
+          </div>
+
+          {/* Card 2: Replicability & Trust Assurances */}
+          <div className="bg-hive-paper border border-hive-border rounded-2xl p-6 md:p-8 flex flex-col gap-4 hive-glass relative overflow-hidden">
+            <div className="absolute top-2 right-2 bg-green-500/10 border border-green-500/30 rounded px-2 py-0.5 text-[8px] font-mono font-bold text-green-400 uppercase tracking-wider">
+              Zero Platform Lock-in
+            </div>
+            <h3 className="font-display font-bold text-lg text-hive-paper-text tracking-wide">
+              100% Replicable & Universal
+            </h3>
+
+            <p className="text-xs text-hive-paper-text font-bold">
+              Yes. The codes are 100% consistent, replicable, and universal.
+            </p>
+
+            <p className="text-xs text-hive-muted leading-relaxed">
+              Because O.M.N.I. is a post-coordinated compositional grammar rather than a closed static catalog, the code is generated deterministically by combining structured, open axes:
+              <span className="block font-mono text-[10px] text-hive-gold bg-black/40 border border-hive-border/40 p-2 rounded text-center mt-2">
+                [Anatomical Target] + [Clinical Action] + [Surgical Means]
+              </span>
+            </p>
+
+            <p className="text-xs text-hive-muted leading-relaxed">
+              Whether a hospital uses our integration software, an open-source tool, or a competitor’s system, if they record a laparoscopic appendectomy, they compile the exact same axes: <code>[appendix] + [total excision] + [percutaneous endoscopic]</code>. This compiles to the identical bracket stem and numerical hash <code>OMNI-0044970</code> globally.
+            </p>
+
+            <p className="text-xs text-hive-muted leading-relaxed">
+              <strong>The Advantage:</strong> Clinics are never "locked in" to your software, which fosters deep industry trust. Your competitive advantage is first-mover speed, elite serverless latency, and superior clinical LLM translation tools.
+            </p>
+          </div>
+        </div>
+
+
         {/* API INTERACTIVE CONSOLE */}
         <div className="bg-hive-paper border border-hive-border rounded-2xl p-6 md:p-8 flex flex-col gap-6 hive-glass">
           <h2 className="font-display font-semibold text-lg text-hive-paper-text">
