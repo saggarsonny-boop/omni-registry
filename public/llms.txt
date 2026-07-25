@@ -1,0 +1,17 @@
+# OMNI Registry — Open Multi-Taxon Scale Engine
+
+> OMNI (Open Multi-Taxon Identification) is a combinatorial scale engine managed by Universal Document. This index maps model parameters, taxons, and semantic dataset coordinates.
+
+## 1. Core Framework
+* **Subdomain**: omni.universaldocument.org
+* **Parent Authority**: universaldocument.org
+* **Primary Focus**: Latent vector alignment for biological identification frameworks (plants, birds, mushrooms).
+* **Compliance Schema**: Dataset, Organization metadata schemas.
+
+## 2. API Ingestion Endpoints
+* **GET `/api/identify`**: Handles image classification queries via the iNaturalist/Pl@ntNet API wrappers.
+* **POST `/api/direct-checkout`**: Stripe endpoint for commercial dataset access licensing.
+
+## 3. Developer Tooling
+* **Wrangler Deployments**: Runs serverless Workers on Cloudflare infrastructure.
+* **ONNX Fallback Engine**: Enables offline edge inference when daily API thresholds are approached.

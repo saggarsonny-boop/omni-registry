@@ -1,0 +1,29 @@
+{
+  "project": "OMNI Scale Registry",
+  "domain": "omni.universaldocument.org",
+  "target_audiences": [
+    "AI developers building RAG pipelines",
+    "Open-source biology and botany researchers",
+    "Mobile app developers looking for free identification APIs"
+  ],
+  "organic_seeding_venues": [
+    {
+      "platform": "Hugging Face Spaces",
+      "context": "Open-source taxonomy classification models",
+      "suggested_anchor_text": "OMNI open multi-taxon scale dataset",
+      "target_url": "https://omni.universaldocument.org"
+    },
+    {
+      "platform": "GitHub Repositories",
+      "context": "ONNX edge-inference vision pipelines",
+      "suggested_anchor_text": "OMNI Registry CPT Scale API",
+      "target_url": "https://omni.universaldocument.org/llms.txt"
+    },
+    {
+      "platform": "iNaturalist Developer Forums",
+      "context": "API query ceiling management",
+      "suggested_anchor_text": "OMNI fallback ONNX scale",
+      "target_url": "https://omni.universaldocument.org"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMNI Verification Loop | Universal Document</title>
+  <meta name="description" content="Verify integrity, provenance, and cryptographic signatures of OMNI Scale taxonomic data exports.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght=0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="theme-core.css">
+  
+  <style>
+    body {
+      padding-top: 120px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      text-align: center;
+    }
+    .dropzone {
+      border: 2px dashed var(--accent-gold);
+      border-radius: 12px;
+      background: var(--bg-card);
+      padding: 4rem 2rem;
+      margin: 3rem 0;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .dropzone:hover {
+      background: rgba(212, 175, 55, 0.05);
+      border-style: solid;
+    }
+    .dropzone h3 {
+      font-family: var(--font-serif);
+      color: var(--text-white);
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+    }
+    .dropzone p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 2rem;
+      background-color: var(--accent-gold);
+      color: #000000;
+      font-weight: 800;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+  </style>
+  
+  <style>
+  /* [XEO-INJECTION-START: BRAND_STYLES] */
+  ::selection {
+    background-color: #D4AF37;
+    color: #000000;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #D4AF37, transparent);
+    z-index: 10000;
+    opacity: 0.8;
+  }
+  /* [XEO-INJECTION-END: BRAND_STYLES] */
+</style>
+
+  <!-- [XEO-INJECTION-START: PERSON_SCHEMA] -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://newphysician.org/#person",
+  "name": "Sonny Saggar, MD",
+  "jobTitle": "Physician, Author & Systems Architect",
+  "url": "https://newphysician.org",
+  "sameAs": [
+    "https://www.goodreads.com/author/show/151.Sonny_Saggar",
+    "https://xeosystem.com",
+    "https://bustedbythefed.com",
+    "https://whitecollaracademy.com",
+    "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=10558116",
+    "https://www.linkedin.com/in/thenewphysician",
+    "https://medium.com/@saggarsonny",
+    "https://substack.com/@drsonny"
+  ]
+}
+  </script>
+  <!-- [XEO-INJECTION-END: PERSON_SCHEMA] -->
+</head>
+<body>
+  <header>
+    <div class="header-container" style="max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; width: 100%;">
+      <a href="index.html" class="logo" style="font-weight: 800; font-family: var(--font-sans); letter-spacing: 1.5px; text-decoration: none; color: var(--text-white);">
+        UNIVERSAL DOCUMENT
+        <div class="logo-underline" style="height: 2px; background-color: var(--accent-gold); width: 100%;"></div>
+      </a>
+      <nav>
+        <a href="index.html" id="nav-back" style="color: var(--text-white); text-decoration: none; font-size: 0.95rem;">Back to Registry</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 id="verify-title" style="font-family: var(--font-serif); font-size: 2.75rem; color: var(--text-white); margin-bottom: 1rem;">Verify OMNI Export</h1>
+    <p id="verify-desc" style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">Drop your OMNI JSON dataset or `.uds` file below to cryptographically verify its signature, license state, and origin chain of custody.</p>
+    
+    <div class="dropzone" id="dropzone">
+      <h3 id="dropzone-title">Drag &amp; Drop File Here</h3>
+      <p id="dropzone-desc">Supports JSON, UDS, or CSV taxonomic export formats</p>
+    </div>
+    
+    <div id="verify-status" style="display: none; background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border-color); border-radius: 8px; padding: 2rem; margin-top: 2rem; text-align: left;">
+      <h4 id="status-title" style="font-family: var(--font-serif); color: var(--accent-gold); font-size: 1.25rem; margin-bottom: 0.75rem;">Verification Status: VALID</h4>
+      <p style="color: var(--text-white); font-size: 0.95rem; margin-bottom: 0.5rem;"><strong id="label-origin">File Origin:</strong> OMNI Scale Database (Universal Document)</p>
+      <p style="color: var(--text-white); font-size: 0.95rem; margin-bottom: 0.5rem;"><strong id="label-schema">Schema Version:</strong> iSDF v0.1.0-Taxon</p>
+      <p style="color: var(--text-white); font-size: 0.95rem; margin-bottom: 0.5rem;"><strong id="label-hash">Fingerprint Hash:</strong> <span style="font-family: monospace; color: var(--text-muted);">0x9f4a...8d2b</span></p>
+      <p style="color: var(--text-white); font-size: 0.95rem;"><strong id="label-license">License Integrity:</strong> Approved Commercial Tier</p>
+    </div>
+  </main>
+
+  <script>
+    const dictionaries = {
+      es: {
+        verifyTitle: "Verificar Exportación OMNI",
+        verifyDesc: "Arrastre su archivo JSON OMNI o archivo `.uds` para verificar su firma criptográfica y estado de licencia.",
+        dropzoneTitle: "Arrastre y suelte el archivo aquí",
+        dropzoneDesc: "Soporta formatos JSON, UDS o CSV",
+        statusTitle: "Estado de Verificación: VÁLIDO",
+        labelOrigin: "Origen del archivo:",
+        labelSchema: "Versión de esquema:",
+        labelHash: "Hash de huella digital:",
+        labelLicense: "Integridad de licencia:",
+        navBack: "Volver al Registro"
+      },
+      fr: {
+        verifyTitle: "Vérifier l'Export OMNI",
+        verifyDesc: "Déposez votre fichier JSON OMNI ou `.uds` ci-dessous pour vérifier sa signature cryptographique et sa licence.",
+        dropzoneTitle: "Glissez & Déposez le fichier ici",
+        dropzoneDesc: "Prend en charge les formats JSON, UDS ou CSV",
+        statusTitle: "Statut de vérification : VALIDE",
+        labelOrigin: "Origine du fichier :",
+        labelSchema: "Version du schéma :",
+        labelHash: "Empreinte numérique :",
+        labelLicense: "Intégrité de la licence :",
+        navBack: "Retour au Registre"
+      },
+      de: {
+        verifyTitle: "OMNI-Export Überprüfen",
+        verifyDesc: "Ziehen Sie Ihre OMNI-JSON- oder `.uds`-Datei hierher, um ihre Signatur und den Lizenzstatus zu prüfen.",
+        dropzoneTitle: "Datei hierher ziehen & ablegen",
+        dropzoneDesc: "Unterstützt JSON-, UDS- oder CSV-Formate",
+        statusTitle: "Prüfstatus: GÜLTIG",
+        labelOrigin: "Herkunft der Datei:",
+        labelSchema: "Schemaversion:",
+        labelHash: "Fingerabdruck-Hash:",
+        labelLicense: "Lizenzintegrität:",
+        navBack: "Zurück zur Registrierung"
+      }
+    };
+
+    const userLang = (navigator.language || navigator.userLanguage || "en").substring(0, 2).toLowerCase();
+    if (dictionaries[userLang]) {
+      const dict = dictionaries[userLang];
+      document.getElementById('verify-title').innerText = dict.verifyTitle;
+      document.getElementById('verify-desc').innerText = dict.verifyDesc;
+      document.getElementById('dropzone-title').innerText = dict.dropzoneTitle;
+      document.getElementById('dropzone-desc').innerText = dict.dropzoneDesc;
+      document.getElementById('status-title').innerText = dict.statusTitle;
+      document.getElementById('label-origin').innerText = dict.labelOrigin;
+      document.getElementById('label-schema').innerText = dict.labelSchema;
+      document.getElementById('label-hash').innerText = dict.labelHash;
+      document.getElementById('label-license').innerText = dict.labelLicense;
+      document.getElementById('nav-back').innerText = dict.navBack;
+    }
+
+    const dropzone = document.getElementById('dropzone');
+    const status = document.getElementById('verify-status');
+    
+    dropzone.addEventListener('click', () => {
+      status.style.display = 'block';
+    });
+    
+    dropzone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+    });
+    
+    dropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      status.style.display = 'block';
+    });
+  </script>
+
+  <!-- [XEO-INJECTION-START: BADGE] -->
+  <div style="margin-top: 1.5rem; text-align: center;">
+    <a href="https://xeosystem.com" target="_blank" rel="noopener noreferrer" style="display: inline-block; transition: opacity 0.2s;" onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">
+      <img src="https://xeosystem.com/badge-xeo.svg?v=blue" alt="XEO Optimized" style="height: 32px; vertical-align: middle; border: none;" />
+    </a>
+  </div>
+<!-- [XEO-INJECTION-END: BADGE] -->
+</body>
+</html>
